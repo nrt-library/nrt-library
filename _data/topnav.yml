@@ -4,7 +4,7 @@ topnav:
 - title: Topnav
   items:
     - title: GitHub
-      external_url: https://github.com/
+      external_url: https://github.com/nrt-library/nrt-library
     - title: News
       url: /news
 

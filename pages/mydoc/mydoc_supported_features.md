@@ -25,7 +25,7 @@ Multi-language | Yes | Python? Cool, R? yep, yep. Others? Meh |
 
 Features | Supported | Notes
 --------|-----------|-----------
-Badness | Yes | We don't tolerate bad things |
-Homewor | Yes | No, we can't do your HW|
+Badness | NO | We don't tolerate bad things |
+Homework | NO | No, we can't do your HW!|
 
 {% include links.html %}

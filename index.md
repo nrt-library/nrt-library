@@ -9,6 +9,9 @@ summary: This is an awesome website full of data science wisdom.
 
 {% include note.html content="This is a note box to highligh very important things" %}
 
+
+![](./images/logo-nrt.png)
+
 ## About
 
 Psychologist and neuroscientist are cooler when using Data Science magic.
@@ -17,7 +20,7 @@ We created a library to guide in the journey of becoming a Data Science Wizard.
 
 ## How to navigate this website
 
-Content is organized families of topics. Nicely organized for your convinience.
+Content is organized families of topics, and subtopics.
 
 You can access the content by surfing the Table of Contents in the left pane, or via the drop down "Topics" menu in the top navigation bar.
 
