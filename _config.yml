@@ -1,4 +1,4 @@
-repository: tomjoht/documentation-theme-jekyll
+repository: nrt-library/nrt-library
 
 output: web
 # this property is useful for conditional filtering of content that is separate from the PDF.
@@ -9,7 +9,7 @@ topnav_title: NRT Online Library for Data Science and Human Behavior
 site_title: NRT Online Library for Data Science and Human Behavior
 # this appears in the html browser tab for the site title (seen mostly by search engines, not users)
 
-company_name: Hogwards School of Data Science and Human Behavior
+company_name: NRT Online Library
 # this appears in the footer
 
 github_editme_path: nrt-library/nrt-library
@@ -33,9 +33,10 @@ exclude:
   - vendor
 # these are the files and directories that jekyll will exclude from the build
 
-feedback_subject_line: NRT Hub Data Science and Human Behavior 
+feedback_subject_line: NRT Online Library Data Science and Human Behavior 
 
-feedback_email: datasciencewizards@hogwards.edu
+feedback_email: nrtlibrary@gmail.com
+
 # used as a contact email for the Feedback link in the top navigation bar
 
 # feedback_disable: true
@@ -102,8 +103,6 @@ defaults:
 sidebars:
 - home_sidebar
 - mydoc_sidebar
-- product1_sidebar
-- product2_sidebar
 - nlp_sidebar
 - intro_ds_sidebar
 

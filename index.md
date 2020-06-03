@@ -37,7 +37,8 @@ We have compiled a startling library of data science contents that you can explo
 
 ## I want to colaborate. Tell me what to do!
 
-So you wanna add your fav tutorial? Send us an email to datasciencewizards@hogwarts.edu or just click in the **Feedback** tab at the top navgation bar.
+So you wanna add your fav tutorial? Send us an email to nrtlibrary@gmail.com
+ or just click in the **Feedback** tab at the top navgation bar.
 
 <pre>
 ---
@@ -51,6 +52,6 @@ summary description: "Pytorch tutorial on hyper-dimensional covnets in 7.5 lines
 
 ## Feedback
 
-Login to comment below or click in the **Feedback** to send us an email.
+Login to comment below or click in the **Feedback** to send us an email to nrtlibrary@gmail.com.
 
 {% include links.html %}
