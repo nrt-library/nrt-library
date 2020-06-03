@@ -9,8 +9,7 @@ folder: mydoc
 
 Below you can find the topics in which we have organized the content. You can access by either the **Topics** dropdown menu at the top, or by clicking in the links below:
 
-
-* [Introduction to Data Science][p1_sample1]
+* [Introduction to Data Science][intro_ds_landing_page]
 * [Natural Languague Processing][nlp_landing_page]
 * Data Reduction
 * Inference
