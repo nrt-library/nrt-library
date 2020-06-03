@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>documentation-theme-jekyll</title>
+        <description>All the very best data science and human behavior info</description>
+        <link>http://localhost:4000/</link>
+        <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+        <pubDate>Wed, 03 Jun 2020 09:44:40 -0500</pubDate>
+        <lastBuildDate>Wed, 03 Jun 2020 09:44:40 -0500</lastBuildDate>
+        <generator>Jekyll v3.8.7</generator>
+        
+        <item>
+            <title>Why Python is so Awesome? </title>
+            <description>&lt;p&gt;There are many reasons why Python is awesome.&lt;/p&gt;
+
+&lt;h2 id=&quot;reason-01&quot;&gt;Reason 01&lt;/h2&gt;
+
+&lt;p&gt;Is funny&lt;/p&gt;
+
+&lt;h2 id=&quot;reason-02&quot;&gt;Reason 02&lt;/h2&gt;
+
+&lt;p&gt;Like really funny&lt;/p&gt;
+
+&lt;h2 id=&quot;reason-03&quot;&gt;Reason 03&lt;/h2&gt;
+
+&lt;p&gt;It is free&lt;/p&gt;
+
+&lt;h2 id=&quot;reason-04&quot;&gt;Reason 04&lt;/h2&gt;
+
+&lt;p&gt;Like REALLY free&lt;/p&gt;
+
+</description>
+            <pubDate>Fri, 15 May 2020 00:00:00 -0500</pubDate>
+            <link>http://localhost:4000/why-python-is-so-awesome.html</link>
+            <guid isPermaLink="true">http://localhost:4000/why-python-is-so-awesome.html</guid>
+            
+            <category>news</category>
+            
+            <category>python</category>
+            
+            <category>awesome</category>
+            
+            
+        </item>
+        
+        <item>
+            <title>The latest and greatest Neural Network Stuff</title>
+            <description>&lt;p&gt;DeepMind has published a new Neural Net Capable to of learning to learn how to learn to play Animal Crossing but ends up destroying the game ecology.&lt;/p&gt;
+
+&lt;p&gt;So many news.&lt;/p&gt;
+
+</description>
+            <pubDate>Fri, 01 May 2020 00:00:00 -0500</pubDate>
+            <link>http://localhost:4000/latest-neural-net-stuff.html</link>
+            <guid isPermaLink="true">http://localhost:4000/latest-neural-net-stuff.html</guid>
+            
+            <category>news</category>
+            
+            
+        </item>
+        
+        <item>
+            <title>Welcome to the first initial inaugural post !</title>
+            <description>&lt;p&gt;A long time ago in a colege town far, far away….a group of rebels decided to put an end to the lack of access to quality resources in data science.&lt;/p&gt;
+
+&lt;p&gt;And here we are. Doing awesome things.&lt;/p&gt;
+
+</description>
+            <pubDate>Wed, 01 Apr 2020 00:00:00 -0500</pubDate>
+            <link>http://localhost:4000/first-post-ever.html</link>
+            <guid isPermaLink="true">http://localhost:4000/first-post-ever.html</guid>
+            
+            <category>news</category>
+            
+            
+        </item>
+        
+    </channel>
+</rss>

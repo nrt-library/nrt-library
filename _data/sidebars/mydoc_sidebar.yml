@@ -1,0 +1,45 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: sidebar
+  product: NRT Library
+  version: 
+  folders:
+
+  - title:
+    output: pdf
+    type: frontmatter
+    folderitems:
+    - title:
+      url: /titlepage.html
+      output: pdf
+      type: frontmatter
+    - title:
+      url: /tocpage.html
+      output: pdf
+      type: frontmatter
+
+  - title: Overview
+    output: web
+    folderitems:
+
+    - title: Introduction
+      url: /index.html
+      output: web
+      type: homepage
+
+    - title: Table of Topics
+      url: /mydoc_topics.html
+      output: web
+
+    - title: Supported features
+      url: /mydoc_supported_features.html
+      output: web
+
+    - title: About the authors
+      url: /mydoc_about.html
+      output: web
+
+    - title: Contact
+      url: /mydoc_contact.html
+      output: web

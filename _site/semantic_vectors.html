@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Express the meaning of a linguistic entity (word, phrase, sentence, paragraph, or document) as a vector in a multi-dimensional space, such that the similarit...">
+<meta name="keywords" content="getting_started,  semantic_vectors">
+<title>Estimating Semantic Vectors from Large Text Copora | NRT Hub Data Science and Human Behavior</title>
+<link rel="stylesheet" href="css/syntax.css">
+
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<!--<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">-->
+<link rel="stylesheet" href="css/modern-business.css">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" href="css/customstyles.css">
+<link rel="stylesheet" href="css/boxshadowproperties.css">
+<!-- most color styles are extracted out to here -->
+<link rel="stylesheet" href="css/theme-blue.css">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+<script src="js/jquery.navgoco.min.js"></script>
+
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<!-- Anchor.js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.2.0/anchor.min.js"></script>
+<script src="js/toc.js"></script>
+<script src="js/customscripts.js"></script>
+
+<link rel="shortcut icon" href="images/favicon.ico">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+<link rel="alternate" type="application/rss+xml" title="documentation-theme-jekyll" href="http://localhost:4000/feed.xml">
+
+    <script>
+        $(document).ready(function() {
+            // Initialize navgoco with default options
+            $("#mysidebar").navgoco({
+                caretHtml: '',
+                accordion: true,
+                openClass: 'active', // open
+                save: false, // leave false or nav highlighting doesn't work right
+                cookie: {
+                    name: 'navgoco',
+                    expires: false,
+                    path: '/'
+                },
+                slide: {
+                    duration: 400,
+                    easing: 'swing'
+                }
+            });
+
+            $("#collapseAll").click(function(e) {
+                e.preventDefault();
+                $("#mysidebar").navgoco('toggle', false);
+            });
+
+            $("#expandAll").click(function(e) {
+                e.preventDefault();
+                $("#mysidebar").navgoco('toggle', true);
+            });
+
+        });
+
+    </script>
+    <script>
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip()
+        })
+    </script>
+    <script>
+        $(document).ready(function() {
+            $("#tg-sb-link").click(function() {
+                $("#tg-sb-sidebar").toggle();
+                $("#tg-sb-content").toggleClass('col-md-9');
+                $("#tg-sb-content").toggleClass('col-md-12');
+                $("#tg-sb-icon").toggleClass('fa-toggle-on');
+                $("#tg-sb-icon").toggleClass('fa-toggle-off');
+            });
+        });
+    </script>
+    
+
+</head>
+<body>
+<!-- Navigation -->
+<nav class="navbar navbar-inverse navbar-static-top">
+    <div class="container topnavlinks">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="fa fa-home fa-lg navbar-brand" href="index.html">&nbsp;<span class="projectTitle"> NRT Hub Data Science and Human Behavior</span></a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <!-- toggle sidebar button -->
+                <li><a id="tg-sb-link" href="#"><i id="tg-sb-icon" class="fa fa-toggle-on"></i> Nav</a></li>
+                <!-- entries without drop-downs appear here -->
+
+
+
+
+                
+                
+                
+                <li><a href="https://github.com/" target="_blank" rel="noopener">GitHub</a></li>
+                
+                
+                
+                <li><a href="news">News</a></li>
+                
+                
+                
+                <!-- entries with drop-downs appear here -->
+                <!-- conditional logic to control which topnav appears for the audience defined in the configuration file.-->
+                
+                
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Topics<b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        
+                        
+                        <li><a href="index.html">NRT Library Intro</a></li>
+                        
+                        
+                        
+                        <li><a href="intro_ds_landing_page.html">Intro to Data Science</a></li>
+                        
+                        
+                        
+                        <li><a href="nlp_landing_page.html">NLP</a></li>
+                        
+                        
+                    </ul>
+                </li>
+                
+                
+                
+			<li>
+
+
+
+  <a class="email" title="Submit feedback" href="#" onclick="javascript:window.location='mailto:datasciencewizards@hogwards.edu?subject=NRT Hub Data Science and Human Behavior feedback&body=I have some feedback about the Estimating Semantic Vectors from Large Text Copora page: ' + window.location.href;"><i class="fa fa-envelope-o"></i> Feedback</a>
+
+</li>
+
+		
+                <!--comment out this block if you want to hide search-->
+                <li>
+                    <!--start search-->
+                    <div id="search-demo-container">
+                        <input type="text" id="search-input" placeholder="search...">
+                        <ul id="results-container"></ul>
+                    </div>
+                    <script src="js/jekyll-search.js" type="text/javascript"></script>
+                    <script type="text/javascript">
+                            SimpleJekyllSearch.init({
+                                searchInput: document.getElementById('search-input'),
+                                resultsContainer: document.getElementById('results-container'),
+                                dataSource: 'search.json',
+                                searchResultTemplate: '<li><a href="{url}" title="Estimating Semantic Vectors from Large Text Copora">{title}</a></li>',
+                    noResultsText: 'No results found.',
+                            limit: 10,
+                            fuzzy: true,
+                    })
+                    </script>
+                    <!--end search-->
+                </li>
+            </ul>
+        </div>
+        </div>
+        <!-- /.container -->
+</nav>
+
+<!-- Page Content -->
+<div class="container">
+  <div id="main">
+    <!-- Content Row -->
+    <div class="row">
+        
+        
+            <!-- Sidebar Column -->
+            <div class="col-md-3" id="tg-sb-sidebar">
+                
+
+<ul id="mysidebar" class="nav">
+  <li class="sidebarTitle">NLP Intro</li>
+  
+  
+  
+      
+  
+  <li>
+      <a title="NLP" href="#">NLP</a>
+      <ul>
+          
+          
+          
+          <li><a title="NLP Intro" href="nlp_landing_page.html">NLP Intro</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a title="Sentiment Analysis" href="sentiment_analysis.html">Sentiment Analysis</a></li>
+          
+          
+          
+          
+          
+          
+          <li class="active"><a title="Semantic Vectors" href="semantic_vectors.html">Semantic Vectors</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a title="Speech Recognition" href="speech_recognition.html">Speech Recognition</a></li>
+          
+          
+          
+          
+      </ul>
+   </li>
+     
+      
+      
+      <!-- if you aren't using the accordion, uncomment this block:
+         <p class="external">
+             <a href="#" id="collapseAll">Collapse All</a> | <a href="#" id="expandAll">Expand All</a>
+         </p>
+         -->
+</ul>
+
+<!-- this highlights the active parent class in the navgoco sidebar. this is critical so that the parent expands when you're viewing a page. This must appear below the sidebar code above. Otherwise, if placed inside customscripts.js, the script runs before the sidebar code runs and the class never gets inserted.-->
+<script>$("li.active").parents('li').toggleClass("active");</script>
+
+            </div>
+            
+        
+
+        <!-- Content Column -->
+        <div class="col-md-9" id="tg-sb-content">
+            <div class="post-header">
+   <h1 class="post-title-main">Estimating Semantic Vectors from Large Text Copora</h1>
+</div>
+
+
+
+<div class="post-content">
+
+   
+    <div class="summary">Express the meaning of a linguistic entity (word, phrase, sentence, paragraph, or document) as a vector in a multi-dimensional space, such that the similarity between entities expresses their similarity in meaning</div>
+   
+
+    
+    
+<!-- this handles the automatic toc. use ## for subheads to auto-generate the on-page minitoc. if you use html tags, you must supply an ID for the heading element in order for it to appear in the minitoc. -->
+<script>
+$( document ).ready(function() {
+  // Handler for .ready() called.
+
+$('#toc').toc({ minimumHeaders: 0, listType: 'ul', showSpeed: 0, headers: 'h2,h3,h4' });
+
+/* this offset helps account for the space taken up by the floating toolbar. */
+$('#toc').on('click', 'a', function() {
+  var target = $(this.getAttribute('href'))
+    , scroll_target = target.offset().top
+
+  $(window).scrollTop(scroll_target - 10);
+  return false
+})
+  
+});
+</script>
+
+<div id="toc"></div>
+
+    
+
+
+    
+
+    <a target="_blank" rel="noopener" href="https://github.com/tomjoht/documentation-theme-jekyll/blob/gh-pages/pages/nlp/semantic_vectors.md" class="btn btn-default githubEditButton" role="button"><i class="fa fa-github fa-lg"></i> Edit me</a>
+
+    
+
+   <p>All such methods rely on the maxim “You shall know a word by the company it keeps”: words with similar meanings will tend to occur in similar linguistic contexts. For instance, think of the things you might say about your cat: she’s so cute, she’s furry, she needs to be fed, I need to let her out, she bit me, etc. You might also these things about your dog, because dogs and cats are similar kinds of things, but you wouldn’t say them about, say, your blender. So tabulating co-occurrences amongst words in sentences (or paragraphs, or documents, etc) can provide clues about their similarity in meaning. All methods for computing vector-space representations of word meanings rely on this general intuition, but they differ in the specific ways these co-occurrence statistics are computed and analyzed. This page collects documentation for X different methods.</p>
+
+<h2 id="singular-value-decomposition-or-svd-eg-latent-semantic-analysis-holistic-analog-to-language-etc">Singular value decomposition or SVD (e.g. Latent Semantic Analysis, Holistic Analog to Language, etc.)</h2>
+
+<p>These methods create a giant word-to-word matrix where entries indicate how often two words appear together within some window of time. These data are converted into a dissimilarity matrix, and the eigen-vectors of the matrix are computed with singular value decomposition. The analysis returns an n-dimensional vector for each word, with proximity in the n-dimensional space indicating how similar the words are in meaning.</p>
+
+<h3 id="recommended-path-for-learning-requires-knowledge-of-python">Recommended path for learning (requires knowledge of Python)</h3>
+
+<ul>
+  <li>Watch this high-level video</li>
+  <li>Read this online tutorial and carry out exercises in Python</li>
+  <li>Work  through this JuPyteR notebook example</li>
+</ul>
+
+<h3 id="videos">Videos</h3>
+
+<ul>
+  <li>Video 1</li>
+  <li>Video 2</li>
+</ul>
+
+<h3 id="applied-papers">Applied papers</h3>
+
+<ul>
+  <li>Applied paper 1</li>
+  <li>Applied paper 2</li>
+</ul>
+
+<h3 id="online-tutorials">Online Tutorials</h3>
+
+<ul>
+  <li>Online tutorial 1</li>
+  <li>Online tutorial 2</li>
+</ul>
+
+<h3 id="theory-papers">Theory papers</h3>
+
+<ul>
+  <li>Theory paper 1</li>
+  <li>Theory paper 2</li>
+</ul>
+
+<h2 id="latent-dirichlet-allocation-or-lda-eg-topics-models">Latent Dirichlet Allocation or LDA (e.g. Topics models)</h2>
+
+<p>These methods imagine that documents are generated by sampling words from a mixture of underlying topics. Each topic is represented as a probability distribution over words, and each document is viewed as having been generated by sampling from a probability distribution over topics. Given a large set of documents plus a parameter that specifies how many topics there are, it is possible to estimate the latent topics as well as the mixture probabilities over topics for each document, and for new documents. These mixture probabilities constitute a semantic vector: documents that sample the underlying topics in the same way probably contain similar content. So this is a good way of generating semantic vectors representing whole documents. By inspecting the most-probable words associated with each topic, it is also possible to get a sense of what each topic “means,” which in turn produces human-interpretable information about documents.</p>
+
+<h3 id="recommended-path-for-learning-requires-knowledge-of-r">Recommended path for learning (requires knowledge of R)</h3>
+
+<ul>
+  <li>Watch this high-level video</li>
+  <li>Read this online tutorial and carry out exercises in Python</li>
+  <li>Work  through this JuPyteR notebook example</li>
+</ul>
+
+<h3 id="videos-1">Videos</h3>
+
+<ul>
+  <li>Video 1</li>
+  <li>Video 2</li>
+</ul>
+
+<h3 id="applied-papers-1">Applied papers</h3>
+
+<ul>
+  <li>Applied paper 1</li>
+  <li>Applied paper 2</li>
+</ul>
+
+<h3 id="online-tutorials-1">Online Tutorials</h3>
+
+<ul>
+  <li>Online tutorial 1</li>
+  <li>Online tutorial 2</li>
+</ul>
+
+<h3 id="theory-papers-1">Theory papers</h3>
+
+<ul>
+  <li>Theory paper 1</li>
+  <li>Theory paper 2</li>
+</ul>
+
+
+
+    <div class="tags">
+        
+        <b>Tags: </b>
+        
+        
+        
+        <a href="tag_getting_started.html" class="btn btn-default navbar-btn cursorNorm" role="button">getting_started</a>
+        
+        
+        
+    </div>
+
+
+<div id="commento"></div>
+<script src="https://cdn.commento.io/js/commento.js"></script>
+<noscript>Please enable JavaScript to load the comments.</noscript>
+
+
+
+</div>
+
+<hr class="shaded"/>
+
+<footer>
+            <div class="row">
+                <div class="col-lg-12 footer">
+               &copy;2020 Hogwards School of Data Science and Human Behavior. All rights reserved. <br />
+<span>Page last updated:</span> June 1, 2020<br/> Site last generated: Jun 3, 2020 <br />
+<p><img src="images/company_logo.png" alt="Company logo"/></p>
+                </div>
+            </div>
+</footer>
+
+
+        </div>
+    <!-- /.row -->
+</div>
+<!-- /.container -->
+</div>
+<!-- /#main -->
+    </div>
+
+</body>
+
+</html>

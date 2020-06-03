@@ -1,0 +1,549 @@
+[
+
+
+
+
+
+
+{
+"title": "NRT Online Library for Data Science and Human Behavior",
+"tags": "getting_started",
+"keywords": "sample homepage",
+"url": "index.html",
+"summary": "This is an awesome website full of data science wisdom."
+}
+,
+
+
+
+{
+"title": "Introduction to Data Science",
+"tags": "getting_started",
+"keywords": "topic",
+"url": "intro_ds_landing_page.html",
+"summary": "Where your Data Science journey begins..."
+}
+,
+
+
+
+{
+"title": "Introduction to Python",
+"tags": "getting_started",
+"keywords": "python",
+"url": "intro_python.html",
+"summary": "How to become a Python Wizard."
+}
+,
+
+
+
+{
+"title": "Intro to R",
+"tags": "getting_started",
+"keywords": "R",
+"url": "intro_r.html",
+"summary": "How to become an R Wizard."
+}
+,
+
+
+
+{
+"title": "Introduction to Stats",
+"tags": "getting_started",
+"keywords": "stats",
+"url": "intro_stats.html",
+"summary": "How to become a Stats Wizard."
+}
+,
+
+
+
+{
+"title": "About the authors",
+"tags": "getting_started",
+"keywords": "authors, curiosity",
+"url": "mydoc_about.html",
+"summary": "We are secret society of cool people who know science"
+}
+,
+
+
+
+{
+"title": "Support",
+"tags": "getting_startedtroubleshooting",
+"keywords": "questions, troubleshooting, contact, support",
+"url": "mydoc_contact.html",
+"summary": "Bad things happen. Things stop working."
+}
+,
+
+
+
+{
+"title": "Supported features",
+"tags": "getting_started",
+"keywords": "features",
+"url": "mydoc_supported_features.html",
+"summary": "Here we summarize all the features of this master piece."
+}
+,
+
+
+
+{
+"title": "Table of Topics",
+"tags": "",
+"keywords": "",
+"url": "mydoc_topics.html",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "News",
+"tags": "",
+"keywords": "news, blog, updates, release notes, announcements",
+"url": "news.html",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "News",
+"tags": "",
+"keywords": "news, blog, updates, release notes, announcements",
+"url": "news_archive.html",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "Natural Language Processing",
+"tags": "getting_started",
+"keywords": "topic",
+"url": "nlp_landing_page.html",
+"summary": "refers to computational techniques for finding/exploiting structure in naturally-produced language, typically from large corpora of written text or audio recordings of speech. What do you want to do"
+}
+,
+
+
+
+{
+"title": "Product 1",
+"tags": "",
+"keywords": "mydoc",
+"url": "p1_landing_page.html",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "Sample 1 Topic (Product 1)",
+"tags": "",
+"keywords": "sample",
+"url": "p1_sample1.html",
+"summary": "This is just a sample topic..."
+}
+,
+
+
+
+{
+"title": "Sample 2 Topic (Product 1)",
+"tags": "",
+"keywords": "sample",
+"url": "p1_sample2.html",
+"summary": "This is just a sample topic..."
+}
+,
+
+
+
+{
+"title": "Sample 3 Topic (Product 1)",
+"tags": "",
+"keywords": "sample",
+"url": "p1_sample3.html",
+"summary": "This is just a sample topic..."
+}
+,
+
+
+
+{
+"title": "Sample 4 Topic (Product 1)",
+"tags": "",
+"keywords": "sample",
+"url": "p1_sample4.html",
+"summary": "This is just a sample topic..."
+}
+,
+
+
+
+{
+"title": "Sample 5 Topic (Product 1)",
+"tags": "",
+"keywords": "sample",
+"url": "p1_sample5.html",
+"summary": "This is just a sample topic..."
+}
+,
+
+
+
+{
+"title": "Sample 6 Topic (Product 1)",
+"tags": "",
+"keywords": "sample",
+"url": "p1_sample6.html",
+"summary": "This is just a sample topic..."
+}
+,
+
+
+
+{
+"title": "Sample 7 Topic (Product 1)",
+"tags": "",
+"keywords": "sample",
+"url": "p1_sample7.html",
+"summary": "This is just a sample topic..."
+}
+,
+
+
+
+{
+"title": "Product 2",
+"tags": "",
+"keywords": "mydoc",
+"url": "p2_landing_page.html",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "Sample 1 Topic",
+"tags": "",
+"keywords": "sample",
+"url": "p2_sample1.html",
+"summary": "This is just a sample topic..."
+}
+,
+
+
+
+{
+"title": "Sample 10 Topic",
+"tags": "",
+"keywords": "sample",
+"url": "p2_sample10.html",
+"summary": "This is just a sample topic..."
+}
+,
+
+
+
+{
+"title": "Sample 11 Topic",
+"tags": "",
+"keywords": "sample",
+"url": "p2_sample11.html",
+"summary": "This is just a sample topic..."
+}
+,
+
+
+
+{
+"title": "Sample 12 Topic",
+"tags": "",
+"keywords": "sample",
+"url": "p2_sample12.html",
+"summary": "This is just a sample topic..."
+}
+,
+
+
+
+{
+"title": "Sample 13 Topic",
+"tags": "",
+"keywords": "sample",
+"url": "p2_sample13.html",
+"summary": "This is just a sample topic..."
+}
+,
+
+
+
+{
+"title": "Sample 14 Topic",
+"tags": "",
+"keywords": "sample",
+"url": "p2_sample14.html",
+"summary": "This is just a sample topic..."
+}
+,
+
+
+
+{
+"title": "Sample 2 Topic",
+"tags": "",
+"keywords": "sample",
+"url": "p2_sample2.html",
+"summary": "This is just a sample topic..."
+}
+,
+
+
+
+{
+"title": "Sample 3 Topic",
+"tags": "",
+"keywords": "sample",
+"url": "p2_sample3.html",
+"summary": "This is just a sample topic..."
+}
+,
+
+
+
+{
+"title": "Sample 4 Topic",
+"tags": "",
+"keywords": "sample",
+"url": "p2_sample4.html",
+"summary": "This is just a sample topic..."
+}
+,
+
+
+
+{
+"title": "Sample 5 Topic",
+"tags": "",
+"keywords": "sample",
+"url": "p2_sample5.html",
+"summary": "This is just a sample topic..."
+}
+,
+
+
+
+{
+"title": "Sample 6 Topic",
+"tags": "",
+"keywords": "sample",
+"url": "p2_sample6.html",
+"summary": "This is just a sample topic..."
+}
+,
+
+
+
+{
+"title": "Sample 7 Topic",
+"tags": "",
+"keywords": "sample",
+"url": "p2_sample7.html",
+"summary": "This is just a sample topic..."
+}
+,
+
+
+
+{
+"title": "Sample 8 Topic",
+"tags": "",
+"keywords": "sample",
+"url": "p2_sample8.html",
+"summary": "This is just a sample topic..."
+}
+,
+
+
+
+{
+"title": "Sample 9 Topic",
+"tags": "",
+"keywords": "sample",
+"url": "p2_sample9.html",
+"summary": "This is just a sample topic..."
+}
+,
+
+
+
+
+
+
+
+{
+"title": "Estimating Semantic Vectors from Large Text Copora",
+"tags": "getting_started",
+"keywords": "semantic_vectors",
+"url": "semantic_vectors.html",
+"summary": "Express the meaning of a linguistic entity (word, phrase, sentence, paragraph, or document) as a vector in a multi-dimensional space, such that the similarity between entities expresses their similarity in meaning"
+}
+,
+
+
+
+{
+"title": "Sentiment Analysis",
+"tags": "sentiment_analysis",
+"keywords": "sentiment_analysis",
+"url": "sentiment_analysis.html",
+"summary": "Infer the emotions or affect expressed in / generating by passages of text."
+}
+,
+
+
+
+
+
+{
+"title": "Speech recognition",
+"tags": "getting_started",
+"keywords": "speech_recognition",
+"url": "speech_recognition.html",
+"summary": "Identify the sequence of words produced in audio recordings of speech."
+}
+,
+
+
+
+{
+"title": "Subtopic 1",
+"tags": "getting_started",
+"keywords": "subtopic1",
+"url": "subtopic1.html",
+"summary": "Summary of subtopic."
+}
+,
+
+
+
+{
+"title": "Subtopic 2",
+"tags": "getting_started",
+"keywords": "subtopic2",
+"url": "subtopic2.html",
+"summary": "Summary of subtopic."
+}
+,
+
+
+
+{
+"title": "Subtopic 3",
+"tags": "getting_started",
+"keywords": "subtopic3",
+"url": "subtopic3.html",
+"summary": "Summary of subtopic."
+}
+,
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+"title": "Topic home",
+"tags": "getting_started",
+"keywords": "topic",
+"url": "topic_landing_page.html",
+"summary": "Summary of topic."
+}
+,
+
+
+
+{
+"title": "",
+"tags": "",
+"keywords": "",
+"url": "assetscssstyle.css",
+"summary": ""
+}
+,
+
+
+
+
+
+{
+"title": "Why Python is so Awesome? ",
+"tags": "newspythonawesome",
+"keywords": "",
+"url": "why-python-is-so-awesome.html",
+"summary": "Python is awesome. You know it"
+}
+,
+
+
+{
+"title": "The latest and greatest Neural Network Stuff",
+"tags": "news",
+"keywords": "",
+"url": "latest-neural-net-stuff.html",
+"summary": ""
+}
+,
+
+
+{
+"title": "Welcome to the first initial inaugural post !",
+"tags": "news",
+"keywords": "",
+"url": "first-post-ever.html",
+"summary": ""
+}
+
+
+
+]

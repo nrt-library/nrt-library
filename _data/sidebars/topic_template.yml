@@ -1,0 +1,41 @@
+
+# Follow the pattern here for the URLs -- no slash at the beginning, and include the .html. The link here is rendered exactly as is in the Markdown references.
+
+
+entries:
+- title: Sidebar
+  product: My topic
+  version: 0.0
+  folders:
+
+  - title:
+    output: pdf
+    type: frontmatter
+    folderitems:
+    - title:
+      url: /titlepage.html
+      output: pdf
+      type: frontmatter
+    - title:
+      url: /tocpage.html
+      output: pdf
+      type: frontmatter  
+
+  - title: Topic Title
+    output: web
+    folderitems:
+    - title: Topic home 
+      url: /topic_landing_page.html
+      output: web
+
+    - title: Subtopic 1
+      url: /subtopic1.html
+      output: web
+
+    - title: Subtopic 2
+      url: /subtopic2.html
+      output: web
+
+    - title: Subtopic 3
+      url: /subtopic3.html
+      output: web

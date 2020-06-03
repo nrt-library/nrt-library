@@ -1,0 +1,41 @@
+
+# Follow the pattern here for the URLs -- no slash at the beginning, and include the .html. The link here is rendered exactly as is in the Markdown references.
+
+
+entries:
+- title: Sidebar
+  product: NLP
+  version: Intro
+  folders:
+
+  - title:
+    output: pdf
+    type: frontmatter
+    folderitems:
+    - title:
+      url: /titlepage.html
+      output: pdf
+      type: frontmatter
+    - title:
+      url: /tocpage.html
+      output: pdf
+      type: frontmatter  
+
+  - title: NLP
+    output: web
+    folderitems:
+    - title: NLP Intro 
+      url: /nlp_landing_page.html
+      output: web
+
+    - title: Sentiment Analysis
+      url: /sentiment_analysis.html
+      output: web
+
+    - title: Semantic Vectors
+      url: /semantic_vectors.html
+      output: web
+
+    - title: Speech Recognition
+      url: /speech_recognition.html
+      output: web

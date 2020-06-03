@@ -1,0 +1,22 @@
+## Topnav single links
+## if you want to list an external url, use external_url instead of url. the theme will apply a different link base.
+topnav:
+- title: Topnav
+  items:
+    - title: GitHub
+      external_url: https://github.com/
+    - title: News
+      url: /news
+
+#Topnav dropdowns
+topnav_dropdowns:
+- title: Topnav dropdowns
+  folders:
+    - title: Topics
+      folderitems:
+        - title: NRT Library Intro
+          url: /index.html
+        - title: Intro to Data Science
+          url: /intro_ds_landing_page.html
+        - title: NLP
+          url: /nlp_landing_page.html
