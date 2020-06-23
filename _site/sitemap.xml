@@ -322,7 +322,13 @@
   
   
   <url>
-    <loc>http://localhost:4000/guides/getting-started.html</loc>
+    <loc>http://localhost:4000/guides/guide-for-adding-new-sections.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/guides/guide-for-local-build.html</loc>
   </url>
   
   

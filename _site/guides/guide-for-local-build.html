@@ -251,6 +251,30 @@
 <!-- this highlights the active parent class in the navgoco sidebar. this is critical so that the parent expands when you're viewing a page. This must appear below the sidebar code above. Otherwise, if placed inside customscripts.js, the script runs before the sidebar code runs and the class never gets inserted.-->
 <script>$("li.active").parents('li').toggleClass("active");</script>
 
+                <!-- Table of contents Column -->
+                <span style="display:inline-block; width: 12px;"></span>
+                
+<!-- this handles the automatic toc. use ## for subheads to auto-generate the on-page minitoc. if you use html tags, you must supply an ID for the heading element in order for it to appear in the minitoc. -->
+<script>
+$( document ).ready(function() {
+  // Handler for .ready() called.
+
+$('#toc').toc({ minimumHeaders: 0, listType: 'ul', showSpeed: 0, headers: 'h2,h3,h4' });
+
+/* this offset helps account for the space taken up by the floating toolbar. */
+$('#toc').on('click', 'a', function() {
+  var target = $(this.getAttribute('href'))
+    , scroll_target = target.offset().top
+
+  $(window).scrollTop(scroll_target - 10);
+  return false
+})
+  
+});
+</script>
+
+<div id="toc"></div>
+
             </div>
             
         
@@ -295,7 +319,7 @@ $('#toc').on('click', 'a', function() {
 <!--
     
 
-    <a target="_blank" rel="noopener" href="https://github.com/nrt-library/nrt-libraryguides/getting-started.md" class="btn btn-default githubEditButton" role="button"><i class="fa fa-github fa-lg"></i> Edit me</a>
+    <a target="_blank" rel="noopener" href="https://github.com/nrt-library/nrt-libraryguides/guide-for-local-build.md" class="btn btn-default githubEditButton" role="button"><i class="fa fa-github fa-lg"></i> Edit me</a>
 
     
 -->
@@ -332,7 +356,7 @@ $('#toc').on('click', 'a', function() {
 
 <pre><code class="language-git">git --version
 
-# you should see something like 
+# you should see something like
 git version 2.17.1
 </code></pre>
 
@@ -370,7 +394,7 @@ which ruby
 /usr/bin/gem
 
 <span class="nt">------------------------</span>
-<span class="c"># Windows Command Prompt </span>
+<span class="c"># Windows Command Prompt</span>
 where gem
 
 <span class="c"># You should see something like</span>
@@ -403,11 +427,11 @@ C:<span class="se">\R</span>uby26-x64<span class="se">\b</span><span class="k">i
 
 <p>If you do not have Jekyll installed, install it by:</p>
 
-<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># Mac/Linux </span>
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># Mac/Linux</span>
 <span class="n">gem</span> <span class="n">install</span> <span class="n">jekyll</span>
 
 <span class="o">------------------------</span>
-<span class="c1"># Windows Command Prompt </span>
+<span class="c1"># Windows Command Prompt</span>
 <span class="n">gem</span> <span class="n">install</span> <span class="n">jekyll</span>
 </code></pre></div></div>
 
@@ -440,11 +464,11 @@ C:<span class="se">\R</span>uby26-x64<span class="se">\b</span><span class="k">i
 
 <p>If you do not have bundler installed, install it by:</p>
 
-<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># Mac/Linux </span>
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># Mac/Linux</span>
 <span class="n">gem</span> <span class="n">install</span> <span class="n">bundler</span>
 
 <span class="o">------------------------</span>
-<span class="c1"># Windows Command Prompt </span>
+<span class="c1"># Windows Command Prompt</span>
 <span class="n">gem</span> <span class="n">install</span> <span class="n">bundler</span>
 </code></pre></div></div>
 
@@ -468,9 +492,54 @@ C:<span class="se">\R</span>uby26-x64<span class="se">\b</span><span class="k">i
 <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">cd </span>nrt-library/
 </code></pre></div></div>
 
+<h2 id="to-create-a-github-branch">To create a GitHub branch</h2>
+
+<p>Once you you clone the repo, you will be default to the master branch. It is not recommended to work in the master branch. To create your own isolated branch of the project:</p>
+
+<pre><code class="language-git">git branch MY-BRANCH-NAME
+</code></pre>
+
+<p>After creation, you need to switch to your new branch as:</p>
+
+<pre><code class="language-git">git checkout MY-BRANCH-NAME
+</code></pre>
+
+<p>From now on, all the changes you do to the project will be saved in your branch without affecting the master branch for the project.</p>
+
 <h2 id="serving-the-site-locally">Serving the site locally</h2>
 
-<p>To serve the site locally, first update bundler as:</p>
+<p>To double check you are serving your own branch type:</p>
+
+<pre><code class="language-git">git branch
+</code></pre>
+
+<p>This will print all the existing branches in your computer. For instance:</p>
+
+<pre><code class="language-git">*master
+ pablo-branch
+ END
+</code></pre>
+
+<p>The <code class="language-plaintext highlighter-rouge">*</code> indicates in which branch you are working right now. In the previous example is indicating it is in the master branch. To scape the branch list menu, type <code class="language-plaintext highlighter-rouge">Q</code> in your keyboard.</p>
+
+<p>To swtich with:</p>
+
+<pre><code class="language-git">git checkout pablo-branch
+</code></pre>
+
+<p>Now check with:</p>
+
+<pre><code class="language-git">git branch
+</code></pre>
+
+<p>Which prints:</p>
+
+<pre><code class="language-git"> master
+*pablo-branch
+ END
+</code></pre>
+
+<p>Now you are in your branch, to serve the website locally, first update bundler as:</p>
 
 <div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">bundler</span> <span class="n">update</span>
 </code></pre></div></div>
@@ -488,19 +557,27 @@ C:<span class="se">\R</span>uby26-x64<span class="se">\b</span><span class="k">i
 
 <p>It is recommended to end the process by typing <code class="language-plaintext highlighter-rouge">Ctrl + C</code> in the terminal. Otherwise, the process will be keep running in the background which may create problems updating the site contents. Closing and reopening the terminal should have the same effect.</p>
 
-<h2 id="serving-your-own-branch-of-the-website">Serving your own branch of the website</h2>
+<h2 id="push-changes-on-line-to-master">Push changes on-line to master</h2>
 
-<p>In the terminal, make sure you are in your branch in Git as:</p>
+<p>Now your branch exist in your computer, but not on-line. To push your branch on-line for THE FIRST time, this is, assuming the branch does not exist on-line in GitHub already:</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git checkout MY-BRANCH-NAME
-</code></pre></div></div>
+<pre><code class="language-git">git push -u origin MY-BRANCH-NAME
+</code></pre>
 
-<p>Then you can run</p>
+<p>Alternatively, If your branch exist online already, you can push changes as:</p>
 
-<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">bundle</span> <span class="nb">exec</span> <span class="n">jekyll</span> <span class="n">serve</span>
-</code></pre></div></div>
+<pre><code class="language-git">git push origin MY-BRANCH-NAME
+</code></pre>
 
-<p>The browser will render your branch version.</p>
+<p>Once you are done with the section you want to put in the website, you need to merge your branch with the master branch as:</p>
+
+<pre><code class="language-git"># first switch to the master branch
+git checkout master
+# then merge
+git merge MY-BRANCH-NAME
+</code></pre>
+
+<p>The site will rebuild on-line automatically and your changes will be shown after a few minutes.</p>
 
 
     <div class="tags">
@@ -522,7 +599,7 @@ C:<span class="se">\R</span>uby26-x64<span class="se">\b</span><span class="k">i
             <div class="row">
                 <div class="col-lg-12 footer">
                &copy;2020 NRT Online Library. All rights reserved. <br />
- Site last generated: Jun 16, 2020 <br />
+ Site last generated: Jun 23, 2020 <br />
 <p><img src="images/magic-wand.svg" alt="Company logo"/></p>
                 </div>
             </div>
