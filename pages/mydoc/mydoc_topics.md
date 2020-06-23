@@ -11,6 +11,7 @@ Below you can find the topics in which we have organized the content. You can ac
 
 * [Introduction to Data Science][intro_ds_landing_page]
 * [Natural Languague Processing][nlp_landing_page]
+* [Kernel Methods in Pattern Recognition][kernel_methods_landing_page]
 * Data Reduction
 * Inference
 * Misc

@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="">
 <meta name="keywords" content=" ">
-<title> | NRT Online Library for Data Science and Human Behavior</title>
+<title>Instructions to build NRT-Library website locally | NRT Online Library for Data Science and Human Behavior</title>
 <link rel="stylesheet" href="css/syntax.css">
 
 <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -160,7 +160,7 @@
 
 
 
-  <a class="email" title="Submit feedback" href="#" onclick="javascript:window.location='mailto:nrtlibrary@gmail.com?subject=NRT Online Library Data Science and Human Behavior feedback&body=I have some feedback about the  page: ' + window.location.href;"><i class="fa fa-envelope-o"></i> Feedback</a>
+  <a class="email" title="Submit feedback" href="#" onclick="javascript:window.location='mailto:nrtlibrary@gmail.com?subject=NRT Online Library Data Science and Human Behavior feedback&body=I have some feedback about the Instructions to build NRT-Library website locally page: ' + window.location.href;"><i class="fa fa-envelope-o"></i> Feedback</a>
 
 </li>
 
@@ -178,7 +178,7 @@
                                 searchInput: document.getElementById('search-input'),
                                 resultsContainer: document.getElementById('results-container'),
                                 dataSource: 'search.json',
-                                searchResultTemplate: '<li><a href="{url}" title="">{title}</a></li>',
+                                searchResultTemplate: '<li><a href="{url}" title="Instructions to build NRT-Library website locally">{title}</a></li>',
                     noResultsText: 'No results found.',
                             limit: 10,
                             fuzzy: true,
@@ -269,7 +269,7 @@
         <!-- Content Column -->
         <div class="col-md-9" id="tg-sb-content">
             <div class="post-header">
-   <h1 class="post-title-main"></h1>
+   <h1 class="post-title-main">Instructions to build NRT-Library website locally</h1>
 </div>
 
 
@@ -306,20 +306,212 @@ $('#toc').on('click', 'a', function() {
 <!--
     
 
-    <a target="_blank" rel="noopener" href="https://github.com/nrt-library/nrt-librarypdfconfigs/tocpage.html" class="btn btn-default githubEditButton" role="button"><i class="fa fa-github fa-lg"></i> Edit me</a>
+    <a target="_blank" rel="noopener" href="https://github.com/nrt-library/nrt-libraryguides/guide-for-local-build.md" class="btn btn-default githubEditButton" role="button"><i class="fa fa-github fa-lg"></i> Edit me</a>
 
     
 -->
-   <!-- new page -->
-<div id="navig">
-    <h1>Table of Contents</h1>
+   <h1 id="instructions-to-build-nrt-library-website-locally">Instructions to build NRT-Library website locally</h1>
 
-    
+<p>Here are thr instructions to build the NRT-Lirbary site locally.</p>
 
-    <ul id="mysidebar" class="nav">
-        
-    </ul>
-</div>
+<p>It is recommended to work in your own branch of the project.</p>
+
+<p>Serving the website locally will help you to see any changes you make in real time. Just change the markdown file and save. Some changes may requiere to close the browser and rebuild the site.</p>
+
+<h2 id="getting-prerequisites">Getting prerequisites</h2>
+
+<p>To build the site locally, you will need the following:</p>
+
+<ul>
+  <li><a href="https://github.com/">GitHub account</a></li>
+  <li><a href="https://git-scm.com/downloads">Git</a></li>
+  <li><a href="https://www.ruby-lang.org/en/">Ruby</a></li>
+  <li><a href="https://rubygems.org/">RubyGems</a></li>
+  <li><a href="https://jekyllrb.com/">Jekyll</a></li>
+  <li><a href="https://bundler.io/">Bundler</a></li>
+</ul>
+
+<p>Below I provide instructions for each.</p>
+
+<h3 id="github">GitHub</h3>
+
+<p>Fo to <a href="https://github.com/">github.com</a> and follow the account creation instructions.</p>
+
+<h3 id="git">Git</h3>
+
+<p>Check if you have git installed in the terminal as:</p>
+
+<pre><code class="language-git">git --version
+
+# you should see something like 
+git version 2.17.1
+</code></pre>
+
+<p>If you do not have Git installed, go <a href="https://git-scm.com/downloads">here</a> and follow the installation instruction for your system.</p>
+
+<h3 id="ruby">Ruby</h3>
+
+<p>Check you have Ruby installed by:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># Mac/Linux</span>
+which ruby
+
+<span class="c"># You should see something like</span>
+/usr/bin/ruby
+<span class="nt">------------------------</span>
+<span class="c"># Windows Command Prompt </span>
+where ruby
+
+<span class="c"># You should see something like</span>
+C:<span class="se">\R</span>uby26-x64<span class="se">\b</span><span class="k">in</span><span class="se">\r</span>uby.exe
+</code></pre></div></div>
+
+<p>If you not have Ruby installed, follow installation instruction for your system <a href="https://rubyinstaller.org/downloads/">here</a></p>
+
+<h3 id="rubygems">RubyGems</h3>
+
+<p>RubyGems is a package manager for Ruby. It should be installed along with Ruby.</p>
+
+<p>To check you have RubyGems, run:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># Mac/Linux</span>
+which ruby
+
+<span class="c"># You should see something like</span>
+/usr/bin/gem
+
+<span class="nt">------------------------</span>
+<span class="c"># Windows Command Prompt </span>
+where gem
+
+<span class="c"># You should see something like</span>
+C:<span class="se">\R</span>uby26-x64<span class="se">\b</span><span class="k">in</span><span class="se">\g</span>em
+C:<span class="se">\R</span>uby26-x64<span class="se">\b</span><span class="k">in</span><span class="se">\g</span>em.cmd
+</code></pre></div></div>
+
+<p>If you do not have RubyGem installed follow the installation instructions for your system <a href="https://rubygems.org/pages/download">here</a>.</p>
+
+<h3 id="jekyll">Jekyll</h3>
+
+<p>Jekyll is a Ruby package (Gem) to generate static websites.</p>
+
+<p>Verify you have Jekyll installed by:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># Mac/Linux</span>
+which jekyll
+
+<span class="c"># You should see something like</span>
+/usr/local/bin/jekyll
+
+<span class="nt">------------------------</span>
+<span class="c"># Windows Command Prompt </span>
+where jekyll
+
+<span class="c"># You should see something like</span>
+C:<span class="se">\R</span>uby26-x64<span class="se">\b</span><span class="k">in</span><span class="se">\j</span>ekyll
+C:<span class="se">\R</span>uby26-x64<span class="se">\b</span><span class="k">in</span><span class="se">\j</span>ekyll.bat
+</code></pre></div></div>
+
+<p>If you do not have Jekyll installed, install it by:</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># Mac/Linux </span>
+<span class="n">gem</span> <span class="n">install</span> <span class="n">jekyll</span>
+
+<span class="o">------------------------</span>
+<span class="c1"># Windows Command Prompt </span>
+<span class="n">gem</span> <span class="n">install</span> <span class="n">jekyll</span>
+</code></pre></div></div>
+
+<p>Check installation was successful by:</p>
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">jekyll</span> <span class="o">--</span><span class="n">version</span>
+
+<span class="c1"># You should see the jekyll version printed out</span>
+<span class="n">jekyll</span> <span class="mf">4.1</span><span class="o">.</span><span class="mi">0</span>
+</code></pre></div></div>
+
+<h3 id="bundler">Bundler</h3>
+
+<p>Bundler is a tool for dependency managment and resolution wich is paired with RubyGems.</p>
+
+<p>Verify you have Bundler installed by:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># Mac/Linux</span>
+which bundler
+
+<span class="c"># You should see something like</span>
+/usr/local/bin/bundler
+
+<span class="nt">------------------------</span>
+<span class="c"># Windows Command Prompt </span>
+where bundler
+
+<span class="c"># You should see something like</span>
+C:<span class="se">\R</span>uby26-x64<span class="se">\b</span><span class="k">in</span><span class="se">\b</span>undler.cmd
+</code></pre></div></div>
+
+<p>If you do not have bundler installed, install it by:</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># Mac/Linux </span>
+<span class="n">gem</span> <span class="n">install</span> <span class="n">bundler</span>
+
+<span class="o">------------------------</span>
+<span class="c1"># Windows Command Prompt </span>
+<span class="n">gem</span> <span class="n">install</span> <span class="n">bundler</span>
+</code></pre></div></div>
+
+<p>Check installation was successful by:</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">bundler</span> <span class="o">--</span><span class="n">version</span>
+
+<span class="c1"># You should see the jekyll version printed out</span>
+<span class="no">Bundler</span> <span class="n">version</span> <span class="mf">1.17</span><span class="o">.</span><span class="mi">2</span>
+</code></pre></div></div>
+
+<h2 id="cloning-the-repo-locally">Cloning the repo locally</h2>
+
+<p>Open the terminal in the directory where you want to save the files. Then, clone the repo as:</p>
+
+<pre><code class="language-git">git clone https://github.com/nrt-library/nrt-library.git
+</code></pre>
+
+<p>Then, nagivate into the directory as:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">cd </span>nrt-library/
+</code></pre></div></div>
+
+<h2 id="serving-the-site-locally">Serving the site locally</h2>
+
+<p>To serve the site locally, first update bundler as:</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">bundler</span> <span class="n">update</span>
+</code></pre></div></div>
+
+<p>Note you may need Admin privileges to update Bundler.</p>
+
+<p>Once Bundler is updated, make sure your terminal is in the <code class="language-plaintext highlighter-rouge">nrt-library/</code> directory and run:</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">bundle</span> <span class="nb">exec</span> <span class="n">jekyll</span> <span class="n">serve</span>
+</code></pre></div></div>
+
+<p>By default, the site should be served at http://127.0.0.1:4000 address. Copy and paste into your favorite browser.</p>
+
+<p>If this address does not work, copy the address at <code class="language-plaintext highlighter-rouge">Server address:</code> printed in the terminal and past into your favorite browser.</p>
+
+<p>It is recommended to end the process by typing <code class="language-plaintext highlighter-rouge">Ctrl + C</code> in the terminal. Otherwise, the process will be keep running in the background which may create problems updating the site contents. Closing and reopening the terminal should have the same effect.</p>
+
+<h2 id="serving-your-own-branch-of-the-website">Serving your own branch of the website</h2>
+
+<p>In the terminal, make sure you are in your branch in Git as:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git checkout MY-BRANCH-NAME
+</code></pre></div></div>
+
+<p>Then you can run</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">bundle</span> <span class="nb">exec</span> <span class="n">jekyll</span> <span class="n">serve</span>
+</code></pre></div></div>
+
+<p>The browser will render your branch version.</p>
 
 
     <div class="tags">

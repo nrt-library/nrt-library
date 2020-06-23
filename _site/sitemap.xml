@@ -58,6 +58,12 @@
   
   
   <url>
+    <loc>http://localhost:4000/kernel_methods_landing_page.html</loc>
+  </url>
+  
+  
+  
+  <url>
     <loc>http://localhost:4000/mydoc_about.html</loc>
   </url>
   
@@ -322,7 +328,19 @@
   
   
   <url>
-    <loc>http://localhost:4000/guides/getting-started.html</loc>
+    <loc>http://localhost:4000/guides/guide-for-adding-new-sections.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/guides/guide-for-local-build.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/pages/kernel_methods/svm.html</loc>
   </url>
   
   
