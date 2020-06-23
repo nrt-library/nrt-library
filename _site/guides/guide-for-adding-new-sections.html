@@ -4,9 +4,9 @@
     <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="How to become a Stats Wizard.">
-<meta name="keywords" content="getting_started,  stats">
-<title>Introduction to Stats | NRT Online Library for Data Science and Human Behavior</title>
+<meta name="description" content="">
+<meta name="keywords" content=" ">
+<title>Instructions to add new content sections to the NRT-Library website | NRT Online Library for Data Science and Human Behavior</title>
 <link rel="stylesheet" href="css/syntax.css">
 
 <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -156,7 +156,7 @@
 
 
 
-  <a class="email" title="Submit feedback" href="#" onclick="javascript:window.location='mailto:nrtlibrary@gmail.com?subject=NRT Online Library Data Science and Human Behavior feedback&body=I have some feedback about the Introduction to Stats page: ' + window.location.href;"><i class="fa fa-envelope-o"></i> Feedback</a>
+  <a class="email" title="Submit feedback" href="#" onclick="javascript:window.location='mailto:nrtlibrary@gmail.com?subject=NRT Online Library Data Science and Human Behavior feedback&body=I have some feedback about the Instructions to add new content sections to the NRT-Library website page: ' + window.location.href;"><i class="fa fa-envelope-o"></i> Feedback</a>
 
 </li>
 
@@ -174,7 +174,7 @@
                                 searchInput: document.getElementById('search-input'),
                                 resultsContainer: document.getElementById('results-container'),
                                 dataSource: 'search.json',
-                                searchResultTemplate: '<li><a href="{url}" title="Introduction to Stats">{title}</a></li>',
+                                searchResultTemplate: '<li><a href="{url}" title="Instructions to add new content sections to the NRT-Library website">{title}</a></li>',
                     noResultsText: 'No results found.',
                             limit: 10,
                             fuzzy: true,
@@ -200,15 +200,27 @@
                 
 
 <ul id="mysidebar" class="nav">
-  <li class="sidebarTitle">Intro Data Science </li>
+  <li class="sidebarTitle"> </li>
   
   
-  
-      
   
   <li>
-      <a title="Introduction to Data Science" href="#">Introduction to Data Science</a>
+      <a title="Topics" href="#">Topics</a>
       <ul>
+          
+          
+          
+          <li><a title="News" href="news.html">News</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a title="NRT Library Intro" href="index.html">NRT Library Intro</a></li>
+          
+          
+          
           
           
           
@@ -219,21 +231,7 @@
           
           
           
-          <li><a title="Introduction to Python" href="intro_python.html">Introduction to Python</a></li>
-          
-          
-          
-          
-          
-          
-          <li><a title="Introduction to R" href="intro_r.html">Introduction to R</a></li>
-          
-          
-          
-          
-          
-          
-          <li class="active"><a title="Introduction to Stats" href="intro_stats.html">Introduction to Stats</a></li>
+          <li><a title="NLP" href="nlp_landing_page.html">NLP</a></li>
           
           
           
@@ -260,15 +258,13 @@
         <!-- Content Column -->
         <div class="col-md-9" id="tg-sb-content">
             <div class="post-header">
-   <h1 class="post-title-main">Introduction to Stats</h1>
+   <h1 class="post-title-main">Instructions to add new content sections to the NRT-Library website</h1>
 </div>
 
 
 
 <div class="post-content">
 
-   
-    <div class="summary">How to become a Stats Wizard.</div>
    
 
     
@@ -299,43 +295,54 @@ $('#toc').on('click', 'a', function() {
 <!--
     
 
-    <a target="_blank" rel="noopener" href="https://github.com/nrt-library/nrt-librarypages/intro-ds/intro_stats.md" class="btn btn-default githubEditButton" role="button"><i class="fa fa-github fa-lg"></i> Edit me</a>
+    <a target="_blank" rel="noopener" href="https://github.com/nrt-library/nrt-libraryguides/guide-for-adding-new-sections.md" class="btn btn-default githubEditButton" role="button"><i class="fa fa-github fa-lg"></i> Edit me</a>
 
     
 -->
-   <h2 id="what-is-stats">What is Stats?</h2>
+   <h1 id="instructions-to-add-new-content-sections-to-the-nrt-library-website">Instructions to add new content sections to the NRT-Library website</h1>
 
-<p>Black magic.</p>
+<p>Here are the instructions to add new sections to the NRT-Library site.</p>
 
-<h2 id="why-stats">Why Stats?</h2>
+<p>It is recommended to work in your own branch of the project. Then merge with the master branch once your new section is ready.</p>
 
-<p>To test hypothesis.</p>
+<h2 id="prerequisities">Prerequisities</h2>
 
-<h2 id="video-courses">Video courses</h2>
+<p>Follow the instructions in the <code class="language-plaintext highlighter-rouge">guide-for-local-build.md</code> file. Then you should be ready to add new sections.</p>
 
-<ul>
-  <li>Video 1</li>
-  <li>Video 2</li>
-</ul>
+<h2 id="this-to-create-or-modify">This to create or modify</h2>
 
-<h2 id="online-tutorials">Online tutorials</h2>
+<p>in _data/sidebars
+create:
+my-new-bar.yml
+modify:
+home_sidebar.yml</p>
 
-<ul>
-  <li>Online tutorial 1</li>
-  <li>Online tutorial 2</li>
-</ul>
+<p>in _data/
+modify:
+topnav.yml
+tags.yml</p>
+
+<p>in pages/
+create:
+my-new-section/
+within that:
+my-new-section-landing-page.md
+sub-section-01.md
+sub-section-02.md
+sub-section-03.md
+etc…</p>
+
+<p>in pages/tags/
+create:
+tag_tagname.md</p>
+
+<p>in nrt-lbrary/
+modify:
+_config.yml</p>
 
 
 
     <div class="tags">
-        
-        <b>Tags: </b>
-        
-        
-        
-        <a href="tag_getting_started.html" class="btn btn-default navbar-btn cursorNorm" role="button">getting_started</a>
-        
-        
         
     </div>
 
@@ -354,7 +361,7 @@ $('#toc').on('click', 'a', function() {
             <div class="row">
                 <div class="col-lg-12 footer">
                &copy;2020 NRT Online Library. All rights reserved. <br />
-<span>Page last updated:</span> June 1, 2020<br/> Site last generated: Jun 16, 2020 <br />
+ Site last generated: Jun 17, 2020 <br />
 <p><img src="images/magic-wand.svg" alt="Company logo"/></p>
                 </div>
             </div>
