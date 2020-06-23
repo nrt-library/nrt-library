@@ -184,13 +184,13 @@ Once you you clone the repo, you will be default to the master branch. It is not
 git branch MY-BRANCH-NAME
 ```
 
-After creation, you need to your new branch to work in it:
+After creation, you need to switch to your new branch as:
 
 ```git
 git checkout MY-BRANCH-NAME
 ```
 
-From now on, all the changes you do to the project will be saved in your branch without affecting the main project.
+From now on, all the changes you do to the project will be saved in your branch without affecting the master branch for the project.
 
 ## Serving the site locally
 
@@ -208,19 +208,21 @@ This will print all the existing branches in your computer. For instance:
  END
 ```
 
-The `*` indicates in which branch you are working right now. In the previous example is indicating it is in the master branch. Hence, I need to swtich with:
+The `*` indicates in which branch you are working right now. In the previous example is indicating it is in the master branch. To scape the branch list menu, type `Q` in your keyboard.
+
+To swtich with:
 
 ```git
 git checkout pablo-branch
 ```
 
-Now:
+Now check with:
 
 ```git
 git branch
 ```
 
-Prints:
+Which prints:
 
 ```git
  master
@@ -228,13 +230,13 @@ Prints:
  END
 ```
 
-To serve the site locally, first update bundler as:
+Now you are in your branch, to serve the website locally, first update bundler as:
 
 ```ruby
 bundler update
 ```
 
-Note you may need Admin privileges to update Bundler.
+Note you may need Admin privileges to update Bundler. 
 
 Once Bundler is updated, make sure your terminal is in the `nrt-library/` directory and run:
 
@@ -248,23 +250,7 @@ If this address does not work, copy the address at `Server address:` printed in 
 
 It is recommended to end the process by typing `Ctrl + C` in the terminal. Otherwise, the process will be keep running in the background which may create problems updating the site contents. Closing and reopening the terminal should have the same effect.
 
-## Serving your own branch of the website
-
-In the terminal, make sure you are in your branch in Git as:
-
-```git
-git checkout MY-BRANCH-NAME
-```
-
-Then you can run
-
-```ruby
-bundle exec jekyll serve
-```
-
-The browser will render your branch version.
-
-## 
+## Push changes on-line to master
 
 Now your branch exist in your computer, but not on-line. To push your branch on-line for THE FIRST time, this is, assuming the branch does not exist on-line in GitHub already:
 
@@ -272,7 +258,7 @@ Now your branch exist in your computer, but not on-line. To push your branch on-
 git push -u origin MY-BRANCH-NAME
 ```
 
-Alternatively, If your branch exist online, you can push changes as:
+Alternatively, If your branch exist online already, you can push changes as:
 
 ```git
 git push origin MY-BRANCH-NAME
@@ -286,3 +272,5 @@ git checkout master
 # then merge
 git merge MY-BRANCH-NAME
 ```
+
+The site will rebuild on-line automatically and your changes will be shown after a few minutes.
