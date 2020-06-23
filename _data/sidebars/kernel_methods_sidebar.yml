@@ -12,4 +12,14 @@ entries:
       url: /kernel_methods_landing_page.html # url to the landing page for the section. Same name as the Markdown file, but with a `.html` extension
       output: web # leave it as it is
 
+    - title: Support Vector Machines
+      url: /support_vector_machines.html
+      output: web
+
+    - title: Topic 2
+      url: /topic_2.html
+      output: web
+
+     
+
     # you can add more sub-sections in the same manner

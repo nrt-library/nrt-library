@@ -285,6 +285,9 @@
   
   
   
+  <url>
+    <loc>http://localhost:4000/support_vector_machines.html</loc>
+  </url>
   
   
   
@@ -312,6 +315,17 @@
   
   
   
+  
+  
+  
+  
+  
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/topic_2.html</loc>
+  </url>
   
   
   
@@ -335,12 +349,6 @@
   
   <url>
     <loc>http://localhost:4000/guides/guide-for-local-build.html</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>http://localhost:4000/pages/kernel_methods/svm.html</loc>
   </url>
   
   

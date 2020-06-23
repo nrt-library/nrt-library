@@ -473,6 +473,14 @@
 
 
 
+{
+"title": "Support Vector Machines",
+"tags": "pattern_recognition",
+"keywords": "topic",
+"url": "support_vector_machines.html",
+"summary": "Support vector machines are a specific instance of kernel-methods used for data classification."
+}
+,
 
 
 
@@ -500,6 +508,22 @@
 
 
 
+
+
+
+
+
+
+
+
+{
+"title": "KM_topic_2",
+"tags": "getting_started",
+"keywords": "getting_started",
+"url": "topic_2.html",
+"summary": "Kernel methods topic 2"
+}
+,
 
 
 
@@ -541,17 +565,6 @@
 "tags": "",
 "keywords": "",
 "url": "guidesguide-for-local-build.html",
-"summary": ""
-}
-,
-
-
-
-{
-"title": "",
-"tags": "",
-"keywords": "",
-"url": "pageskernel_methodssvm.html",
 "summary": ""
 }
 ,
