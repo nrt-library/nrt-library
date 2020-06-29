@@ -515,10 +515,21 @@
 
 
 {
+"title": "Instructions to add new content sections to the NRT-Library website",
+"tags": "",
+"keywords": "",
+"url": "guidesguide-for-adding-new-sections.html",
+"summary": ""
+}
+,
+
+
+
+{
 "title": "Instructions to build NRT-Library website locally",
 "tags": "",
 "keywords": "",
-"url": "guidesgetting-started.html",
+"url": "guidesguide-for-local-build.html",
 "summary": ""
 }
 ,
