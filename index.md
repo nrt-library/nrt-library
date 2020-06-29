@@ -7,12 +7,9 @@ permalink: index.html
 summary: This is an awesome website full of data science wisdom.
 ---
 
-Testing change in master
-
 {% include note.html content="This is a note box to highligh very important things" %}
 
 {% include cogsci_papernet_dynamic.html %}
-
 
 ## About
 
