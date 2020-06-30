@@ -61,6 +61,17 @@
 
 
 {
+"title": "Kernel Methods in Pattern Recognition",
+"tags": "getting_started",
+"keywords": "topic",
+"url": "kernel_methods_landing_page.html",
+"summary": "Kernel methods refer to a class of algorithms for pattern recognition where data points in the native representation space are mapped to higher dimensions using a 'kernel function' without actually computing the coordinates in the higher dimensions."
+}
+,
+
+
+
+{
 "title": "About the authors",
 "tags": "getting_started",
 "keywords": "authors, curiosity",
@@ -462,6 +473,14 @@
 
 
 
+{
+"title": "Support Vector Machines",
+"tags": "pattern_recognition",
+"keywords": "topic",
+"url": "support_vector_machines.html",
+"summary": "Support vector machines are a specific instance of kernel-methods used for data classification."
+}
+,
 
 
 
@@ -489,6 +508,22 @@
 
 
 
+
+
+
+
+
+
+
+
+{
+"title": "KM_topic_2",
+"tags": "getting_started",
+"keywords": "getting_started",
+"url": "topic_2.html",
+"summary": "Kernel methods topic 2"
+}
+,
 
 
 
@@ -514,6 +549,31 @@
 
 
 
+<<<<<<< HEAD
+{
+"title": "Instructions to add new content sections to the NRT-Library website",
+"tags": "",
+"keywords": "",
+"url": "guidesguide-for-adding-new-sections.html",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "Instructions to build NRT-Library website locally",
+"tags": "",
+"keywords": "",
+"url": "guidesguide-for-local-build.html",
+"summary": ""
+}
+,
+
+
+
+=======
+>>>>>>> cfeab032a6f21ef36da0978bb10f4b4dc600ab76
 
 
 {

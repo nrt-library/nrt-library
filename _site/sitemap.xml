@@ -58,6 +58,12 @@
   
   
   <url>
+    <loc>http://localhost:4000/kernel_methods_landing_page.html</loc>
+  </url>
+  
+  
+  
+  <url>
     <loc>http://localhost:4000/mydoc_about.html</loc>
   </url>
   
@@ -279,6 +285,9 @@
   
   
   
+  <url>
+    <loc>http://localhost:4000/support_vector_machines.html</loc>
+  </url>
   
   
   
@@ -306,6 +315,17 @@
   
   
   
+  
+  
+  
+  
+  
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/topic_2.html</loc>
+  </url>
   
   
   
@@ -320,4 +340,19 @@
   </url>
   
   
+<<<<<<< HEAD
+  
+  <url>
+    <loc>http://localhost:4000/guides/guide-for-adding-new-sections.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/guides/guide-for-local-build.html</loc>
+  </url>
+  
+  
+=======
+>>>>>>> cfeab032a6f21ef36da0978bb10f4b4dc600ab76
 </urlset>

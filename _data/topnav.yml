@@ -20,3 +20,5 @@ topnav_dropdowns:
           url: /intro_ds_landing_page.html
         - title: NLP
           url: /nlp_landing_page.html
+        - title: Kernel Methods
+          url: /kernel_methods_landing_page.html

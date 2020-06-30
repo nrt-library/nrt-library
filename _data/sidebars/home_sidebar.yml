@@ -20,3 +20,7 @@ entries:
     - title: NLP
       url: /nlp_landing_page.html
       output: web
+    - title: Kernel Methods
+      url: /kernel_methods_landing_page.html
+      output: web
+
