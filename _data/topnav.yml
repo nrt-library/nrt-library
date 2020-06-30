@@ -24,3 +24,5 @@ topnav_dropdowns:
           url: /kernel_methods_landing_page.html
         - title: Tools
           url: /tools_landing_page.html
+        - title: Data Reduction
+          url: /data_reduction_landing_page.html
