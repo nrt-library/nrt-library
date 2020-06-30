@@ -1,0 +1,33 @@
+
+# Follow the pattern here for the URLs -- no slash at the beginning, and include the .html. The link here is rendered exactly as is in the Markdown references.
+
+
+entries:
+- title: Sidebar
+  product: Data Reduction
+  version: Intro
+  folders:
+
+  - title:
+    output: pdf
+    type: frontmatter
+    folderitems:
+    - title:
+      url: /titlepage.html
+      output: pdf
+      type: frontmatter
+    - title:
+      url: /tocpage.html
+      output: pdf
+      type: frontmatter  
+
+  - title: Data Reduction
+    output: web
+    folderitems:
+    - title: Data Reduction Intro 
+      url: /data_reduction_landing_page.html
+      output: web
+
+    - title: Principal Components Analysis
+      url: /pca.html
+      output: web

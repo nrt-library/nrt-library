@@ -22,3 +22,5 @@ topnav_dropdowns:
           url: /nlp_landing_page.html
         - title: Kernel Methods
           url: /kernel_methods_landing_page.html
+        - title: Data Reduction
+          url: /data_reduction_landing_page.html
