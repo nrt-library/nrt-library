@@ -257,6 +257,30 @@
 <!-- this highlights the active parent class in the navgoco sidebar. this is critical so that the parent expands when you're viewing a page. This must appear below the sidebar code above. Otherwise, if placed inside customscripts.js, the script runs before the sidebar code runs and the class never gets inserted.-->
 <script>$("li.active").parents('li').toggleClass("active");</script>
 
+                <!-- Table of contents Column -->
+                <span style="display:inline-block; width: 12px;"></span>
+                
+<!-- this handles the automatic toc. use ## for subheads to auto-generate the on-page minitoc. if you use html tags, you must supply an ID for the heading element in order for it to appear in the minitoc. -->
+<script>
+$( document ).ready(function() {
+  // Handler for .ready() called.
+
+$('#toc').toc({ minimumHeaders: 0, listType: 'ul', showSpeed: 0, headers: 'h2,h3,h4' });
+
+/* this offset helps account for the space taken up by the floating toolbar. */
+$('#toc').on('click', 'a', function() {
+  var target = $(this.getAttribute('href'))
+    , scroll_target = target.offset().top
+
+  $(window).scrollTop(scroll_target - 10);
+  return false
+})
+  
+});
+</script>
+
+<div id="toc"></div>
+
             </div>
             
         
@@ -300,13 +324,13 @@ $('#toc').on('click', 'a', function() {
 
     
 
-<!--
-    
-
-    <a target="_blank" rel="noopener" href="https://github.com/nrt-library/nrt-librarypages/nlp/semantic_vectors.md" class="btn btn-default githubEditButton" role="button"><i class="fa fa-github fa-lg"></i> Edit me</a>
 
     
--->
+
+    <a target="_blank" rel="noopener" href="https://github.com/nrt-library/nrt-library/blob/master/pages/nlp/semantic_vectors.md" class="btn btn-default githubEditButton" role="button"><i class="fa fa-github fa-lg"></i> Edit me</a>
+
+    
+
    <p>All such methods rely on the maxim “You shall know a word by the company it keeps”: words with similar meanings will tend to occur in similar linguistic contexts. For instance, think of the things you might say about your cat: she’s so cute, she’s furry, she needs to be fed, I need to let her out, she bit me, etc. You might also these things about your dog, because dogs and cats are similar kinds of things, but you wouldn’t say them about, say, your blender. So tabulating co-occurrences amongst words in sentences (or paragraphs, or documents, etc) can provide clues about their similarity in meaning. All methods for computing vector-space representations of word meanings rely on this general intuition, but they differ in the specific ways these co-occurrence statistics are computed and analyzed. This page collects documentation for X different methods.</p>
 
 <h2 id="singular-value-decomposition-or-svd-eg-latent-semantic-analysis-holistic-analog-to-language-etc">Singular value decomposition or SVD (e.g. Latent Semantic Analysis, Holistic Analog to Language, etc.)</h2>
@@ -404,10 +428,6 @@ $('#toc').on('click', 'a', function() {
     </div>
 
 
-<div id="commento"></div>
-<script src="https://cdn.commento.io/js/commento.js"></script>
-<noscript>Please enable JavaScript to load the comments.</noscript>
-
 
 
 </div>
@@ -418,7 +438,11 @@ $('#toc').on('click', 'a', function() {
             <div class="row">
                 <div class="col-lg-12 footer">
                &copy;2020 NRT Online Library. All rights reserved. <br />
+<<<<<<< HEAD
 <span>Page last updated:</span> June 1, 2020<br/> Site last generated: Jun 23, 2020 <br />
+=======
+<span>Page last updated:</span> June 1, 2020<br/> Site last generated: Jun 30, 2020 <br />
+>>>>>>> cfeab032a6f21ef36da0978bb10f4b4dc600ab76
 <p><img src="images/magic-wand.svg" alt="Company logo"/></p>
                 </div>
             </div>

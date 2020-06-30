@@ -1,10 +1,10 @@
 # Instructions to build NRT-Library website locally
 
-Here are thr instructions to build the NRT-Lirbary site locally. 
+Here are thr instructions to build the NRT-Lirbary site locally.
 
-It is recommended to work in your own branch of the project. 
+It is recommended to work in your own branch of the project.
 
-Serving the website locally will help you to see any changes you make in real time. Just change the markdown file and save. Some changes may requiere to close the browser and rebuild the site. 
+Serving the website locally will help you to see any changes you make in real time. Just change the markdown file and save. Some changes may requiere to close the browser and rebuild the site.
 
 ## Getting prerequisites
 
@@ -21,7 +21,7 @@ Below I provide instructions for each.
 
 ### GitHub
 
-Fo to [github.com](https://github.com/) and follow the account creation instructions. 
+Fo to [github.com](https://github.com/) and follow the account creation instructions.
 
 ### Git
 
@@ -30,7 +30,7 @@ Check if you have git installed in the terminal as:
 ```git
 git --version
 
-# you should see something like 
+# you should see something like
 git version 2.17.1
 ```
 
@@ -62,7 +62,7 @@ RubyGems is a package manager for Ruby. It should be installed along with Ruby.
 
 To check you have RubyGems, run:
 
-```bash 
+```bash
 # Mac/Linux
 which ruby
 
@@ -70,7 +70,7 @@ which ruby
 /usr/bin/gem
 
 ------------------------
-# Windows Command Prompt 
+# Windows Command Prompt
 where gem
 
 # You should see something like
@@ -105,11 +105,11 @@ C:\Ruby26-x64\bin\jekyll.bat
 If you do not have Jekyll installed, install it by:
 
 ```ruby
-# Mac/Linux 
+# Mac/Linux
 gem install jekyll
 
 ------------------------
-# Windows Command Prompt 
+# Windows Command Prompt
 gem install jekyll
 ```
 
@@ -145,11 +145,11 @@ C:\Ruby26-x64\bin\bundler.cmd
 If you do not have bundler installed, install it by:
 
 ```ruby
-# Mac/Linux 
+# Mac/Linux
 gem install bundler
 
 ------------------------
-# Windows Command Prompt 
+# Windows Command Prompt
 gem install bundler
 ```
 
@@ -170,21 +170,73 @@ Open the terminal in the directory where you want to save the files. Then, clone
 git clone https://github.com/nrt-library/nrt-library.git
 ```
 
-Then, nagivate into the directory as: 
+Then, nagivate into the directory as:
 
 ```bash
 cd nrt-library/
 ```
 
+## To create a GitHub branch
+
+Once you you clone the repo, you will be default to the master branch. It is not recommended to work in the master branch. To create your own isolated branch of the project:
+
+```git
+git branch MY-BRANCH-NAME
+```
+
+After creation, you need to switch to your new branch as:
+
+```git
+git checkout MY-BRANCH-NAME
+```
+
+From now on, all the changes you do to the project will be saved in your branch without affecting the master branch for the project.
+
 ## Serving the site locally
 
-To serve the site locally, first update bundler as:
+To double check you are serving your own branch type:
+
+```git
+git branch
+```
+
+This will print all the existing branches in your computer. For instance:
+
+```git
+*master
+ pablo-branch
+ END
+```
+
+The `*` indicates in which branch you are working right now. In the previous example is indicating it is in the master branch. To scape the branch list menu, type `Q` in your keyboard.
+
+To swtich with:
+
+```git
+git checkout pablo-branch
+```
+
+Now check with:
+
+```git
+git branch
+```
+
+Which prints:
+
+```git
+ master
+*pablo-branch
+ END
+```
+
+Now you are in your branch, to serve the website locally, first update bundler as:
 
 ```ruby
 bundler update
 ```
 
-Note you may need Admin privileges to update Bundler.
+Note you may need Admin privileges to update Bundler. 
 
 Once Bundler is updated, make sure your terminal is in the `nrt-library/` directory and run:
 
@@ -196,20 +248,29 @@ By default, the site should be served at http://127.0.0.1:4000 address. Copy and
 
 If this address does not work, copy the address at `Server address:` printed in the terminal and past into your favorite browser.
 
-It is recommended to end the process by typing `Ctrl + C` in the terminal. Otherwise, the process will be keep running in the background which may create problems updating the site contents. Closing and reopening the terminal should have the same effect. 
+It is recommended to end the process by typing `Ctrl + C` in the terminal. Otherwise, the process will be keep running in the background which may create problems updating the site contents. Closing and reopening the terminal should have the same effect.
 
-## Serving your own branch of the website
+## Push changes on-line to master
 
-In the terminal, make sure you are in your branch in Git as:
+Now your branch exist in your computer, but not on-line. To push your branch on-line for THE FIRST time, this is, assuming the branch does not exist on-line in GitHub already:
 
-```
-git checkout MY-BRANCH-NAME
-```
-
-Then you can run 
-
-```ruby
-bundle exec jekyll serve
+```git
+git push -u origin MY-BRANCH-NAME
 ```
 
-The browser will render your branch version.
+Alternatively, If your branch exist online already, you can push changes as:
+
+```git
+git push origin MY-BRANCH-NAME
+```
+
+Once you are done with the section you want to put in the website, you need to merge your branch with the master branch as:
+
+```git
+# first switch to the master branch
+git checkout master
+# then merge
+git merge MY-BRANCH-NAME
+```
+
+The site will rebuild on-line automatically and your changes will be shown after a few minutes.

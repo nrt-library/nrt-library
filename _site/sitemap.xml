@@ -340,6 +340,7 @@
   </url>
   
   
+<<<<<<< HEAD
   
   <url>
     <loc>http://localhost:4000/guides/guide-for-adding-new-sections.html</loc>
@@ -352,4 +353,6 @@
   </url>
   
   
+=======
+>>>>>>> cfeab032a6f21ef36da0978bb10f4b4dc600ab76
 </urlset>

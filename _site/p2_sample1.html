@@ -352,6 +352,30 @@
 <!-- this highlights the active parent class in the navgoco sidebar. this is critical so that the parent expands when you're viewing a page. This must appear below the sidebar code above. Otherwise, if placed inside customscripts.js, the script runs before the sidebar code runs and the class never gets inserted.-->
 <script>$("li.active").parents('li').toggleClass("active");</script>
 
+                <!-- Table of contents Column -->
+                <span style="display:inline-block; width: 12px;"></span>
+                
+<!-- this handles the automatic toc. use ## for subheads to auto-generate the on-page minitoc. if you use html tags, you must supply an ID for the heading element in order for it to appear in the minitoc. -->
+<script>
+$( document ).ready(function() {
+  // Handler for .ready() called.
+
+$('#toc').toc({ minimumHeaders: 0, listType: 'ul', showSpeed: 0, headers: 'h2,h3,h4' });
+
+/* this offset helps account for the space taken up by the floating toolbar. */
+$('#toc').on('click', 'a', function() {
+  var target = $(this.getAttribute('href'))
+    , scroll_target = target.offset().top
+
+  $(window).scrollTop(scroll_target - 10);
+  return false
+})
+  
+});
+</script>
+
+<div id="toc"></div>
+
             </div>
             
         
@@ -419,13 +443,13 @@ $('#toc').on('click', 'a', function() {
 
     
 
-<!--
-    
-
-    <a target="_blank" rel="noopener" href="https://github.com/nrt-library/nrt-librarypages/product2/p2_sample1.md" class="btn btn-default githubEditButton" role="button"><i class="fa fa-github fa-lg"></i> Edit me</a>
 
     
--->
+
+    <a target="_blank" rel="noopener" href="https://github.com/nrt-library/nrt-library/blob/master/pages/product2/p2_sample1.md" class="btn btn-default githubEditButton" role="button"><i class="fa fa-github fa-lg"></i> Edit me</a>
+
+    
+
    <h2 id="sample-content">Sample Content</h2>
 
 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
@@ -447,10 +471,6 @@ $('#toc').on('click', 'a', function() {
     </div>
 
 
-<div id="commento"></div>
-<script src="https://cdn.commento.io/js/commento.js"></script>
-<noscript>Please enable JavaScript to load the comments.</noscript>
-
 
 
 </div>
@@ -461,7 +481,11 @@ $('#toc').on('click', 'a', function() {
             <div class="row">
                 <div class="col-lg-12 footer">
                &copy;2020 NRT Online Library. All rights reserved. <br />
+<<<<<<< HEAD
  Site last generated: Jun 23, 2020 <br />
+=======
+ Site last generated: Jun 30, 2020 <br />
+>>>>>>> cfeab032a6f21ef36da0978bb10f4b4dc600ab76
 <p><img src="images/magic-wand.svg" alt="Company logo"/></p>
                 </div>
             </div>
