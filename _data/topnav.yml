@@ -22,3 +22,5 @@ topnav_dropdowns:
           url: /nlp_landing_page.html
         - title: Kernel Methods
           url: /kernel_methods_landing_page.html
+        - title: Tools
+          url: /tools_landing_page.html

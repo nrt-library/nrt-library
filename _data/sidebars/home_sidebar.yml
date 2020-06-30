@@ -23,4 +23,7 @@ entries:
     - title: Kernel Methods
       url: /kernel_methods_landing_page.html
       output: web
+    - title: Tools
+      url: /tools_landing_page.html
+      output: web
 
