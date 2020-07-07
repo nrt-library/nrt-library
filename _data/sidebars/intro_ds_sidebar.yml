@@ -36,6 +36,6 @@ entries:
       url: /intro_r.html
       output: web
 
-    - title: Introduction to Stats
-      url: /intro_stats.html
+    - title: Introduction to UNIX shell
+      url: /intro_shell.html
       output: web

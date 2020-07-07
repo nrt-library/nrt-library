@@ -1,23 +1,23 @@
 ---
-title: Introduction to Stats
+title: Introduction to the UNIX Shell (Bash)
 tags:
   - getting_started
 keywords: "stats" # new keywords requiere to create a new tag file
 last_updated: "June 1, 2020"
-summary: "How to become a Stats Wizard."
+summary: "How to become a Shell Wizard."
 published: true
 sidebar: intro_ds_sidebar #name of yml sidebar file withouth extension
-permalink: intro_stats.html
+permalink: intro_shell.html
 folder: intro-ds
 ---
 
-## What is Stats?
+## What is the UNIX Shell?
 
 Black magic.
 
-## Why Stats?
+## Why the UNIX shell?
 
-To test hypothesis.
+To do things like a pro
 
 ## Video courses
 
