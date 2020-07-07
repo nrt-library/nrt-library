@@ -12,17 +12,17 @@ Below you can find the topics in which we have organized the content. You can ac
 * [Introduction to Data Science][intro_ds_landing_page]
 * [Natural Languague Processing][nlp_landing_page]
 * [Kernel Methods in Pattern Recognition][kernel_methods_landing_page]
-* Data Reduction
-* Inference
+* [Data Reduction][data_reduction_landing_page]
+* [Inference] [inference_landing_page]
 * Misc
-* Tools
-* Model Fitting
-* Network Graphs
-* Neural Networks
+* [Tools][tools_landing_page]
+* [Model Fitting][model_fitting_landing_page]
+* [Network Graphs][network_graphs_landing_page]
+* [Neural Networks][neural_networks_landing_page]
 * Pattern Classification
 * Statistics
-* Reinforcement Learning
-* Time Series
+* [Reinforcement Learning][rl_landing_page]
+* [Time Series][time_series_landing_page]
 
 More to come!
 
