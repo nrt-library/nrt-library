@@ -16,6 +16,8 @@ Reinforcement learning is an area of machine learning concerned with how agents 
 
 ## What is RL used for?
 
+[Deep Hierarchical Reinforcement Learning](dhrl)
+
 ## RL Topics
 
 
