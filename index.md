@@ -42,8 +42,6 @@ To complement and update contents of an existing topic, follow the instructions 
 To add a new section or topic to the site, please send an email to nrtlibrary@gmail.com or just click in the **Feedback** tab at the top navgation bar.
 
 <pre>
-
----
 Topic: Suggested Topic
 subtopic1: Subtopic 1
 subtopic2: Subtopic 2
@@ -51,7 +49,6 @@ subtopic3: Subtopic 3
 ...
 keywords: keyword-1, keyword-2, keyword-3
 summary description: "Pytorch tutorial on hyper-dimensional covnets in 7.5 lines of code"
----
 </pre>
 
 Note: Add as many subtopics and keywords as necessary
