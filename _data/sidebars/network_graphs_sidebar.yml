@@ -1,0 +1,17 @@
+entries:
+- title: Sidebar # leave this as it is
+  product: Inference # this is the first part of title at the top of the sidebar
+  version: Intro # this is the second part of title at the top of the sidebar
+  folders:
+
+  - title: Networks and Graphs # name of the sidebar in the top blue tab
+    output: web # leave it as it is
+    folderitems:
+
+    - title: Networks and Graphs Introduction # name of the first gray-tab redirecting to the landing page
+      url: /network_graphs_landing_page.html # url to the landing page for the section. Same name as the Markdown file, but with a `.html` extension
+      output: web # leave it as it is
+
+    - title: Graph Partitioning
+      url: /graph_partitioning.html
+      output: web
