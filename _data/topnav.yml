@@ -24,3 +24,21 @@ topnav_dropdowns:
           url: /kernel_methods_landing_page.html
         - title: Data Reduction
           url: /data_reduction_landing_page.html
+        - title: Neural Networks
+          url: /neural_networks_landing_page.html
+        - title: Statistical Inference
+          url: /inference_landing_page.html
+        - title: Model Fitting
+          url: /model_fitting_landing_page.html
+        - title: Reinforcement Learning
+          url: /rl_landing_page.html
+        - title: Time Series
+          url: /time_series_landing_page.html
+        - title: Networks and Graphs
+          url: /network_graphs_landing_page.html
+
+
+
+
+
+
