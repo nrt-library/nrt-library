@@ -151,6 +151,38 @@
                         <li><a href="kernel_methods_landing_page.html">Kernel Methods</a></li>
                         
                         
+                        
+                        <li><a href="tools_landing_page.html">Tools</a></li>
+                        
+                        
+                        
+                        <li><a href="data_reduction_landing_page.html">Data Reduction</a></li>
+                        
+                        
+                        
+                        <li><a href="neural_networks_landing_page.html">Neural Networks</a></li>
+                        
+                        
+                        
+                        <li><a href="inference_landing_page.html">Statistical Inference</a></li>
+                        
+                        
+                        
+                        <li><a href="model_fitting_landing_page.html">Model Fitting</a></li>
+                        
+                        
+                        
+                        <li><a href="rl_landing_page.html">Reinforcement Learning</a></li>
+                        
+                        
+                        
+                        <li><a href="time_series_landing_page.html">Time Series</a></li>
+                        
+                        
+                        
+                        <li><a href="network_graphs_landing_page.html">Networks and Graphs</a></li>
+                        
+                        
                     </ul>
                 </li>
                 
@@ -264,6 +296,30 @@
 <!-- this highlights the active parent class in the navgoco sidebar. this is critical so that the parent expands when you're viewing a page. This must appear below the sidebar code above. Otherwise, if placed inside customscripts.js, the script runs before the sidebar code runs and the class never gets inserted.-->
 <script>$("li.active").parents('li').toggleClass("active");</script>
 
+                <!-- Table of contents Column -->
+                <span style="display:inline-block; width: 12px;"></span>
+                
+<!-- this handles the automatic toc. use ## for subheads to auto-generate the on-page minitoc. if you use html tags, you must supply an ID for the heading element in order for it to appear in the minitoc. -->
+<script>
+$( document ).ready(function() {
+  // Handler for .ready() called.
+
+$('#toc').toc({ minimumHeaders: 0, listType: 'ul', showSpeed: 0, headers: 'h2,h3,h4' });
+
+/* this offset helps account for the space taken up by the floating toolbar. */
+$('#toc').on('click', 'a', function() {
+  var target = $(this.getAttribute('href'))
+    , scroll_target = target.offset().top
+
+  $(window).scrollTop(scroll_target - 10);
+  return false
+})
+  
+});
+</script>
+
+<div id="toc"></div>
+
             </div>
             
         
@@ -305,13 +361,13 @@ $('#toc').on('click', 'a', function() {
 
     
 
-<!--
-    
-
-    <a target="_blank" rel="noopener" href="https://github.com/nrt-library/nrt-librarypages/tags/tag_pattern_recognition.md" class="btn btn-default githubEditButton" role="button"><i class="fa fa-github fa-lg"></i> Edit me</a>
 
     
--->
+
+    <a target="_blank" rel="noopener" href="https://github.com/nrt-library/nrt-library/blob/master/pages/tags/tag_pattern_recognition.md" class="btn btn-default githubEditButton" role="button"><i class="fa fa-github fa-lg"></i> Edit me</a>
+
+    
+
    <p>The following pages and posts are tagged with <button type="button" style="cursor: default" class="btn btn-default navbar-btn">pattern_recognition</button></p>
 <table><thead><tr><th>Title</th><th>Type</th><th>Excerpt</th></tr></thead>
     <tbody>
@@ -322,6 +378,22 @@ $('#toc').on('click', 'a', function() {
     
    
     
+   
+    
+        
+     
+   
+    
+   
+    
+   
+    
+        
+     
+   
+    
+   
+    
         
      
    
@@ -346,6 +418,14 @@ $('#toc').on('click', 'a', function() {
      
    
     
+   
+    
+        
+     
+   
+    
+   
+    
         
      
    
@@ -362,8 +442,8 @@ $('#toc').on('click', 'a', function() {
     
    
     
-   
-    
+        
+     
    
     
         
@@ -374,42 +454,18 @@ $('#toc').on('click', 'a', function() {
     
    
     
+        
+     
    
     
-   
-    
-   
-    
-   
-    
-   
-    
-   
-    
-   
-    
-   
-    
-   
-    
-   
-    
-   
-    
-   
-    
-   
-    
-   
-    
-   
-    
-   
-    
-   
-    
-   
-    
+        
+
+        <tr><td><a href="pca.html">Principal Components Analysis</a></td>
+            <td><span class="label label-default">Page</span></td>
+          <td> PCA is a method of data reduction that plots data along dimensions that explain the greatest variance in the data </td>
+        </tr>
+        
+     
    
     
    
@@ -486,6 +542,12 @@ $('#toc').on('click', 'a', function() {
     
    
     
+        
+     
+   
+    
+   
+    
    
     
         
@@ -494,10 +556,6 @@ $('#toc').on('click', 'a', function() {
     
         
      
-   
-    
-   
-    
    
     
    
@@ -534,10 +592,6 @@ $('#toc').on('click', 'a', function() {
     </div>
 
 
-<div id="commento"></div>
-<script src="https://cdn.commento.io/js/commento.js"></script>
-<noscript>Please enable JavaScript to load the comments.</noscript>
-
 
 
 </div>
@@ -548,7 +602,7 @@ $('#toc').on('click', 'a', function() {
             <div class="row">
                 <div class="col-lg-12 footer">
                &copy;2020 NRT Online Library. All rights reserved. <br />
- Site last generated: Jun 23, 2020 <br />
+ Site last generated: Jul 7, 2020 <br />
 <p><img src="images/magic-wand.svg" alt="Company logo"/></p>
                 </div>
             </div>

@@ -24,9 +24,6 @@ Kernel methods are especially useful for classification problems with nonlinear 
 
 You can explore kernel methods topics in the sidebar menu on the left, or in the table of contents below:
 
-* [Support Vector Machines][support_vector_machines]
-* [Topic 2][topic_2]
-* [Refresh][kernel_methods_landing_page]
-
-
-{% include links.html %}
+* [Support Vector Machines](support_vector_machines.html)
+* [Topic 2](topic_2.html)
+* [Refresh](kernel_methods_landing_page.html)

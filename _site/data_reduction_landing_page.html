@@ -4,9 +4,9 @@
     <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Kernel methods refer to a class of algorithms for pattern recognition where data points in the native representation space are mapped to higher dimensions us...">
+<meta name="description" content="Often it is difficult to visualize or understand high dimensional data. In these cases, it is helpful to perform some form of data reduction to gain addition...">
 <meta name="keywords" content="getting_started,  topic">
-<title>Kernel Methods in Pattern Recognition | NRT Online Library for Data Science and Human Behavior</title>
+<title>Data Reduction | NRT Online Library for Data Science and Human Behavior</title>
 <link rel="stylesheet" href="css/syntax.css">
 
 <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -148,7 +148,7 @@
                         
                         
                         
-                        <li class="dropdownActive"><a href="kernel_methods_landing_page.html">Kernel Methods</a></li>
+                        <li><a href="kernel_methods_landing_page.html">Kernel Methods</a></li>
                         
                         
                         
@@ -156,7 +156,7 @@
                         
                         
                         
-                        <li><a href="data_reduction_landing_page.html">Data Reduction</a></li>
+                        <li class="dropdownActive"><a href="data_reduction_landing_page.html">Data Reduction</a></li>
                         
                         
                         
@@ -192,7 +192,7 @@
 
 
 
-  <a class="email" title="Submit feedback" href="#" onclick="javascript:window.location='mailto:nrtlibrary@gmail.com?subject=NRT Online Library Data Science and Human Behavior feedback&body=I have some feedback about the Kernel Methods in Pattern Recognition page: ' + window.location.href;"><i class="fa fa-envelope-o"></i> Feedback</a>
+  <a class="email" title="Submit feedback" href="#" onclick="javascript:window.location='mailto:nrtlibrary@gmail.com?subject=NRT Online Library Data Science and Human Behavior feedback&body=I have some feedback about the Data Reduction page: ' + window.location.href;"><i class="fa fa-envelope-o"></i> Feedback</a>
 
 </li>
 
@@ -210,7 +210,7 @@
                                 searchInput: document.getElementById('search-input'),
                                 resultsContainer: document.getElementById('results-container'),
                                 dataSource: 'search.json',
-                                searchResultTemplate: '<li><a href="{url}" title="Kernel Methods in Pattern Recognition">{title}</a></li>',
+                                searchResultTemplate: '<li><a href="{url}" title="Data Reduction">{title}</a></li>',
                     noResultsText: 'No results found.',
                             limit: 10,
                             fuzzy: true,
@@ -236,31 +236,26 @@
                 
 
 <ul id="mysidebar" class="nav">
-  <li class="sidebarTitle">Kernel Methods Intro</li>
+  <li class="sidebarTitle">Data Reduction Intro</li>
   
   
+  
+      
   
   <li>
-      <a title="Kernel Methods" href="#">Kernel Methods</a>
+      <a title="Data Reduction" href="#">Data Reduction</a>
       <ul>
           
           
           
-          <li class="active"><a title="Kernel Methods Introduction" href="kernel_methods_landing_page.html">Kernel Methods Introduction</a></li>
+          <li class="active"><a title="Data Reduction Intro" href="data_reduction_landing_page.html">Data Reduction Intro</a></li>
           
           
           
           
           
           
-          <li><a title="Support Vector Machines" href="support_vector_machines.html">Support Vector Machines</a></li>
-          
-          
-          
-          
-          
-          
-          <li><a title="Topic 2" href="topic_2.html">Topic 2</a></li>
+          <li><a title="Principal Components Analysis" href="pca.html">Principal Components Analysis</a></li>
           
           
           
@@ -311,7 +306,7 @@ $('#toc').on('click', 'a', function() {
         <!-- Content Column -->
         <div class="col-md-9" id="tg-sb-content">
             <div class="post-header">
-   <h1 class="post-title-main">Kernel Methods in Pattern Recognition</h1>
+   <h1 class="post-title-main">Data Reduction</h1>
 </div>
 
 
@@ -319,7 +314,7 @@ $('#toc').on('click', 'a', function() {
 <div class="post-content">
 
    
-    <div class="summary">Kernel methods refer to a class of algorithms for pattern recognition where data points in the native representation space are mapped to higher dimensions using a 'kernel function' without actually computing the coordinates in the higher dimensions.</div>
+    <div class="summary">Often it is difficult to visualize or understand high dimensional data. In these cases, it is helpful to perform some form of data reduction to gain additional insight into the data</div>
    
 
     
@@ -350,28 +345,22 @@ $('#toc').on('click', 'a', function() {
 
     
 
-    <a target="_blank" rel="noopener" href="https://github.com/nrt-library/nrt-library/blob/master/pages/kernel_methods/kernel_methods_landing_page.md" class="btn btn-default githubEditButton" role="button"><i class="fa fa-github fa-lg"></i> Edit me</a>
+    <a target="_blank" rel="noopener" href="https://github.com/nrt-library/nrt-library/blob/master/pages/data_reduction/data_reduction_landing_page.md" class="btn btn-default githubEditButton" role="button"><i class="fa fa-github fa-lg"></i> Edit me</a>
 
     
 
-   <h2 id="what-are-kernel-methods">What are Kernel methods?</h2>
+   <h2 id="summary-of-data-reduction">Summary of Data Reduction</h2>
 
-<p>Kernel methods are a class of algorithms used for data classification and pattern analysis in general. They became popular in the 1990s due to the <strong>support vector machine</strong>, a special instance of kernel-based algorithms that performed at par with neural networks at the time.
-They continue to be powerful machine learning algorithms that are capable of finding decision boundaries in data that initially appear to have no clear decision boundary.</p>
+<p>Lorem Ipsum</p>
 
-<h2 id="when-are-they-useful">When are they useful?</h2>
+<h2 id="data-reduction-topics">Data reduction topics</h2>
 
-<p>Kernel methods are especially useful for classification problems with nonlinear decision boundaries in the native data space. The specialty of kernel-based methdods lie in their use of <strong>kernel functions</strong>, special functions that map the raw data points into a higher dimensional vector space through the inner products of the data points in the transformed space. That is, data points belonging to classes that are <strong>linearly inseparable</strong> in the native feature space are mapped to a higher dimension space where they may be linearly separable. A further advantage of this approach is that it is computationally efficient: the explicit coordinates of all data points in the higher dimensional space do not need to be computed. Instead the kernel function directly specifies the inner products (or pairwise distances) of the points in the transformed space.</p>
-
-<h2 id="kernel-methods-topics">Kernel methods topics</h2>
-
-<p>You can explore kernel methods topics in the sidebar menu on the left, or in the table of contents below:</p>
+<p>You can explore data reduction topics in the sidebar menu on the left, or in the table of contents below:</p>
 
 <ul>
-  <li><a href="support_vector_machines.html">Support Vector Machines</a></li>
-  <li><a href="topic_2.html">Topic 2</a></li>
-  <li><a href="kernel_methods_landing_page.html">Refresh</a></li>
+  <li>[Principal Components Analysis][pca]</li>
 </ul>
+
 
 
     <div class="tags">

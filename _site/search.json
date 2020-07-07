@@ -3,6 +3,72 @@
 
 
 
+{
+"title": "Activation Functions",
+"tags": "",
+"keywords": "topic",
+"url": "activation_functions.html",
+"summary": "Activation functions."
+}
+,
+
+
+
+{
+"title": "Cross Validation",
+"tags": "",
+"keywords": "topic",
+"url": "cross_valid.html",
+"summary": "Cross Validation is a method of assessing model performance by partioning data into multiple training and testing sets"
+}
+,
+
+
+
+{
+"title": "Data Reduction",
+"tags": "getting_started",
+"keywords": "topic",
+"url": "data_reduction_landing_page.html",
+"summary": "Often it is difficult to visualize or understand high dimensional data. In these cases, it is helpful to perform some form of data reduction to gain additional insight into the data"
+}
+,
+
+
+
+{
+"title": "Deep Hierarchical Reinforcement Learning",
+"tags": "",
+"keywords": "",
+"url": "dhrl.html",
+"summary": "Reinforcement learning plus temporal abstraction"
+}
+,
+
+
+
+
+
+{
+"title": "Gaussian Mixture Models",
+"tags": "getting_started",
+"keywords": "",
+"url": "gmm.html",
+"summary": "Express the meaning of a linguistic entity (word, phrase, sentence, paragraph, or document) as a vector in a multi-dimensional space, such that the similarity between entities expresses their similarity in meaning"
+}
+,
+
+
+
+{
+"title": "Graph Partitioning",
+"tags": "",
+"keywords": "",
+"url": "graph_partitioning.html",
+"summary": "Something about computational graphs"
+}
+,
+
 
 
 {
@@ -11,6 +77,17 @@
 "keywords": "sample homepage",
 "url": "index.html",
 "summary": "This is an awesome website full of data science wisdom."
+}
+,
+
+
+
+{
+"title": "Inference",
+"tags": "getting_started",
+"keywords": "topic",
+"url": "inference_landing_page.html",
+"summary": "Inference refers to the broad suite of data analysis techniques that aim to deduce properties about the probability distributions underlying phenomena of interest."
 }
 ,
 
@@ -61,11 +138,33 @@
 
 
 {
+"title": "Kalman Filters",
+"tags": "",
+"keywords": "topic",
+"url": "kalman_filters.html",
+"summary": "Method for predicting the next state of a system given some uncertainty."
+}
+,
+
+
+
+{
 "title": "Kernel Methods in Pattern Recognition",
 "tags": "getting_started",
 "keywords": "topic",
 "url": "kernel_methods_landing_page.html",
 "summary": "Kernel methods refer to a class of algorithms for pattern recognition where data points in the native representation space are mapped to higher dimensions using a 'kernel function' without actually computing the coordinates in the higher dimensions."
+}
+,
+
+
+
+{
+"title": "Model Fitting",
+"tags": "",
+"keywords": "topic",
+"url": "model_fitting_landing_page.html",
+"summary": "Finding simple ways to describe complex data"
 }
 ,
 
@@ -116,6 +215,28 @@
 
 
 {
+"title": "Networks and Graphs",
+"tags": "getting_started",
+"keywords": "topic",
+"url": "network_graphs_landing_page.html",
+"summary": "Graphical models and network analysis"
+}
+,
+
+
+
+{
+"title": "Neural Networks",
+"tags": "getting_started",
+"keywords": "topic",
+"url": "neural_networks_landing_page.html",
+"summary": "neural networks refer to a broad class of algorithms that used to represent learning in supervised as well as unsupervised contexts"
+}
+,
+
+
+
+{
 "title": "News",
 "tags": "",
 "keywords": "news, blog, updates, release notes, announcements",
@@ -149,257 +270,37 @@
 
 
 {
-"title": "Product 1",
+"title": "Principal Components Analysis",
+"tags": "pattern_recognition",
+"keywords": "topic",
+"url": "pca.html",
+"summary": "PCA is a method of data reduction that plots data along dimensions that explain the greatest variance in the data"
+}
+,
+
+
+
+
+
+{
+"title": "R Markdown",
 "tags": "",
-"keywords": "mydoc",
-"url": "p1_landing_page.html",
-"summary": ""
+"keywords": "topic",
+"url": "r_markdown.html",
+"summary": "R Markdown provides an authoring framework for data science in R. With a single R Markdown file, you can not only write, save, and execute your code but also communicate your process and results with an audience using high-quality, reproducible output formats."
 }
 ,
 
 
 
 {
-"title": "Sample 1 Topic (Product 1)",
+"title": "Reinforcement Learning",
 "tags": "",
-"keywords": "sample",
-"url": "p1_sample1.html",
-"summary": "This is just a sample topic..."
+"keywords": "topic",
+"url": "rl_landing_page.html",
+"summary": "Algorithms for describing how agents should act to maximize long-term rewards."
 }
 ,
-
-
-
-{
-"title": "Sample 2 Topic (Product 1)",
-"tags": "",
-"keywords": "sample",
-"url": "p1_sample2.html",
-"summary": "This is just a sample topic..."
-}
-,
-
-
-
-{
-"title": "Sample 3 Topic (Product 1)",
-"tags": "",
-"keywords": "sample",
-"url": "p1_sample3.html",
-"summary": "This is just a sample topic..."
-}
-,
-
-
-
-{
-"title": "Sample 4 Topic (Product 1)",
-"tags": "",
-"keywords": "sample",
-"url": "p1_sample4.html",
-"summary": "This is just a sample topic..."
-}
-,
-
-
-
-{
-"title": "Sample 5 Topic (Product 1)",
-"tags": "",
-"keywords": "sample",
-"url": "p1_sample5.html",
-"summary": "This is just a sample topic..."
-}
-,
-
-
-
-{
-"title": "Sample 6 Topic (Product 1)",
-"tags": "",
-"keywords": "sample",
-"url": "p1_sample6.html",
-"summary": "This is just a sample topic..."
-}
-,
-
-
-
-{
-"title": "Sample 7 Topic (Product 1)",
-"tags": "",
-"keywords": "sample",
-"url": "p1_sample7.html",
-"summary": "This is just a sample topic..."
-}
-,
-
-
-
-{
-"title": "Product 2",
-"tags": "",
-"keywords": "mydoc",
-"url": "p2_landing_page.html",
-"summary": ""
-}
-,
-
-
-
-{
-"title": "Sample 1 Topic",
-"tags": "",
-"keywords": "sample",
-"url": "p2_sample1.html",
-"summary": "This is just a sample topic..."
-}
-,
-
-
-
-{
-"title": "Sample 10 Topic",
-"tags": "",
-"keywords": "sample",
-"url": "p2_sample10.html",
-"summary": "This is just a sample topic..."
-}
-,
-
-
-
-{
-"title": "Sample 11 Topic",
-"tags": "",
-"keywords": "sample",
-"url": "p2_sample11.html",
-"summary": "This is just a sample topic..."
-}
-,
-
-
-
-{
-"title": "Sample 12 Topic",
-"tags": "",
-"keywords": "sample",
-"url": "p2_sample12.html",
-"summary": "This is just a sample topic..."
-}
-,
-
-
-
-{
-"title": "Sample 13 Topic",
-"tags": "",
-"keywords": "sample",
-"url": "p2_sample13.html",
-"summary": "This is just a sample topic..."
-}
-,
-
-
-
-{
-"title": "Sample 14 Topic",
-"tags": "",
-"keywords": "sample",
-"url": "p2_sample14.html",
-"summary": "This is just a sample topic..."
-}
-,
-
-
-
-{
-"title": "Sample 2 Topic",
-"tags": "",
-"keywords": "sample",
-"url": "p2_sample2.html",
-"summary": "This is just a sample topic..."
-}
-,
-
-
-
-{
-"title": "Sample 3 Topic",
-"tags": "",
-"keywords": "sample",
-"url": "p2_sample3.html",
-"summary": "This is just a sample topic..."
-}
-,
-
-
-
-{
-"title": "Sample 4 Topic",
-"tags": "",
-"keywords": "sample",
-"url": "p2_sample4.html",
-"summary": "This is just a sample topic..."
-}
-,
-
-
-
-{
-"title": "Sample 5 Topic",
-"tags": "",
-"keywords": "sample",
-"url": "p2_sample5.html",
-"summary": "This is just a sample topic..."
-}
-,
-
-
-
-{
-"title": "Sample 6 Topic",
-"tags": "",
-"keywords": "sample",
-"url": "p2_sample6.html",
-"summary": "This is just a sample topic..."
-}
-,
-
-
-
-{
-"title": "Sample 7 Topic",
-"tags": "",
-"keywords": "sample",
-"url": "p2_sample7.html",
-"summary": "This is just a sample topic..."
-}
-,
-
-
-
-{
-"title": "Sample 8 Topic",
-"tags": "",
-"keywords": "sample",
-"url": "p2_sample8.html",
-"summary": "This is just a sample topic..."
-}
-,
-
-
-
-{
-"title": "Sample 9 Topic",
-"tags": "",
-"keywords": "sample",
-"url": "p2_sample9.html",
-"summary": "This is just a sample topic..."
-}
-,
-
-
 
 
 
@@ -508,7 +409,29 @@
 
 
 
+{
+"title": "Time Series",
+"tags": "",
+"keywords": "topic",
+"url": "time_series_landing_page.html",
+"summary": "lorem ipsum"
+}
+,
 
+
+
+
+
+
+
+{
+"title": "Tools for data science",
+"tags": "getting_started",
+"keywords": "topic",
+"url": "tools_landing_page.html",
+"summary": "These are some tools that are helpful for creating and sharing reproducible code and documents. Many of these tools are indispensible for data scientists"
+}
+,
 
 
 
@@ -549,31 +472,6 @@
 
 
 
-<<<<<<< HEAD
-{
-"title": "Instructions to add new content sections to the NRT-Library website",
-"tags": "",
-"keywords": "",
-"url": "guidesguide-for-adding-new-sections.html",
-"summary": ""
-}
-,
-
-
-
-{
-"title": "Instructions to build NRT-Library website locally",
-"tags": "",
-"keywords": "",
-"url": "guidesguide-for-local-build.html",
-"summary": ""
-}
-,
-
-
-
-=======
->>>>>>> cfeab032a6f21ef36da0978bb10f4b4dc600ab76
 
 
 {

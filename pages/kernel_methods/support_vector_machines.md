@@ -21,8 +21,6 @@ folder: kernel_methods
 ### Videos
 
 
-
-
 <!--* <a href="https://www.youtube.com/watch?v=_PwhiWxHK8o" target="_blank">Patrick Winston’s lecture on SVMs is one of the easiest to follow and assumes a very minimal background in linear algebra and multivariable calculus.</a>-->
 
 * Patrick Winston’s lecture on SVMs is one of the easiest to follow and assumes a very minimal background in linear algebra and multivariable calculus.
@@ -30,9 +28,10 @@ folder: kernel_methods
 
 * <a href="https://youtu.be/lDwow4aOrtg?t=2782" target="_blank">One might like Andrew Ng’s lecture on the same from 2018, which is a bit more recent, but SVMs haven’t changed much over the past decade (begins at 46:22).</a>
 
-
 ### Code Implementations
 
 ### Blogs & Articles
 
 ### Journal Articles
+
+{% include links.html %}
