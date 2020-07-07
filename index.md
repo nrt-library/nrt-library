@@ -1,60 +1,63 @@
 ---
 title: "NRT Online Library for Data Science and Human Behavior"
-keywords: sample homepage
+keywords: homepage
 tags: [getting_started]
 sidebar: mydoc_sidebar
 permalink: index.html
-summary: This is an awesome website full of data science wisdom.
+summary: A community build and maintained hub for Data Science and Human Behavior learning resources 
 ---
 
-## SOME CHANGES
 
-I am adding some changes to illustrate how to change things!
-
-{% include note.html content="This is a note box to highligh very important things" %}
+{% include note.html content="The NRT Library for Data Science and Human Behavior is a work in progress" %}
 
 {% include cogsci_papernet_dynamic.html %}
 
 ## About
 
-Psychologist and neuroscientist are cooler when using Data Science magic.
-
-We created a library to guide in the journey of becoming a Data Science Wizard.
+The NRT Library for Data Science and Human Behavior (DS&HB Library for short) is a community maintained hub for educational resources at the intersection of Data Science and Human Behavior.
 
 ## How to navigate this website
 
-Content is organized families of topics, and subtopics.
+There are two navigation bars on the left-pane of the website. The one **at the top** allows you to navigate the subtopics within a larger topic or section. The one **at the bottom** (**Table of Contents**) allows to navigate the contents within a page (i.e., within a subtopic). For instance: [Natural Language Processing](nlp_landing_page) is a topic/section with several subtopics like [Sentiment Analysis](sentiment_analysis) and [Semantic Vectors](semantic_vectors). The tree structure looks like:
 
-You can access the content by surfing the Table of Contents in the left pane, or via the drop down "Topics" menu in the top navigation bar.
+[Natural Language Processing](nlp_landing_page):  
+    - [Sentiment Analysis](sentiment_analysis)  
+    - [Semantic Vectors](semantic_vectors)
 
-## I'm an absolute novice. Tell me what to learn!
-
-If you have never done any data science stuff, begin with our from zero to hero learning path to data science:
-
-* [Machine learning spells begginer level](https://www.youtube.com/watch?v=DQWI1kvmwRg)
-* [Coding like a wizard 101](https://www.youtube.com/watch?v=HluANRwPyNo)
+Once you select a subtopic, you wil see that the **Table of Contents** sidebar will display the contents within that subtopics.
 
 ## Library topics
 
-We have compiled a startling library of data science contents that you can explore in the **Table of Topics** section in the sidebar or [here][mydoc_topics].
+The full list of topics can be foun in the [Table of Topics](mydoc_topics.html) section in the sidebar and in the `Topics` drop-down menu tab in the top navigation bar.
 
-## I want to colaborate. Tell me what to do!
+## Contribution guidelines
 
-So you wanna add your fav tutorial? Send us an email to nrtlibrary@gmail.com
- or just click in the **Feedback** tab at the top navgation bar.
+There are two ways to contribute to the DS&HB Library:
+
+1. Complementing and updating the content of existing topics
+2. Adding new topics
+
+To complement and update contents of an existing topic, follow the instructions in the **Contribution guidelines** which can be found [here](mydoc_guides.html).
+
+To add a new section or topic to the site, please send an email to nrtlibrary@gmail.com or just click in the **Feedback** tab at the top navgation bar.
 
 <pre>
+
 ---
-Topic: Neural Networks
-subtopic: Convolutional Neural Networks
-keywords: pytorch, hyper-dimensional, cool-stuff
-link: www.great-link.fotolog.com
+Topic: Suggested Topic
+subtopic1: Subtopic 1
+subtopic2: Subtopic 2
+subtopic3: Subtopic 3
+...
+keywords: keyword-1, keyword-2, keyword-3
 summary description: "Pytorch tutorial on hyper-dimensional covnets in 7.5 lines of code"
 ---
 </pre>
 
+Note: Add as many subtopics and keywords as necessary
+
 ## Feedback
 
-Login to comment below or click in the **Feedback** to send us an email to nrtlibrary@gmail.com.
+For genera feedback, please send an email to nrtlibrary@gmail.com or just click in the **Feedback** tab at the top navgation bar.
 
 {% include links.html %}

@@ -32,8 +32,8 @@ entries:
       url: /mydoc_topics.html
       output: web
 
-    - title: Supported features
-      url: /mydoc_supported_features.html
+    - title: Contribution guidelines
+      url: /mydoc_guides.html
       output: web
 
     - title: About the authors

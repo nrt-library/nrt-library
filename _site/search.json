@@ -74,9 +74,9 @@
 {
 "title": "NRT Online Library for Data Science and Human Behavior",
 "tags": "getting_started",
-"keywords": "sample homepage",
+"keywords": "homepage",
 "url": "index.html",
-"summary": "This is an awesome website full of data science wisdom."
+"summary": "A community build and maintained hub for Data Science and Human Behavior learning resources"
 }
 ,
 
@@ -193,11 +193,11 @@
 
 
 {
-"title": "Supported features",
+"title": "Contribution guidelines",
 "tags": "getting_started",
-"keywords": "features",
-"url": "mydoc_supported_features.html",
-"summary": "Here we summarize all the features of this master piece."
+"keywords": "getting_started, guides",
+"url": "mydoc_guides.html",
+"summary": "Guidelines to contribute to the DS&HB website"
 }
 ,
 
