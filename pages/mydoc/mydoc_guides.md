@@ -1,7 +1,7 @@
 ---
 title: Contribution guidelines
 keywords: getting_started, guides
-last_updated: June 01, 2020
+last_updated: July 07, 2020
 tags: [getting_started]
 summary: "Guidelines to contribute to the DS&HB website"
 sidebar: mydoc_sidebar
@@ -9,6 +9,17 @@ permalink: mydoc_guides.html
 folder: mydoc
 ---
 
+## Content quality guidelines
+
+We want to maintain the highest possible standard of quality for the content we share with the community. When adding new contents as links to videos, scientific articles, and/or tutorials, please keep in mind their: 
+
+- **Accessibility**: Is it accessible for a wide variety of knowledge and skill levels? 
+- **Thoroughness**: Does it cover the key elements necessary to understand the subject?
+- **Availability**: Is it available free of charge? Is it available for users in different countries?
+- **Style**: Does the resource (i.e., speaker or writer) uses a welcoming and inclusive language to convey the content?
+- **Ethics**: Does the resource utilizes examples or teaches methods which can be harmful in any manner to vulnerable populations? 
+
+Finally, ask yourself if the resource or content in question is something **you feel excited and/or proud to share with others**.
 
 ## Complementing and updating the site contents
 
