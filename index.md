@@ -8,13 +8,13 @@ summary: A community build and maintained hub for Data Science and Human Behavio
 ---
 
 
-{% include note.html content="The NRT Library for Data Science and Human Behavior is a work in progress" %}
+{% include note.html content="The NRT Library for Data Science and Human Behavior is a work in progress. Here is a placeholder graphic:" %}
 
 {% include cogsci_papernet_dynamic.html %}
 
 ## About
 
-The NRT Library for Data Science and Human Behavior (DS&HB Library for short) is a community maintained hub for educational resources at the intersection of Data Science and Human Behavior.
+The NRT Library for Data Science and Human Behavior is a community-maintained hub for students and scientists who study human behavior to understand and apply new data-science methods, concepts, and techniques coming out of machine-learning, AI, and other fields. While there exist many online tutorials, videos, blogs, and other resources for learning about data-science, many of these are geared toward workers in industry, programmers, other communities with extensive technical expertise, or other domains of science. This library curates resources of specific interest and utility for those of us who study cognition, perception, action, language, neuroscience, social interactions, and other aspects of human behavior.
 
 ## How to navigate this website
 
@@ -55,6 +55,6 @@ Note: Add as many subtopics and keywords as necessary
 
 ## Feedback
 
-For genera feedback, please send an email to nrtlibrary@gmail.com or just click in the **Feedback** tab at the top navgation bar.
+For general feedback, please send an email to nrtlibrary@gmail.com or just click in the **Feedback** tab at the top navgation bar.
 
 {% include links.html %}
