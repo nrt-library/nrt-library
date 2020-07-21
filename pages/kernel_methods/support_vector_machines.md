@@ -49,7 +49,7 @@ This is what’s known as the ‘kernel-trick’ in SVMs.
 ### Code Implementations
 
 * To get a stronger grasp on the mathematics behind SVMs and do some ‘hands-on’ work with them we recommend this site:
-<a href="https://www.svm-tutorial.com/" target="_blank">Welcome to SVM tutorial - SVM Tutorial</a>
+<a href="https://www.svm-tutorial.com/" target="_blank">Welcome to SVM tutorial - SVM Tutorial</a>. 
 There are sections that detail different mathematical tools that SVMs employ and there’s a nice R tutorial on doing text-classification using SVMs
  
 * A python based implementation of SVM using scikit-learn:
