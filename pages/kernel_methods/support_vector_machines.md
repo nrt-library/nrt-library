@@ -18,7 +18,7 @@ Support Vector Machines (SVMs) deal with a fundamentally simple problem – how 
 
 This approach gets its name from support vectors, a subset of the labeled data points whose dot products help in determining the decision boundary. The decision boundary is arranged such that the distance between these support vectors, or the *margin width* is maximized.  
 
-<img src= "pages/kernel_methods/svm.png" style="max-width: 200px;"/>
+<img src= "pages/kernel_methods/svm.png" style="max-width: 400px;"/>
 
 In contrast to approaches like *simple* neural networks or least-squares classifiers SVMs have 3 distinct features that are important to consider together:
 
@@ -50,19 +50,20 @@ This is what’s known as the ‘kernel-trick’ in SVMs.
 
 * To get a stronger grasp on the mathematics behind SVMs and do some ‘hands-on’ work with them we recommend this site:
 <a href="https://www.svm-tutorial.com/" target="_blank">Welcome to SVM tutorial - SVM Tutorial</a>. 
-There are sections that detail different mathematical tools that SVMs employ and there’s a nice R tutorial on doing text-classification using SVMs
+
+There are sections that detail different mathematical tools that SVMs employ and there’s a nice R tutorial on doing text-classification using SVMs.
  
 * A python based implementation of SVM using scikit-learn:
-<a href="https://stackabuse.com/implementing-svm-and-kernel-svm-with-pythons-scikit-learn/" target="_blank"> Implementing SVM and Kernel SVM with Python's Scikit-Learn</a>
+<a href="https://stackabuse.com/implementing-svm-and-kernel-svm-with-pythons-scikit-learn/" target="_blank"> Implementing SVM and Kernel SVM with Python's Scikit-Learn.</a>
  
  
 Here’s another jupyter notebook based python implementation of SVMs using scikit-learn:
-<a href="https://www.learnopencv.com/svm-using-scikit-learn-in-python/" target="_blank">SVM using Scikit-Learn in Python</a>
+<a href="https://www.learnopencv.com/svm-using-scikit-learn-in-python/" target="_blank">SVM using Scikit-Learn in Python.</a>
 
 ### Blogs & Articles
 
 Here are 2 papers that employ SVMs in NLP and cognitive neuroscience settings:
-* <a href="https://www.aclweb.org/anthology/N04-1030/" target="_blank">Shallow Semantic Parsing using Support Vector Machines</a>
+* <a href="https://www.aclweb.org/anthology/N04-1030/" target="_blank">Shallow Semantic Parsing using Support Vector Machines.</a>
  
 * <a href="https://www.ncbi.nlm.nih.gov/pubmed/20112242" target="_blank">Effective functional mapping of fMRI data with support-vector machines.</a>
 
