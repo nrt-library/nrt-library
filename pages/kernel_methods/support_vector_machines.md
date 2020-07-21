@@ -29,6 +29,8 @@ In contrast to approaches like *simple* neural networks or least-squares classif
 3. Additionally, there often exist *kernel functions* that help us know the dot product of vectors in the high dimensional space as a function of the pair in the original space. This makes it even easier to compute the dot product and consequently the decision boundary!
 This is what’s known as the ‘kernel-trick’ in SVMs.
 
+SVMs are a great tool to use when you don't have large datasets, which neural networks usually require, and some non-trivial decision boundary between data points.
+It is easiest to use SVMs as binary classifiers, though it is possible to generalize to multinomial cases with some modifications.
 
 ## Recommended Path for Learning
 
