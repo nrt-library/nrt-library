@@ -3,16 +3,17 @@
 topnav:
 - title: Topnav
   items:
-    - title: GitHub
-      external_url: https://github.com/nrt-library/nrt-library
-    - title: News
+    - title: Table of Topics
+      #external_url: /mydoc_topics.html
+      url: /mydoc_topics.html
+    - title: Blog
       url: /news
 
 #Topnav dropdowns
 topnav_dropdowns:
 - title: Topnav dropdowns
   folders:
-    - title: Topics
+    - title: Topics List
       folderitems:
         - title: NRT Library Intro
           url: /index.html
