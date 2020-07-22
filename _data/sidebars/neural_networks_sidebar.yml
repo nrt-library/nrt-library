@@ -15,3 +15,39 @@ entries:
     - title: Activation Functions
       url: /activation_functions.html
       output: web
+
+    - title: Backpropagation Algorithm
+      url: /backprop.html
+      output: web
+
+    - title: Convolutional Neural Networks
+      url: /cnn.html
+      output: web
+
+    - title: Generative Adversarial Networks
+      url: /gan.html
+      output: web
+
+    - title: Long Short Term Memory Networks
+      url: /lstm.html
+      output: web
+
+    - title: Prebuilt Networks
+      url: /prebuilt_net.html
+      output: web
+
+    - title: Recurrent Neural Networks 
+      url: /rnn.html
+      output: web
+
+    - title: Transformers
+      url: /transformers.html
+      output: web
+
+    - title: Variational Autoencoders
+      url: /vae.html
+      output: web
+
+
+
+

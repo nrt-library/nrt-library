@@ -28,6 +28,41 @@ entries:
       url: /tools_landing_page.html
       output: web
 
+    - title: Git
+      url: /git.html
+      output: web
+
+    - title: Github
+      url: /github.html
+      output: web
+
+    - title: Jupyter
+      url: /jupyter.html
+      output: web
+
+    - title: Overleaf
+      url: /overleaf.html
+      output: web
+
+    - title: Papaja
+      url: /papaja.html
+      output: web
+
     - title: R Markdown
       url: /r_markdown.html
       output: web
+
+    - title: Reproducibility Tools
+      url: /reprod_tools.html
+      output: web
+
+    - title: Shell Tools
+      url: /shell.html
+      output: web
+
+    - title: Web Scraping
+      url: /web_scraping.html
+      output: web
+
+
+

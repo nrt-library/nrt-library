@@ -12,8 +12,20 @@ entries:
       url: /time_series_landing_page.html # url to the landing page for the section. Same name as the Markdown file, but with a `.html` extension
       output: web # leave it as it is
 
+    - title: Cross Wavelet Analysis
+      url: /cross_wavelet.html
+      output: web
+
+    - title: Detrended Fluctuation Analysis
+      url: /detrended_fluctuation.html
+      output: web
+
     - title: Kalman Filters
       url: /kalman_filters.html
+      output: web
+
+    - title: Recurrence Quantification Analysis
+      url: /rqa.html
       output: web
 
  

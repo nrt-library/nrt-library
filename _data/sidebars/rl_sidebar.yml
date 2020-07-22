@@ -12,9 +12,50 @@ entries:
       url: /rl_landing_page.html # url to the landing page for the section. Same name as the Markdown file, but with a `.html` extension
       output: web # leave it as it is
 
+    - title: Actor Critic Models
+      url: /actor_critic.html
+      output: web
+
+    - title: Contextual Multi-Armed Bandits
+      url: /c_ma_bandit.html
+      output: web
+
     - title: Deep Hierarchical RL 
       url: /dhrl.html
       output: web
+
+    - title: Dyna Q Algorithm
+      url: /dyna_q.html
+      output: web
+
+    - title: Multi-Armed Bandits
+      url: /ma_bandit.html
+      output: web
+
+    - title: Monte Carlo Search
+      url: /mc_search.html
+      output: web
+
+    - title: Model Based RL
+      url: /model_based_rl.html
+      output: web
+
+    - title: Model Free RL
+      url: /model_free_rl.html
+      output: web
+
+    - title: Policy Search
+      url: /policy_search.html
+      output: web
+
+    - title: Temporal Difference Algorithm
+      url: /temp_diff.html
+      output: web
+
+    - title: Tree Based Monte Carlo Search
+      url: /tree_based_mc.html
+      output: web
+
 
  
 

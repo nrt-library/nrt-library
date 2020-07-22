@@ -1,0 +1,35 @@
+entries:
+- title: Sidebar # leave this as it is
+  product: pattern_classification # this is the first part of title at the top of the sidebar
+  version: Intro # this is the second part of title at the top of the sidebar
+  folders:
+
+  - title: Pattern Classification # name of the sidebar in the top blue tab
+    output: web # leave it as it is
+    folderitems:
+
+    - title: Pattern Classification Introduction # name of the first gray-tab redirecting to the landing page
+      url: /pattern_classification_landing_page.html # url to the landing page for the section. Same name as the Markdown file, but with a `.html` extension
+      output: web # leave it as it is
+
+    - title: Logistic and Multinomial Regression
+      url: /logit_multi_reg.html
+      output: web
+
+    - title: Naive Bayes Classification
+      url: /naive_bayes.html
+      output: web
+
+    - title: Random Forests
+      url: /random_forest.html
+      output: web
+
+    - title: Support Vector Machines
+      url: /support_vector_machines.html
+      output: web
+
+   
+
+     
+
+    # you can add more sub-sections in the same manner

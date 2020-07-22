@@ -12,6 +12,42 @@ entries:
       url: /network_graphs_landing_page.html # url to the landing page for the section. Same name as the Markdown file, but with a `.html` extension
       output: web # leave it as it is
 
+    - title: Small World Structure 
+      url: /small_world_struct.html
+      output: web
+
+    - title: Node Degree
+      url: /node_degree.html
+      output: web
+
+    - title: Node Centrality
+      url: /node_cent.html
+      output: web
+
+    - title: Network Science for Brain Networks
+      url: /ns_for_bn.html
+      output: web
+
+    - title: Modularity in Networks
+      url: /modularity.html
+      output: web
+
+    - title: Layout Algorithms
+      url: /layout_alg.html
+      output: web
+
+    - title: Community Structure in Networks
+      url: /comm_struct.html
+      output: web
+
+    - title: State Space Modeling
+      url: /state_space_model.html
+      output: web
+
     - title: Graph Partitioning
       url: /graph_partitioning.html
+      output: web
+
+    - title: Graph and Network Structures
+      url: /graph_struct.html
       output: web

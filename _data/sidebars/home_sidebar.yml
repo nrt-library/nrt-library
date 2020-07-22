@@ -14,16 +14,4 @@ entries:
     - title: NRT Library Intro
       url: /index.html
       output: web
-    - title: Intro to Data Science
-      url: /intro_ds_landing_page.html
-      output: web
-    - title: NLP
-      url: /nlp_landing_page.html
-      output: web
-    - title: Kernel Methods
-      url: /kernel_methods_landing_page.html
-      output: web
-    - title: Tools
-      url: /tools_landing_page.html
-      output: web
-
+ 

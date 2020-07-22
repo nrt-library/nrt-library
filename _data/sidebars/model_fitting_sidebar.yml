@@ -15,3 +15,30 @@ entries:
     - title: Cross Validation
       url: /cross_valid.html
       output: web
+
+    - title: Elastic Nets
+      url: /elastic_nets.html
+      output: web
+
+    - title: Lasso Regression
+      url: /lasso.html
+      output: web
+
+    - title: Ridge Regression
+      url: /ridge.html
+      output: web
+
+    - title: Semi-supervised Learning
+      url: /semisupervised_learning.html
+      output: web
+
+    - title: Supervised Learning
+      url: /supervised_learning.html
+      output: web
+
+    - title: Unsupervised Learning
+      url: /unsupervised_learning.html
+      output: web
+
+
+

@@ -16,6 +16,14 @@ entries:
       url: /gmm.html
       output: web
 
+    - title: Kernel Density Estimation
+      url: /kde.html
+      output: web
+
+    - title: Latent Dirichlet Allocation
+      url: /lda.html
+      output: web
+
  
 
     # you can add more sub-sections in the same manner

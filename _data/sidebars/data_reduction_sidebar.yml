@@ -28,6 +28,37 @@ entries:
       url: /data_reduction_landing_page.html
       output: web
 
+    - title: Eigen Decomposition
+      url: /ed.html
+      output: web
+
+    - title: K-means
+      url: /kmeans.html
+      output: web
+
+    - title: K-nearest Neighbours
+      url: /knn.html
+      output: web
+
+    - title: Locally Linear Embeddings
+      url: /lle.html
+      output: web
+
     - title: Principal Components Analysis
       url: /pca.html
       output: web
+
+    - title: Spectral Clustering
+      url: /spectral_cluster.html
+      output: web
+
+    - title: Single Value Decomposition
+      url: /svd.html
+      output: web
+
+    - title: t-SNE
+      url: /tsne.html
+      output: web
+
+
+

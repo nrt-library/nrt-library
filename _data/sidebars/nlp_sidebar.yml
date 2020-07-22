@@ -28,14 +28,32 @@ entries:
       url: /nlp_landing_page.html
       output: web
 
-    - title: Sentiment Analysis
-      url: /sentiment_analysis.html
+    - title: Machine Translation
+      url: /machine_trans.html
       output: web
 
     - title: Semantic Vectors
       url: /semantic_vectors.html
       output: web
 
+    - title: Sentiment Analysis
+      url: /sentiment_analysis.html
+      output: web
+
+    - title: Speech Prediction
+      url: /speech_predict.html
+      output: web
+
     - title: Speech Recognition
       url: /speech_recognition.html
       output: web
+
+    - title: Topic Models
+      url: /topic_model.html
+      output: web
+
+    - title: Word2Vec
+      url: /word2vec.html
+      output: web
+
+
