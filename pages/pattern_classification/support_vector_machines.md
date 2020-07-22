@@ -6,9 +6,9 @@ keywords: "topic" # new keywords requiere to create a new tag file
 last_updated: "June 1, 2020"
 summary: "Support vector machines are a specific instance of kernel-methods used for data classification."
 published: true
-sidebar: kernel_methods_sidebar #name of yml sidebar file withouth extension
+sidebar: pattern_classification_sidebar #name of yml sidebar file withouth extension
 permalink: support_vector_machines.html
-folder: kernel_methods
+folder: pattern_classification
 ---
 
 
