@@ -4,9 +4,8 @@ keywords: homepage
 tags: [getting_started]
 sidebar: mydoc_sidebar
 permalink: index.html
-summary: A community build and maintained hub for Data Science and Human Behavior learning resources 
+summary: A community built maintained hub for Data Science and Human Behavior learning resources 
 ---
-
 
 {% include note.html content="The NRT Library for Data Science and Human Behavior is a work in progress. Here is a placeholder graphic:" %}
 
