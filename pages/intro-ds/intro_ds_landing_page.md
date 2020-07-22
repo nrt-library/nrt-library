@@ -11,26 +11,28 @@ permalink: intro_ds_landing_page.html
 folder: intro-ds
 ---
 
-## What is Data Science?
+{% include note.html content="Please utilize the template below as a reference for your contribution. Adapt the template when deemed necessary" %}
 
-The highest from of magic
+## What is TOPIC-NAME?
+
+Brief description.
 
 ## Video courses
 
 * Video 1
 * Video 2
 
+## Applied papers 
+* Paper 1
+* Paper 2
+
 ## Online tutorials
 
 * Online tutorial 1
 * Online tutorial 2
 
-## Data Science topics
-
-You can explore Data Science topics in the sidebar menu on the left, or in the table of contents below:
-
-* [Intro to Python][intro_python]
-* [Intro to R][intro_r]
-* [Intro to Stats][intro_stats]
+## Theory papers 
+* Paper 1
+* Paper 2
 
 {% include links.html %}

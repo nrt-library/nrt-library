@@ -11,26 +11,30 @@ permalink: intro_python.html
 folder: intro-ds
 ---
 
-## What is Python?
 
-The best programming language for Data Science ever.
+{% include note.html content="Please utilize the template below as a reference for your contribution. Adapt the template when deemed necessary" %}
 
-## Why Python?
+## What is TOPIC-NAME?
 
-Because:
-
-Beautiful is better than ugly.
-Explicit is better than implicit.
-Simple is better than complex.
+Brief description.
 
 ## Video courses
 
 * Video 1
 * Video 2
 
+## Applied papers 
+* Paper 1
+* Paper 2
+
 ## Online tutorials
 
 * Online tutorial 1
 * Online tutorial 2
+
+## Theory papers 
+* Paper 1
+* Paper 2
+
 
 {% include links.html %}

@@ -11,64 +11,29 @@ permalink: speech_recognition.html
 folder: nlp
 ---
 
-Speech recognition short definition
 
-## Speech recogniton analysis method 1
+{% include note.html content="Please utilize the template below as a reference for your contribution. Adapt the template when deemed necessary" %}
 
-So much methods.
+## What is TOPIC-NAME?
 
-### Recommended path for learning (requires knowledge of Python)
+Brief description.
 
-* Watch this high-level video
-* Read this online tutorial and carry out exercises in Python
-* Work  through this JuPyteR notebook example
-
-### Videos
+## Video courses
 
 * Video 1
 * Video 2
 
-### Applied papers
+## Applied papers 
+* Paper 1
+* Paper 2
 
-* Applied paper 1
-* Applied paper 2
-
-### Online Tutorials
-
-* Online tutorial 1
-* Online tutorial 2
-
-### Theory papers
-
-* Theory paper 1
-* Theory paper 2
-
-## Speech recogniton method 2
-
-So much methods.
-
-### Recommended path for learning (requires knowledge of R)
-
-* Watch this high-level video
-* Read this online tutorial and carry out exercises in Python
-* Work  through this JuPyteR notebook example
-
-### Videos
-
-* Video 1
-* Video 2
-
-### Applied papers
-
-* Applied paper 1
-* Applied paper 2
-
-### Online Tutorials
+## Online tutorials
 
 * Online tutorial 1
 * Online tutorial 2
 
-### Theory papers
+## Theory papers 
+* Paper 1
+* Paper 2
 
-* Theory paper 1
-* Theory paper 2
+{% include links.html %}

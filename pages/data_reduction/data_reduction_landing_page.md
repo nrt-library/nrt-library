@@ -11,14 +11,28 @@ permalink: data_reduction_landing_page.html
 folder: data_reduction
 ---
 
-## Summary of Data Reduction
+{% include note.html content="Please utilize the template below as a reference for your contribution. Adapt the template when deemed necessary" %}
 
-Lorem Ipsum
+## What is TOPIC-NAME?
 
-## Data reduction topics
+Brief description.
 
-You can explore data reduction topics in the sidebar menu on the left, or in the table of contents below:
+## Video courses
 
-* [Principal Components Analysis][pca]
+* Video 1
+* Video 2
+
+## Applied papers 
+* Paper 1
+* Paper 2
+
+## Online tutorials
+
+* Online tutorial 1
+* Online tutorial 2
+
+## Theory papers 
+* Paper 1
+* Paper 2
 
 {% include links.html %}

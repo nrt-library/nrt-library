@@ -40,6 +40,10 @@ entries:
       url: /mydoc_about.html
       output: web
 
+    - title: Suggest a Topic form
+      url: /mydoc_suggest.html
+      output: web
+
     - title: Contact
       url: /mydoc_contact.html
       output: web

@@ -11,13 +11,29 @@ permalink: tools_landing_page.html
 folder: tools
 ---
 
-## Summary of Tools
 
+{% include note.html content="Please utilize the template below as a reference for your contribution. Adapt the template when deemed necessary" %}
 
-## Tools topics
+## What is TOPIC-NAME?
 
-You can explore kernel methods topics in the sidebar menu on the left, or in the table of contents below:
+Brief description.
 
-* [R Markdown][r_markdown]
+## Video courses
+
+* Video 1
+* Video 2
+
+## Applied papers 
+* Paper 1
+* Paper 2
+
+## Online tutorials
+
+* Online tutorial 1
+* Online tutorial 2
+
+## Theory papers 
+* Paper 1
+* Paper 2
 
 {% include links.html %}

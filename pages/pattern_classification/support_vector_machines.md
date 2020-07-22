@@ -18,7 +18,7 @@ Support Vector Machines (SVMs) deal with a fundamentally simple problem – how 
 
 This approach gets its name from support vectors, a subset of the labeled data points whose dot products help in determining the decision boundary. The decision boundary is arranged such that the distance between these support vectors, or the *margin width* is maximized.  
 
-<img src= "pages/kernel_methods/svm.png" style="max-width: 400px;"/>
+<img src= "pages/pattern_classification/svm.png" style="max-width: 400px;"/>
 
 In contrast to approaches like *simple* neural networks or least-squares classifiers SVMs have 3 distinct features that are important to consider together:
 

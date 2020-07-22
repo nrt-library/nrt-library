@@ -11,12 +11,32 @@ permalink: gmm.html
 folder: inference
 ---
 
+{% include note.html content="Please utilize the template below as a reference for your contribution. Adapt the template when deemed necessary" %}
 
-### Framing
+## What is a Gaussian mixture model?
 
 A Gaussian mixture model (GMM) attempts to find a mixture of multi-dimensional Gaussian probability distributions that best model any input dataset. 
 
-### Recommended Path for Learning
+## Video courses
+
+* Video 1
+* Video 2
+
+## Applied papers 
+* Paper 1
+* Paper 2
+
+## Online tutorials
+
+* Online tutorial 1
+* Online tutorial 2
+
+## Theory papers 
+* Paper 1
+* Paper 2
+
+{% include links.html %}
+
 
 {% include links.html %}
 

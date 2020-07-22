@@ -4,11 +4,77 @@
 
 
 {
+"title": "Monte Carlo Search Methods",
+"tags": "",
+"keywords": "",
+"url": "mc_search.html",
+"summary": ""
+}
+,
+
+
+
+{
 "title": "Activation Functions",
 "tags": "",
 "keywords": "topic",
 "url": "activation_functions.html",
 "summary": "Activation functions."
+}
+,
+
+
+
+{
+"title": "Actor Critic Models",
+"tags": "",
+"keywords": "",
+"url": "actor_critic.html",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "Backpropagation Algorithm",
+"tags": "",
+"keywords": "topic",
+"url": "backprop.html",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "Contextual Multi-Armed Bandits",
+"tags": "",
+"keywords": "",
+"url": "c_ma_bandit.html",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "Convolutional Neural Networks",
+"tags": "",
+"keywords": "topic",
+"url": "cnn.html",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "Community Structure in Graphs and Networks",
+"tags": "getting_started",
+"keywords": "topic",
+"url": "comm_struct.html",
+"summary": ""
 }
 ,
 
@@ -26,11 +92,33 @@
 
 
 {
+"title": "Cross Wavelet Analysis",
+"tags": "",
+"keywords": "topic",
+"url": "cross_wavelet.html",
+"summary": ""
+}
+,
+
+
+
+{
 "title": "Data Reduction",
 "tags": "getting_started",
 "keywords": "topic",
 "url": "data_reduction_landing_page.html",
 "summary": "Often it is difficult to visualize or understand high dimensional data. In these cases, it is helpful to perform some form of data reduction to gain additional insight into the data"
+}
+,
+
+
+
+{
+"title": "Detrended Fluctuation Analysis",
+"tags": "",
+"keywords": "topic",
+"url": "detrended_fluctuation.html",
+"summary": ""
 }
 ,
 
@@ -46,6 +134,72 @@
 ,
 
 
+
+{
+"title": "The Dyna Q Algorithm",
+"tags": "",
+"keywords": "",
+"url": "dynaq.html",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "Eigen Decomposition",
+"tags": "pattern_recognition",
+"keywords": "topic",
+"url": "ed.html",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "Elastic Networks",
+"tags": "",
+"keywords": "topic",
+"url": "elastic_nets.html",
+"summary": "Cross Validation is a method of assessing model performance by partioning data into multiple training and testing sets"
+}
+,
+
+
+
+
+
+{
+"title": "Generative Adversarial Networks",
+"tags": "",
+"keywords": "topic",
+"url": "gan.html",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "Git",
+"tags": "",
+"keywords": "topic",
+"url": "git.html",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "GitHub",
+"tags": "",
+"keywords": "topic",
+"url": "github.html",
+"summary": ""
+}
+,
 
 
 
@@ -66,6 +220,17 @@
 "keywords": "",
 "url": "graph_partitioning.html",
 "summary": "Something about computational graphs"
+}
+,
+
+
+
+{
+"title": "Graph and Network Data Structures",
+"tags": "getting_started",
+"keywords": "topic",
+"url": "graph_struct.html",
+"summary": ""
 }
 ,
 
@@ -138,6 +303,17 @@
 
 
 {
+"title": "Jupyter Tools",
+"tags": "",
+"keywords": "topic",
+"url": "jupyter.html",
+"summary": ""
+}
+,
+
+
+
+{
 "title": "Kalman Filters",
 "tags": "",
 "keywords": "topic",
@@ -149,11 +325,132 @@
 
 
 {
-"title": "Kernel Methods in Pattern Recognition",
+"title": "Kernel Density Estimation",
+"tags": "getting_started",
+"keywords": "",
+"url": "kde.html",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "K-Means Clustering",
+"tags": "pattern_recognition",
+"keywords": "topic",
+"url": "kmeans.html",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "K-Nearest Neighbours",
+"tags": "pattern_recognition",
+"keywords": "topic",
+"url": "knn.html",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "Lasso Regression",
+"tags": "",
+"keywords": "topic",
+"url": "lasso.html",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "Graph Layout Algorithms",
 "tags": "getting_started",
 "keywords": "topic",
-"url": "kernel_methods_landing_page.html",
-"summary": "Kernel methods refer to a class of algorithms for pattern recognition where data points in the native representation space are mapped to higher dimensions using a 'kernel function' without actually computing the coordinates in the higher dimensions."
+"url": "layout_alg.html",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "Latent Dirichlet Allocation",
+"tags": "getting_started",
+"keywords": "",
+"url": "lda.html",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "Locally Linear Embeddings",
+"tags": "pattern_recognition",
+"keywords": "topic",
+"url": "lle.html",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "Logistic and Multinomial Regression",
+"tags": "pattern_recognition",
+"keywords": "topic",
+"url": "logit_multi_reg.html",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "Long Short Term Memory Networks",
+"tags": "",
+"keywords": "topic",
+"url": "lstm.html",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "Multi-armed Bandits",
+"tags": "",
+"keywords": "",
+"url": "ma_bandit.html",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "Machine Translation",
+"tags": "",
+"keywords": "sentiment_analysis",
+"url": "machine_trans.html",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "Model Based Reinforcement Learning",
+"tags": "",
+"keywords": "",
+"url": "model_based_rl.html",
+"summary": ""
 }
 ,
 
@@ -165,6 +462,28 @@
 "keywords": "topic",
 "url": "model_fitting_landing_page.html",
 "summary": "Finding simple ways to describe complex data"
+}
+,
+
+
+
+{
+"title": "Model-Free Reinforcement Learning",
+"tags": "",
+"keywords": "",
+"url": "model_free_rl.html",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "Modularity in Graphs and Networks",
+"tags": "getting_started",
+"keywords": "topic",
+"url": "modularity.html",
+"summary": ""
 }
 ,
 
@@ -204,10 +523,32 @@
 
 
 {
+"title": "Suggest a Topic Form",
+"tags": "",
+"keywords": "",
+"url": "mydoc_suggest.html",
+"summary": ""
+}
+,
+
+
+
+{
 "title": "Table of Topics",
 "tags": "",
 "keywords": "",
 "url": "mydoc_topics.html",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "Naive Bayes Classifiers",
+"tags": "pattern_recognition",
+"keywords": "topic",
+"url": "naive_bayes.html",
 "summary": ""
 }
 ,
@@ -270,11 +611,99 @@
 
 
 {
+"title": "Node Centrality",
+"tags": "getting_started",
+"keywords": "topic",
+"url": "node_cent.html",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "Node Degree",
+"tags": "getting_started",
+"keywords": "topic",
+"url": "node_degree.html",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "Network Science for Brain Networks",
+"tags": "getting_started",
+"keywords": "topic",
+"url": "ns_for_bn.html",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "Overleaf for LaTeX",
+"tags": "",
+"keywords": "topic",
+"url": "overleaf.html",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "Papaja",
+"tags": "",
+"keywords": "topic",
+"url": "papaja.html",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "Pattern Classification",
+"tags": "getting_started",
+"keywords": "topic",
+"url": "pattern_classification_landing_page.html",
+"summary": "Kernel methods refer to a class of algorithms for pattern recognition where data points in the native representation space are mapped to higher dimensions using a 'kernel function' without actually computing the coordinates in the higher dimensions."
+}
+,
+
+
+
+{
 "title": "Principal Components Analysis",
 "tags": "pattern_recognition",
 "keywords": "topic",
 "url": "pca.html",
 "summary": "PCA is a method of data reduction that plots data along dimensions that explain the greatest variance in the data"
+}
+,
+
+
+
+{
+"title": "Policy Search",
+"tags": "",
+"keywords": "",
+"url": "policy_search.html",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "Working with Prebuilt Networks",
+"tags": "",
+"keywords": "topic",
+"url": "prebuilt_net.html",
+"summary": ""
 }
 ,
 
@@ -294,11 +723,66 @@
 
 
 {
+"title": "Random Forests",
+"tags": "pattern_recognition",
+"keywords": "topic",
+"url": "random_forest.html",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "Reproducibility Tools",
+"tags": "",
+"keywords": "topic",
+"url": "reprod_tools.html",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "Ridge Regression",
+"tags": "",
+"keywords": "topic",
+"url": "ridge.html",
+"summary": ""
+}
+,
+
+
+
+{
 "title": "Reinforcement Learning",
 "tags": "",
 "keywords": "topic",
 "url": "rl_landing_page.html",
 "summary": "Algorithms for describing how agents should act to maximize long-term rewards."
+}
+,
+
+
+
+{
+"title": "Recurrent Neural Networks",
+"tags": "",
+"keywords": "topic",
+"url": "rnn.html",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "Recurrence Quantification Analysis",
+"tags": "",
+"keywords": "topic",
+"url": "rqa.html",
+"summary": ""
 }
 ,
 
@@ -318,6 +802,17 @@
 
 
 {
+"title": "Semi-supervised Learning",
+"tags": "",
+"keywords": "topic",
+"url": "semisupervised_learning.html",
+"summary": ""
+}
+,
+
+
+
+{
 "title": "Sentiment Analysis",
 "tags": "sentiment_analysis",
 "keywords": "sentiment_analysis",
@@ -328,6 +823,50 @@
 
 
 
+{
+"title": "Shell Tools and Scripting",
+"tags": "",
+"keywords": "topic",
+"url": "shell.html",
+"summary": ""
+}
+,
+
+
+
+
+
+{
+"title": "Small World Structure",
+"tags": "getting_started",
+"keywords": "topic",
+"url": "small_world_struct.html",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "Spectral Clustering",
+"tags": "pattern_recognition",
+"keywords": "topic",
+"url": "spectral_cluster.html",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "Speech Prediction",
+"tags": "",
+"keywords": "",
+"url": "speech_predict.html",
+"summary": ""
+}
+,
+
 
 
 {
@@ -336,6 +875,17 @@
 "keywords": "speech_recognition",
 "url": "speech_recognition.html",
 "summary": "Identify the sequence of words produced in audio recordings of speech."
+}
+,
+
+
+
+{
+"title": "State Space Modeling",
+"tags": "getting_started",
+"keywords": "topic",
+"url": "state_space_model.html",
+"summary": ""
 }
 ,
 
@@ -375,11 +925,33 @@
 
 
 {
+"title": "Supervised Learning",
+"tags": "",
+"keywords": "topic",
+"url": "supervised_learning.html",
+"summary": ""
+}
+,
+
+
+
+{
 "title": "Support Vector Machines",
 "tags": "pattern_recognition",
 "keywords": "topic",
 "url": "support_vector_machines.html",
 "summary": "Support vector machines are a specific instance of kernel-methods used for data classification."
+}
+,
+
+
+
+{
+"title": "Singular Value Decomposition",
+"tags": "pattern_recognition",
+"keywords": "topic",
+"url": "svd.html",
+"summary": ""
 }
 ,
 
@@ -406,6 +978,17 @@
 
 
 
+
+
+
+{
+"title": "The Temporal Difference Algorithm",
+"tags": "",
+"keywords": "",
+"url": "temp_diff.html",
+"summary": ""
+}
+,
 
 
 
@@ -440,22 +1023,99 @@
 
 
 {
-"title": "KM_topic_2",
+"title": "Topic home",
 "tags": "getting_started",
-"keywords": "getting_started",
-"url": "topic_2.html",
-"summary": "Kernel methods topic 2"
+"keywords": "topic",
+"url": "topic_landing_page.html",
+"summary": "Summary of topic."
 }
 ,
 
 
 
 {
-"title": "Topic home",
-"tags": "getting_started",
+"title": "Topic Models",
+"tags": "",
+"keywords": "",
+"url": "topic_model.html",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "Transformer Models",
+"tags": "",
 "keywords": "topic",
-"url": "topic_landing_page.html",
-"summary": "Summary of topic."
+"url": "transformers.html",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "Tree Based Monte Carlo Search",
+"tags": "",
+"keywords": "",
+"url": "tree_based_mc.html",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "t-Stochastic Neigbour Embeddings",
+"tags": "pattern_recognition",
+"keywords": "topic",
+"url": "tsne.html",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "Unsupervised Learning",
+"tags": "",
+"keywords": "topic",
+"url": "unsupervised_learning.html",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "Variational Autoencoders",
+"tags": "",
+"keywords": "topic",
+"url": "vae.html",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "Web Scraping",
+"tags": "",
+"keywords": "topic",
+"url": "web_scraping.html",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "Word2Vec",
+"tags": "",
+"keywords": "",
+"url": "word2vec.html",
+"summary": ""
 }
 ,
 

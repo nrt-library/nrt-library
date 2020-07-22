@@ -11,7 +11,9 @@ folder: kernel_methods
 ---
 
 
-## Framing
+{% include note.html content="Please utilize the template below as a reference for your contribution. Adapt the template when deemed necessary" %}
+
+## What is TOPIC-NAME?
 
 _From [this blog](http://www.bzarg.com/p/how-a-kalman-filter-works-in-pictures/)_
 
@@ -19,12 +21,22 @@ You can use a Kalman filter in any place where you have uncertain information ab
 
 Kalman filters are ideal for systems which are continuously changing. They have the advantage that they are light on memory (they don’t need to keep any history other than the previous state), and they are very fast, making them well suited for real time problems and embedded systems.
 
-## Recommended Path for Learning
+## Video courses
 
-### Videos
+* Video 1
+* Video 2
 
-### Code Implementations
+## Applied papers 
+* Paper 1
+* Paper 2
 
-### Blogs & Articles
+## Online tutorials
 
-### Journal Articles
+* Online tutorial 1
+* Online tutorial 2
+
+## Theory papers 
+* Paper 1
+* Paper 2
+
+{% include links.html %}

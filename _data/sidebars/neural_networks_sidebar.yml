@@ -1,7 +1,7 @@
 entries:
 - title: Sidebar # leave this as it is
-  product: Inference # this is the first part of title at the top of the sidebar
-  version: Intro # this is the second part of title at the top of the sidebar
+  product: Neural Networks # this is the first part of title at the top of the sidebar
+  version:  # this is the second part of title at the top of the sidebar
   folders:
 
   - title: Neural Networks # name of the sidebar in the top blue tab

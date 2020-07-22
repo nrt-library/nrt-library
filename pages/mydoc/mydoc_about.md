@@ -36,7 +36,7 @@ If you have a picture in your GitHub account you can right-click your profile im
 <img src="https://avatars3.githubusercontent.com/u/35237403?" style="width:100px;height:100px;" /> 
 <b>Name</b>: Pablo Caceres
 <b>Bio</b>: PhD student in Psychology at UW-Madison
-<b>Website</b>:<a href="https://github.com/pabloinsente">Pablo's GitHub Account</a>
+<b>Website</b>: <a href="https://github.com/pabloinsente">Pablo's GitHub Account</a>; <a href="https://pablocaceres.org/">Pablo's Personal Site</a>
 <b>Email</b>: pcaceres@wisc.edu
 <b>Contributed to</b>: Build the website infrastructure and interface
 </pre>

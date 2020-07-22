@@ -11,20 +11,31 @@ permalink: nlp_landing_page.html
 folder: nlp
 ---
 
-## What is NLP?
+{% include note.html content="Please utilize the template below as a reference for your contribution. Adapt the template when deemed necessary" %}
 
-NLP is pretty dope.
+## What is TOPIC-NAME?
 
-## What is NLP used for?
+Brief description.
 
-To do languague things.
+## Video courses
 
-## NLP Topics
+* Video 1
+* Video 2
 
-You can explore NLP topics in the sidebar menu on the left, or in the table of contents below:
+## Applied papers 
+* Paper 1
+* Paper 2
 
-* [Estimate Semantic Vectors][semantic_vectors]
-* [Sentiment Analysis][sentiment_analysis]
-* [Speech Recognition][speech_recognition]
+## Online tutorials
+
+* Online tutorial 1
+* Online tutorial 2
+
+## Theory papers 
+* Paper 1
+* Paper 2
+
+{% include links.html %}
+
 
 {% include links.html %}

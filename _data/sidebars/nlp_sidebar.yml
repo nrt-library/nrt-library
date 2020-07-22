@@ -5,21 +5,8 @@
 entries:
 - title: Sidebar
   product: NLP
-  version: Intro
+  version:
   folders:
-
-  - title:
-    output: pdf
-    type: frontmatter
-    folderitems:
-    - title:
-      url: /titlepage.html
-      output: pdf
-      type: frontmatter
-    - title:
-      url: /tocpage.html
-      output: pdf
-      type: frontmatter  
 
   - title: NLP
     output: web

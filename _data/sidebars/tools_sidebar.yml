@@ -4,24 +4,11 @@
 
 entries:
 - title: Sidebar
-  product: tools
+  product: Tools for Data Science
   version: Intro
   folders:
 
-  - title:
-    output: pdf
-    type: frontmatter
-    folderitems:
-    - title:
-      url: /titlepage.html
-      output: pdf
-      type: frontmatter
-    - title:
-      url: /tocpage.html
-      output: pdf
-      type: frontmatter  
-
-  - title: Tools
+  - title: Tools for Data Science
     output: web
     folderitems:
     - title: Tools Intro 

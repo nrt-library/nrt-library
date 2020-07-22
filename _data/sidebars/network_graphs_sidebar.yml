@@ -1,6 +1,6 @@
 entries:
 - title: Sidebar # leave this as it is
-  product: Inference # this is the first part of title at the top of the sidebar
+  product: Networks and Graphs # this is the first part of title at the top of the sidebar
   version: Intro # this is the second part of title at the top of the sidebar
   folders:
 

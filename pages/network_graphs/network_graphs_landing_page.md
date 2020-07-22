@@ -11,14 +11,33 @@ permalink: network_graphs_landing_page.html
 folder: networks_graphs
 ---
 
-## What are Networks and Graphical Methods?
 
+{% include note.html content="Please utilize the template below as a reference for your contribution. Adapt the template when deemed necessary" %}
 
-## What are these methods useful for?
+## What is TOPIC-NAME?
 
+Brief description.
 
+## Video courses
 
-## Networks and Graphical Model Topics:
+* Video 1
+* Video 2
+
+## Applied papers 
+* Paper 1
+* Paper 2
+
+## Online tutorials
+
+* Online tutorial 1
+* Online tutorial 2
+
+## Theory papers 
+* Paper 1
+* Paper 2
+
+{% include links.html %}
+
 
 
 

@@ -10,16 +10,29 @@ permalink: rl_landing_page.html
 folder: rl
 ---
 
+
+{% include note.html content="Please utilize the template below as a reference for your contribution. Adapt the template when deemed necessary" %}
+
 ## What is Reinforcement Learning?
 
 Reinforcement learning is an area of machine learning concerned with how agents ought to take actions in an environment in order to maximize the notion of cumulative reward. Reinforcement learning is one of three basic machine learning paradigms, alongside supervised learning and unsupervised learning.
 
-## What is RL used for?
+## Video courses
 
-[Deep Hierarchical Reinforcement Learning](dhrl)
+* Video 1
+* Video 2
 
-## RL Topics
+## Applied papers 
+* Paper 1
+* Paper 2
 
-* This will be a list of RL topics
+## Online tutorials
+
+* Online tutorial 1
+* Online tutorial 2
+
+## Theory papers 
+* Paper 1
+* Paper 2
 
 {% include links.html %}

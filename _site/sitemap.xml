@@ -26,7 +26,43 @@
   
   
   <url>
+    <loc>http://localhost:4000/mc_search.html</loc>
+  </url>
+  
+  
+  
+  <url>
     <loc>http://localhost:4000/activation_functions.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/actor_critic.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/backprop.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/c_ma_bandit.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cnn.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/comm_struct.html</loc>
   </url>
   
   
@@ -38,7 +74,19 @@
   
   
   <url>
+    <loc>http://localhost:4000/cross_wavelet.html</loc>
+  </url>
+  
+  
+  
+  <url>
     <loc>http://localhost:4000/data_reduction_landing_page.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/detrended_fluctuation.html</loc>
   </url>
   
   
@@ -48,6 +96,42 @@
   </url>
   
   
+  
+  <url>
+    <loc>http://localhost:4000/dynaq.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/ed.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/elastic_nets.html</loc>
+  </url>
+  
+  
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/gan.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/git.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/github.html</loc>
+  </url>
   
   
   
@@ -59,6 +143,12 @@
   
   <url>
     <loc>http://localhost:4000/graph_partitioning.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/graph_struct.html</loc>
   </url>
   
   
@@ -100,19 +190,103 @@
   
   
   <url>
+    <loc>http://localhost:4000/jupyter.html</loc>
+  </url>
+  
+  
+  
+  <url>
     <loc>http://localhost:4000/kalman_filters.html</loc>
   </url>
   
   
   
   <url>
-    <loc>http://localhost:4000/kernel_methods_landing_page.html</loc>
+    <loc>http://localhost:4000/kde.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/kmeans.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/knn.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/lasso.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/layout_alg.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/lda.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/lle.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/logit_multi_reg.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/lstm.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/ma_bandit.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/machine_trans.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/model_based_rl.html</loc>
   </url>
   
   
   
   <url>
     <loc>http://localhost:4000/model_fitting_landing_page.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/model_free_rl.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/modularity.html</loc>
   </url>
   
   
@@ -136,7 +310,19 @@
   
   
   <url>
+    <loc>http://localhost:4000/mydoc_suggest.html</loc>
+  </url>
+  
+  
+  
+  <url>
     <loc>http://localhost:4000/mydoc_topics.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/naive_bayes.html</loc>
   </url>
   
   
@@ -172,7 +358,55 @@
   
   
   <url>
+    <loc>http://localhost:4000/node_cent.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/node_degree.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/ns_for_bn.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/overleaf.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/papaja.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/pattern_classification_landing_page.html</loc>
+  </url>
+  
+  
+  
+  <url>
     <loc>http://localhost:4000/pca.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/policy_search.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/prebuilt_net.html</loc>
   </url>
   
   
@@ -186,7 +420,37 @@
   
   
   <url>
+    <loc>http://localhost:4000/random_forest.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/reprod_tools.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/ridge.html</loc>
+  </url>
+  
+  
+  
+  <url>
     <loc>http://localhost:4000/rl_landing_page.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/rnn.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/rqa.html</loc>
   </url>
   
   
@@ -200,7 +464,19 @@
   
   
   <url>
+    <loc>http://localhost:4000/semisupervised_learning.html</loc>
+  </url>
+  
+  
+  
+  <url>
     <loc>http://localhost:4000/sentiment_analysis.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/shell.html</loc>
   </url>
   
   
@@ -208,7 +484,31 @@
   
   
   <url>
+    <loc>http://localhost:4000/small_world_struct.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/spectral_cluster.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/speech_predict.html</loc>
+  </url>
+  
+  
+  
+  <url>
     <loc>http://localhost:4000/speech_recognition.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/state_space_model.html</loc>
   </url>
   
   
@@ -232,7 +532,19 @@
   
   
   <url>
+    <loc>http://localhost:4000/supervised_learning.html</loc>
+  </url>
+  
+  
+  
+  <url>
     <loc>http://localhost:4000/support_vector_machines.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/svd.html</loc>
   </url>
   
   
@@ -258,6 +570,12 @@
   
   
   
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/temp_diff.html</loc>
+  </url>
   
   
   
@@ -282,13 +600,55 @@
   
   
   <url>
-    <loc>http://localhost:4000/topic_2.html</loc>
+    <loc>http://localhost:4000/topic_landing_page.html</loc>
   </url>
   
   
   
   <url>
-    <loc>http://localhost:4000/topic_landing_page.html</loc>
+    <loc>http://localhost:4000/topic_model.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/transformers.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/tree_based_mc.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/tsne.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/unsupervised_learning.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/vae.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/web_scraping.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/word2vec.html</loc>
   </url>
   
   

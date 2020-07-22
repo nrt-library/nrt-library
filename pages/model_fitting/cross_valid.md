@@ -10,19 +10,26 @@ permalink: cross_valid.html
 folder: model_fitting
 ---
 
-
-
-
-## Framing
+## What is cross validation?
 
 While cross validation is a common technique for estimating expected performance of a model in new data, cross validation can also be used to select the “best” configuration of a model (i.e. select the model that is expected to perform best in new data and is therefore closest to the true data generating process). Cross validation for parameter selection includes both hyperparameter tuning (or choosing the best parameter values for different statistical models) as well as choosing the best model configuration (e.g. using CV for selecting covariates, deciding on X transformations, outlier identification approaches, or selecting between different statistical models).
 
-## Recommended Path for Learning
+## Video courses
 
-### Videos
+* Video 1
+* Video 2
 
-### Code Implementations
+## Applied papers 
+* Paper 1
+* Paper 2
 
-### Blogs & Articles
+## Online tutorials
 
-### Journal Articles
+* Online tutorial 1
+* Online tutorial 2
+
+## Theory papers 
+* Paper 1
+* Paper 2
+
+{% include links.html %}
