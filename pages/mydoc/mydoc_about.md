@@ -38,8 +38,38 @@ If you have a picture in your GitHub account you can right-click your profile im
 <b>Bio</b>: PhD student in Psychology at UW-Madison
 <b>Website</b>: <a href="https://github.com/pabloinsente">Pablo's GitHub Account</a>; <a href="https://pablocaceres.org/">Pablo's Personal Site</a>
 <b>Email</b>: pcaceres@wisc.edu
-<b>Contributed to</b>: Build the website infrastructure and interface
+<b>Contributed to</b>: Built the website infrastructure and interface
 </pre>
+
+<pre>
+<img src="https://avatars2.githubusercontent.com/u/23156771?s" style="width:100px;height:100px;" /> 
+<b>Name</b>: Kushin Mukherjee
+<b>Bio</b>: Psychology PhD student at UW-Madison
+<b>Website</b>: <a href="https://github.com/kushinm">Kushins's GitHub Account</a>;
+<b>Email</b>: kmukherjee@wisc.edu
+<b>Contributed to</b>: Support Vector Machines, frontend content
+</pre>
+
+<pre>
+<img src="https://avatars3.githubusercontent.com/u/16246984?s" style="width:100px;height:100px;" /> 
+<b>Name</b>: Tim Rogers
+<b>Bio</b>: Psychology Faculty and LUCID PI at UW-Madison
+<b>Website</b>: <a href="https://github.com/ttrogers">Tim's GitHub Account</a>; <a href="http://concepts.psych.wisc.edu/"></a>Knowledge & Concepts Lab
+<b>Email</b>: ttrogers@wisc.edu
+<b>Contributed to</b>: Introduction, various topics and resources, information architecture 
+</pre>
+
+<pre>
+<img src="https://avatars3.githubusercontent.com/u/67299688?s" style="width:100px;height:100px;" /> 
+<b>Name</b>: Caitlin E. Iverson
+<b>Bio</b>: LUCID Program Manager at UW-Madison
+<b>Website</b>: <a href="https://github.com/ceiverson">Caitlin's GitHub Account</a>; <a href="https://LUCID.wisc.edu/">LUCID</a>
+<b>Email</b>: ceiverson@wisc.edu
+<b>Contributed to</b>: content edits
+</pre>
+
+
+
 
 Add your profile card here! ☝️
 
