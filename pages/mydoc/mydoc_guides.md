@@ -27,7 +27,7 @@ Here are instructions to complement and/or update the contents of *existing sect
 
 The first step is to click in the `Edit me` icon at the top of the page you want to change as shown below:
 
-![step-01](images/guides1.png)
+![step-01](images/change-sections-01.png)
 
 You will be redirected to the website GitHub repository for that section. There, click in the pen icon to edit the contents. You will need a GitHub account to edit the contents. If you do not have one, GitHub will guide you on the creation of a new account. Unless you have "writing access" (i.e., you are one of the main developers for the project), GitHub will "fork" the repository into your account. A "fork" is simply a clone of the repository in your account.
 
