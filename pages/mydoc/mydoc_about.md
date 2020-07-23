@@ -45,8 +45,8 @@ If you have a picture in your GitHub account you can right-click your profile im
 <img src="https://avatars2.githubusercontent.com/u/23156771?s" style="width:100px;height:100px;" /> 
 <b>Name</b>: Kushin Mukherjee
 <b>Bio</b>: Psychology PhD student at UW-Madison
-<b>Website</b>: <a href="https://github.com/kushinm">Kushins's GitHub Account</a>;
-<b>Email</b>: kmukherjee@wisc.edu
+<b>Website</b>: <a href="https://kushinm.github.io./">Kushins's Website</a>;
+<b>Email</b>: kmukherje2e@wisc.edu
 <b>Contributed to</b>: Support Vector Machines, frontend content
 </pre>
 
