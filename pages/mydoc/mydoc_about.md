@@ -38,7 +38,7 @@ If you have a picture in your GitHub account you can right-click your profile im
 <b>Bio</b>: PhD student in Psychology at UW-Madison
 <b>Website</b>: <a href="https://github.com/pabloinsente">Pablo's GitHub Account</a>; <a href="https://pablocaceres.org/">Pablo's Personal Site</a>
 <b>Email</b>: pcaceres@wisc.edu
-<b>Contributed to</b>: Built the website infrastructure and interface
+<b>Contributed to</b>: Built the website infrastructure and interface. Intro, guides, table of contents, and general site content. Jupyter Notebooks, UNIX shell, Intro to Neural Networks, Convolutional Networks, Backpropagation, LSTM, Recurrent Nets.   
 </pre>
 
 <pre>

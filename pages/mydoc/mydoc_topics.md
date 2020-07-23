@@ -21,7 +21,7 @@ Topics marked with 🆘 icon require contributors to add content.
 </tr>
 <tr>
   <td style="width:33%;"><a href="intro_shell.html">🐚 Introduction to the UNIX shell (Bash)</a></td>
-  <td style="width:33%;"><a href="mydoc_suggest.html">✋ Suggest a topic</a></td>
+  <td style="width:33%;"><a href="sql.html">🐘 SQL 🆘</a></td>
   <td style="width:33%;"><a href="mydoc_suggest.html">✋ Suggest a topic</a></td>
 </tr>
 </table> 
@@ -182,6 +182,11 @@ Topics marked with 🆘 icon require contributors to add content.
   <td style="width:33%;"><a href="supervised_learning.html">👩🏽‍🏫 Supervised Learning 🆘</a></td>
   <td style="width:33%;"><a href="unsupervised_learning.html">👨🏿‍🎓 Unsupervised Learning 🆘</a></td>
   <td style="width:33%;"><a href="lmem.html">🦄 Linear Mixed Effects Models 🆘</a></td>
+</tr>
+<tr>
+  <td style="width:33%;"><a href="mydoc_suggest.html">✋ Suggest a topic</a></td>
+  <td style="width:33%;"><a href="mydoc_suggest.html">✋ Suggest a topic</a></td>
+  <td style="width:33%;"><a href="mydoc_suggest.html">✋ Suggest a topic</a></td>
 </tr>
 </table> 
 

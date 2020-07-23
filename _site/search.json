@@ -241,7 +241,7 @@
 "tags": "getting_started",
 "keywords": "homepage",
 "url": "index.html",
-"summary": "A community build and maintained hub for Data Science and Human Behavior learning resources"
+"summary": "A community built and maintained hub for Data Science & Human Behavior learning resources"
 }
 ,
 
@@ -402,6 +402,17 @@
 
 
 {
+"title": "Linear Mixed Effects Models",
+"tags": "",
+"keywords": "topic",
+"url": "lmem.html",
+"summary": ""
+}
+,
+
+
+
+{
 "title": "Logistic and Multinomial Regression",
 "tags": "pattern_recognition",
 "keywords": "topic",
@@ -439,6 +450,17 @@
 "tags": "",
 "keywords": "sentiment_analysis",
 "url": "machine_trans.html",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "Miscellaneous Tools",
+"tags": "",
+"keywords": "topic",
+"url": "misc_landing_page.html",
 "summary": ""
 }
 ,
@@ -875,6 +897,17 @@
 "keywords": "speech_recognition",
 "url": "speech_recognition.html",
 "summary": "Identify the sequence of words produced in audio recordings of speech."
+}
+,
+
+
+
+{
+"title": "SQL",
+"tags": "",
+"keywords": "topic",
+"url": "sql.html",
+"summary": ""
 }
 ,
 
