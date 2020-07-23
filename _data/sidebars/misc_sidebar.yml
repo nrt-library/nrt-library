@@ -24,7 +24,7 @@ entries:
   - title: Miscellaneous Tools
     output: web
     folderitems:
-    - title: Intro to Data Science
+    - title: Miscellaneous Tools Summary
       url: /misc_landing_page.html
       output: web
 

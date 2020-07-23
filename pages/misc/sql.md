@@ -6,7 +6,7 @@ last_updated: "June 1, 2020"
 summary: 
 published: true
 sidebar: misc_sidebar #name of yml sidebar file withouth extension
-permalink: semisupervised_learning.html
+permalink: sql.html
 folder: misc
 ---
 

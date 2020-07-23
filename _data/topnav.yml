@@ -21,8 +21,6 @@ topnav_dropdowns:
           url: /intro_ds_landing_page.html
         - title: NLP
           url: /nlp_landing_page.html
-        - title: Kernel Methods
-          url: /kernel_methods_landing_page.html
         - title: Tools
           url: /tools_landing_page.html
         - title: Data Reduction
@@ -39,6 +37,8 @@ topnav_dropdowns:
           url: /time_series_landing_page.html
         - title: Networks and Graphs
           url: /network_graphs_landing_page.html
+        - title: Miscellaneous
+          url: /misc_landing_page.html
 
 
 
