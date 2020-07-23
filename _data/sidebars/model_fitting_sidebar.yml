@@ -20,6 +20,10 @@ entries:
       url: /elastic_nets.html
       output: web
 
+    -title: Linear Mixed Effects Models
+      url: /lmem.html
+      output: web
+
     - title: Lasso Regression
       url: /lasso.html
       output: web
