@@ -60,7 +60,7 @@ Topics marked with 🆘 icon require contributors to add content.
 </tr>
 <tr>
   <td style="width:33%;"><a href="random_forest.html">🌲🌲 Random Forest 🆘</a></td>
-  <td style="width:33%;"><a href="support_vector_machines.html">🌫️ Support Vector Machine 🆘</a></td>
+  <td style="width:33%;"><a href="support_vector_machines.html">🌫️ Support Vector Machines </a></td>
   <td style="width:33%;"><a href="mydoc_suggest.html">✋ Suggest a topic</a></td>
 </tr>
 </table> 
@@ -181,7 +181,7 @@ Topics marked with 🆘 icon require contributors to add content.
 <tr>
   <td style="width:33%;"><a href="supervised_learning.html">👩🏽‍🏫 Supervised Learning 🆘</a></td>
   <td style="width:33%;"><a href="unsupervised_learning.html">👨🏿‍🎓 Unsupervised Learning 🆘</a></td>
-  <td style="width:33%;"><a href="mydoc_suggest.html">✋ Suggest a topic</a></td>
+  <td style="width:33%;"><a href="lmem.html">🦄 Linear Mixed Effects Models 🆘</a></td>
 </tr>
 </table> 
 
@@ -259,6 +259,18 @@ Topics marked with 🆘 icon require contributors to add content.
   <td style="width:33%;"><a href="graph_struct.html">🗄️ Graph and Network Data Structures 🆘</a></td>  
   <td style="width:33%;"><a href="mydoc_suggest.html">✋ Suggest a topic</a></td>
 </tr>
+</table> 
+
+## [**MISCELLANEOUS**](misc_landing_page.html) 
+
+
+<table style="table-layout: fixed; width: 90%;" >
+<tr>
+  <td style="width:33%;"><a href="sql.html">🌐 Structured Query Language 🆘</a></td>
+  <td style="width:33%;"><a href="mydoc_suggest.html">✋ Suggest a topic</a></td>
+  <td style="width:33%;"><a href="mydoc_suggest.html">✋ Suggest a topic</a></td>
+</tr>
+
 </table> 
 
 {% include links.html %}
