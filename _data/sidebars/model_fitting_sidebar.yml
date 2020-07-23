@@ -20,7 +20,7 @@ entries:
       url: /elastic_nets.html
       output: web
 
-    -title: Linear Mixed Effects Models
+    - title: Linear Mixed Effects Models
       url: /lmem.html
       output: web
 
