@@ -21,6 +21,8 @@ topnav_dropdowns:
           url: /intro_ds_landing_page.html
         - title: NLP
           url: /nlp_landing_page.html
+        - title: Pattern Classification
+          url: /pattern_classification_landing_page.html
         - title: Tools
           url: /tools_landing_page.html
         - title: Data Reduction
