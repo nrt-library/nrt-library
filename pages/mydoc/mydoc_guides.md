@@ -31,7 +31,7 @@ The first step is to click in the `Edit me` icon at the top of the page you want
 
 You will be redirected to the website GitHub repository for that section. There, click in the pen icon to edit the contents. You will need a GitHub account to edit the contents. If you do not have one, GitHub will guide you on the creation of a new account. Unless you have "writing access" (i.e., you are one of the main developers for the project), GitHub will "fork" the repository into your account. A "fork" is simply a clone of the repository in your account.
 
-![step-02](images/guides2.png)
+![step-02](_guides/images/guides1.png)
 
 There you will find an interface like the one in the image below to edit the contents using plain Markdown syntaxis. If you are not familiar with Markdown, [here is a guide](https://www.markdownguide.org/basic-syntax/) with the basics.
 
@@ -39,15 +39,15 @@ There you will find an interface like the one in the image below to edit the con
 
 You can preview your changes by clicking in the `Preview changes` tab.
 
-![step-04](images/guides4.png)
+![step-04](_guides/images/guides4.png)
 
 Once you are done with your changes, go to the bottom to the page where you'll find the `Propose changes` box. There add a short title for your changes in the first box, a longer message describing the changes in the second box, and then hit the `Propose changes` button.
 
-![step-05](images/guides5.png)
+![step-05](_guides/images/guides5.png)
 
 Once you hit `Propose changes`, you will be redirected to the `Comparing changes` section, where you will be able to see your changes highlighted in green, and the `Create pull request`. A **pull request** is a way to ask the project maintainers to incorporate your changes into the project. Hit the `Create a pull request` button once you are ready to ask for changes to the maintainers.
 
-![step-06](images/guides6.png)
+![step-06](_guides/images/guides6.png)
 
 Once you hit the `Create a pull request` button, you will be redirected to the `Open a pull request` section. Hit the `Create a pull request` again to finalize the process.
 
