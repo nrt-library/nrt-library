@@ -31,19 +31,24 @@ Fortunately, today we have access to Jupyter Notebooks for free, which is develo
 
 ## Video courses
 
-* Jupyter Notebook Tutorial - 2020
+* **Jupyter Notebook Tutorial - 2020**
 <div class="embed-container">
-<iframe width="560" height="315" src="https://www.youtube.com/playlist?list=PL_FxwzD1C2iHVNhGBqvfuqwzV9OWAw0SW" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PL_FxwzD1C2iHVNhGBqvfuqwzV9OWAw0SW" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-* JupyterLab: The Next Generation Jupyter Web Interface
+* **Jupyter Notebook Tutorial: Introduction, Setup, and Walkthrough**
 <div class="embed-container">
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=ctOM-Gza04Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HW29067qVWk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-* Closing the gap between Jupyter and academic publishing
+* **JupyterLab: The Next Generation Jupyter Web Interface**
 <div class="embed-container">
-<iframe width="560" height="315" src="https://youtu.be/lCUgq9YF4k8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ctOM-Gza04Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+* **Closing the gap between Jupyter and academic publishing**
+<div class="embed-container">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lCUgq9YF4k8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 ## Online tutorials
@@ -51,7 +56,6 @@ Fortunately, today we have access to Jupyter Notebooks for free, which is develo
 * [Introduction to Jupyter Notebooks - set-up, user-guide, and best practices](https://pabloinsente.github.io/intro-jupyter-ide)
 * [JupyterLab User Guide](https://jupyterlab.readthedocs.io/en/stable/user/interface.html#)
 * [The Jupyter Notebook Documentation](https://jupyter-notebook.readthedocs.io/en/stable/notebook.html)
-
 
 ## Papers 
 
