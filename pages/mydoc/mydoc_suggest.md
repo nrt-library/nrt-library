@@ -5,13 +5,24 @@ permalink: mydoc_suggest.html
 folder: mydoc
 ---
 
-To suggest a topic please read the [content quality guidelines](mydoc_guides.html#content-quality-guidelines) and complete the contact form following the template below:
+To suggest a **new topic** or **sub-topic for an existing topic**, please read the [content quality guidelines](mydoc_guides.html#content-quality-guidelines) and complete the contact form following the template below:
+
+**Template for new topic**:
 
 ```
-Topic name:
+New topic name:
 Potential sub-topics:
 Brief summary of the topic: 
 Why this topic is important in the context of this website:
+```
+
+**Template for new subtopic for existing topic**:
+
+```
+Name of the existing section:
+New sub-topic name:
+Brief summary of the sub-topic: 
+Why this sub-topic is important in the context of this website:
 ```
 
 <style>

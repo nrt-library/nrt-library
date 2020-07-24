@@ -23,7 +23,7 @@ There are two navigation bars on the left-pane of the website. The one **at the 
     - [Sentiment Analysis](sentiment_analysis)  
     - [Semantic Vectors](semantic_vectors)
 
-Once you select a subtopic, you wil see that the **Table of Contents** sidebar will display the contents within that subtopics.
+Once you select a subtopic, you wil see that the **Table of Contents** sidebar will display the contents within that subtopic.
 
 ## Library topics
 
@@ -38,19 +38,7 @@ There are two ways to contribute to the DS&HB Library:
 
 To complement and update contents of an existing topic, follow the instructions in the **Contribution guidelines** which can be found [here](mydoc_guides.html).
 
-To add a new section or topic to the site, please send an email to nrtlibrary@gmail.com or just click in the **Feedback** tab at the top navgation bar.
-
-<pre>
-Topic: Suggested Topic
-subtopic1: Subtopic 1
-subtopic2: Subtopic 2
-subtopic3: Subtopic 3
-...
-keywords: keyword-1, keyword-2, keyword-3
-summary description: "Pytorch tutorial on hyper-dimensional covnets in 7.5 lines of code"
-</pre>
-
-Note: Add as many subtopics and keywords as necessary
+To add a **new topic section** or a **new sub-topic for existing sections**, please refer to the "Suggest a Topic" section [here](mydoc_suggest.html).
 
 ## Feedback
 
