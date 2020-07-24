@@ -147,7 +147,7 @@ Topics marked with 🆘 icon require contributors to add content.
 </table> 
 
 
-## [**STATISTICAL INFERENCE**](inference_landing_page.html)
+## [**CATEGORIZATION AND INFERENCE**](inference_landing_page.html)
 
 
 <table style="table-layout: fixed; width: 90%;" >
@@ -164,7 +164,7 @@ Topics marked with 🆘 icon require contributors to add content.
 </table> 
 
 
-## [**MODEL FITTING**](model_fitting_landing_page.html)  
+## [**MODEL FITTING AND REGULARIZATION**](model_fitting_landing_page.html)  
 
 
 <table style="table-layout: fixed; width: 90%;" >
