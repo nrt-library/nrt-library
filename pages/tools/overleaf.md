@@ -11,28 +11,24 @@ folder: tools
 ---
 
 
-{% include note.html content="Please utilize the template below as a reference for your contribution. Adapt the template when deemed necessary" %}
+## Framing
 
-## What is TOPIC-NAME?
+LaTeX is a typesetting system that can be used to write academic papers and create professional-looking documents. Users type in plain text format, but mark up the text with tagging conventions, and the nicely-formatted result is shown in an output file. Overleaf is an online platform that can be used to create and edit LaTeX documents. You can share and simultaneously edit documents with collaborators, similar to the way you collaborate on a Google Doc.
 
-Brief description.
+For a high-level overview of LaTeX, Overleaf, and the resources below, see <a href="https://www.youtube.com/watch?v=T2XpIEmVRKs&feature=youtu.be">this video</a>.
 
-## Video courses
 
-* Video 1
-* Video 2
+## Recommended Path for Learning
 
-## Applied papers 
-* Paper 1
-* Paper 2
+### Videos
 
-## Online tutorials
+* <a href="https://www.youtube.com/playlist?list=PLCRFsOKSM7ePUBOfh3O-K5XZldM5uCPwk">This playlist of videos</a> is a good starting place. They were made by a company called ShareLaTeX, which recently merged with Overleaf. These videos give a good idea of how to get started using LaTeX with an online editing system.
 
-* Online tutorial 1
-* Online tutorial 2
+### Online tutorials
+ 
+* For more detail, and/or for a range of written tutorials, the <a href="https://www.overleaf.com/learn/latex/Main_Page"  target="_blank">Overleaf documentation page</a> has a wide range of information to help get started, or to answer specific questions you might have as you get used to using LaTeX.
+ 
+### Cheat sheet
+ 
+* For a quick reference as you’re writing, <a href="https://wch.github.io/latexsheet/"  target="_blank">this cheat sheet</a> includes a bunch of commands for various formatting options, with a focus on writing scientific papers.
 
-## Theory papers 
-* Paper 1
-* Paper 2
-
-{% include links.html %}
