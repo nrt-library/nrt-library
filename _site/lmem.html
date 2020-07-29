@@ -400,35 +400,42 @@ $('#toc').on('click', 'a', function() {
 
    <div class="alert alert-info" role="alert"><i class="fa fa-info-circle"></i> <b>Note:</b> Please utilize the template below as a reference for your contribution. Adapt the template when deemed necessary</div>
 
-<h2 id="what-is-topic-name">What is TOPIC-NAME?</h2>
+<h2 id="framing">Framing</h2>
 
-<p>Brief description.</p>
+<p>Mixed linear models are a type of analysis used to evaluate data with non-independence that cannot otherwise be analyzed with regular linear regression.</p>
 
-<h2 id="video-courses">Video courses</h2>
+<h4 id="what-is-non-independencenon-independent-data">What is non-independence/non-independent data?</h4>
+<p>Non-independence occurs when two or more data are connected (correlated) in some way. For example, you run an experiment collecting ratings on interest in math. Your participants make these ratings at the start of the semester and then again at the end of the semester. Each of these participants has two data points on for each rating. These pairs of data points are non-independent since they come from the same person and thus are related in ways beyond the experimental procedure (i.e. two points from one participant are more likely to be more similar to each other than two data points from two different participants).</p>
 
-<ul>
-  <li>Video 1</li>
-  <li>Video 2</li>
-</ul>
+<p>Non-independence can exist beyond repeated measures at the participant level to any items occurring within “units”, including students in classrooms, family members, etc. Mixed linear models treat these units as factors and include their effects in the model.</p>
 
-<h2 id="applied-papers">Applied papers</h2>
-<ul>
-  <li>Paper 1</li>
-  <li>Paper 2</li>
-</ul>
+<h4 id="whywhen-should-i-use-mixed-linear-models">Why/when should I use mixed linear models?</h4>
+<p>Using regular linear regression when data is non-independent can lead to inflated Type 1 error rates, less statistical power, and potentially inaccurate effects. A mixed linear model should be used anytime there is a non-independent relationship in the data.</p>
 
-<h2 id="online-tutorials">Online tutorials</h2>
+<h2 id="recommended-path-for-learning">Recommended path for learning:</h2>
+<p>Start with watching a few of the videos from the multi-part series to get an idea of what linear mixed effects models are and when you would use them. Learners then may want to read through one of the online tutorials and carry out the exercises in R or Python  Learners with experience coding in R might go to the first online tutorial. Learners with little experience in R/python might first go to the second tutorial, which provides some more general R instruction, or visit the pages on these coding languages.</p>
 
-<ul>
-  <li>Online tutorial 1</li>
-  <li>Online tutorial 2</li>
-</ul>
+<h3 id="videos">Videos</h3>
 
-<h2 id="theory-papers">Theory papers</h2>
-<ul>
-  <li>Paper 1</li>
-  <li>Paper 2</li>
-</ul>
+<p>A <a href="https://www.youtube.com/watch?v=9iKgS0HeeOg&amp;list=PLbyRmcun-giuz5hW11nD64zeiJZSDV4aD&amp;index=1">multi-part series</a> reviewing what mixed models are, their benefits, and a few examples. Videos 1-3, 11, and 16 are good places to start if not wanting to go through the entire series. 1-3 provide short backgrounds/high level overviews. 11 describes repeated measures models, which are very common in psychology/cognitive science research. 16 gives a short overview of what these models mean and how to interpret them.</p>
+
+<p>A high level <a href="https://www.youtube.com/watch?v=Vfr3d1NIppU">video</a> overview of mixed models (mostly framed in terms of hierarchical models). The first half of the video describes when/why someone would use these models. The second half starts to touch into the equations/math for these models.</p>
+
+<h3 id="online-tutorials">Online tutorials</h3>
+
+<p><a href="https://ourcodingclub.github.io/tutorials/mixed-models/">Website/post</a> providing a walkthrough style tutorial of basic linear mixed effects models in R. Includes code and the output, with descriptions of why/how to go about running these models.</p>
+
+<p>A <a href="https://github.com/singmann/mixed_model_workshop_2day">Github repo</a> with a 3-part workshop aimed at providing tutorials and exercises to learn how to do mixed models in R. The first part is a general intro to R. The second part is about statistical modeling (generally) in R. Then part 3 is mixed models in R.</p>
+
+<p>A similar <a href="https://jbhender.github.io/Stats506/F18/GP/Group16.html">tutorial</a> demonstrating mixed models in both R and Python.</p>
+
+<h3 id="papers">Papers</h3>
+<p>This <a href="https://psycnet.apa.org/record/2017-52405-001">paper</a> provides guidelines for how to create linear mixed effects models, including steps on how to decide what random effects to include and how to address convergence issues with a large number of parameters.</p>
+
+<h3 id="additional-resources">Additional resources</h3>
+<p>A very short <a href="https://rstudio-pubs-static.s3.amazonaws.com/63556_e35cc7e2dfb54a5bb551f3fa4b3ec4ae.html">cheat sheet</a> of using the lme4 package in R to analyze mixed models.</p>
+
+<p>Jake Westfall, a former quantitative psychologist that now works in data science/analytics in industry, has curated a <a href="http://jakewestfall.org/blog/index.php/2015/06/20/reading-list-introduction-to-linear-mixed-models-for-cognitive-scientists/">list</a> of 13 helpful readings on mixed linear models.</p>
 
 
 
@@ -447,7 +454,7 @@ $('#toc').on('click', 'a', function() {
             <div class="row">
                 <div class="col-lg-12 footer">
                &copy;2020 NRT Online Library. All rights reserved. <br />
-<span>Page last updated:</span> June 1, 2020<br/> Site last generated: Jul 23, 2020 <br />
+<span>Page last updated:</span> June 1, 2020<br/> Site last generated: Jul 29, 2020 <br />
 <p><img src="images/magic-wand.svg" alt="Company logo"/></p>
                 </div>
             </div>

@@ -1,13 +1,41 @@
 ---
 title: Contribution guidelines
 keywords: getting_started, guides
-last_updated: July 07, 2020
+last_updated: July 29, 2020
 tags: [getting_started]
 summary: "Guidelines to contribute to the DS&HB website"
 sidebar: mydoc_sidebar
 permalink: mydoc_guides.html
 folder: mydoc
 ---
+
+## Before contributing to the site 
+
+The first step for contributing new content to the site is **to check which sections are currently under modification by other users**. This step is crucial to avoid conflicts between your modifications and the ones from other users. 
+
+Go to the NRT Library GitHub repository ([here](https://github.com/nrt-library/nrt-library)) and click on **Issues**
+
+![issues-01](images/new-issues-01.svg)
+
+Search for the name of the topic you want to edit **exactly as it appears** on the [Table of Topics](https://nrt-library.github.io/nrt-library/mydoc_topics.html) section. For instance, if you wish to modify the "Introduction to Neural Networks" section, do not search for "Intro to Neural Networks" or "Introduction to Neural Nets" but as it's originally spelled. 
+
+![issues-02](images/new-issues-02.svg)
+
+If you do not find **open** issues, you can edit the section freely. 
+
+![issues-03](images/new-issues-03.svg)
+
+Before modifying anything, **create a new issue** to let others know you will be working on that section. 
+
+![issues-04](images/new-issues-04.svg)
+
+The title of the new issue must be **the same** as the title of the section in the Table of topics. 
+
+![issues-05](images/new-issues-05.svg)
+
+Submit your issue and read the next steps to contribute content. 
+
+![issues-06](images/new-issues-06.svg)
 
 ## Content quality guidelines
 
@@ -19,7 +47,11 @@ We want to maintain the highest possible standard of quality for the content we 
 - **Style**: Does the resource (i.e., speaker or writer) uses a welcoming and inclusive language to convey the content?
 - **Ethics**: Does the resource utilizes examples or teaches methods which can be harmful in any manner to vulnerable populations? 
 
-Finally, ask yourself if the resource or content in question is something **you feel excited and/or proud to share with others**.
+Finally, ask yourself if the resource or content in question is something **you feel excited and/or proud to share with others**. 
+
+## Recommended path for learning
+
+Each topic has a suggested **template** to contribute content. There you will find a **Recommended path for learning** subsection. The goal of such a section is to select 1 to 3 links to high-quality articles or videos that quickly introduce the topic. Pick the ones you think are better to get someone started on the topic. You can find examples [here](https://nrt-library.github.io/nrt-library/jupyter.html#recommended-path-for-learning) and [here](https://nrt-library.github.io/nrt-library/support_vector_machines.html). 
 
 ## Complementing and updating the site contents
 

@@ -29,16 +29,20 @@ Although nowadays Jupyter is the most widely used IDE for scientific computing a
 
 Fortunately, today we have access to Jupyter Notebooks for free, which is developed and maintained primarily by a large community of users from all over the world.
 
+## Recommended path for learing
+
+* Introductory article: [Introduction to Jupyter Notebooks - set-up, user-guide, and best practices](https://pabloinsente.github.io/intro-jupyter-ide)
+
+* 30 minutes video: **Jupyter Notebook Tutorial: Introduction, Setup, and Walkthrough**
+<div class="embed-container">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HW29067qVWk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
 ## Video courses
 
 * **Jupyter Notebook Tutorial - 2020**
 <div class="embed-container">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PL_FxwzD1C2iHVNhGBqvfuqwzV9OWAw0SW" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
-
-* **Jupyter Notebook Tutorial: Introduction, Setup, and Walkthrough**
-<div class="embed-container">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/HW29067qVWk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 * **JupyterLab: The Next Generation Jupyter Web Interface**
@@ -53,7 +57,6 @@ Fortunately, today we have access to Jupyter Notebooks for free, which is develo
 
 ## Online tutorials
 
-* [Introduction to Jupyter Notebooks - set-up, user-guide, and best practices](https://pabloinsente.github.io/intro-jupyter-ide)
 * [JupyterLab User Guide](https://jupyterlab.readthedocs.io/en/stable/user/interface.html#)
 * [The Jupyter Notebook Documentation](https://jupyter-notebook.readthedocs.io/en/stable/notebook.html)
 

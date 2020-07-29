@@ -77,7 +77,7 @@ Topics marked with 🆘 icon require contributors to add content.
 </tr>
 <tr>
   <td style="width:33%;"><a href="jupyter.html">🪐 Jupyter Notebooks</a></td>
-  <td style="width:33%;"><a href="overleaf.html">🍃 Overleaf 🆘</a></td>
+  <td style="width:33%;"><a href="overleaf.html">🍃 Overleaf</a></td>
   <td style="width:33%;"><a href="papaja.html">🥭 Papaja 🆘</a></td>
 </tr>
 <tr>
@@ -181,7 +181,7 @@ Topics marked with 🆘 icon require contributors to add content.
 <tr>
   <td style="width:33%;"><a href="supervised_learning.html">👩🏽‍🏫 Supervised Learning 🆘</a></td>
   <td style="width:33%;"><a href="unsupervised_learning.html">👨🏿‍🎓 Unsupervised Learning 🆘</a></td>
-  <td style="width:33%;"><a href="lmem.html">🦄 Linear Mixed Effects Models 🆘</a></td>
+  <td style="width:33%;"><a href="lmem.html">🦄 Linear Mixed Effects Models</a></td>
 </tr>
 <tr>
   <td style="width:33%;"><a href="mydoc_suggest.html">✋ Suggest a topic</a></td>
