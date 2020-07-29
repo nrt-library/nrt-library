@@ -77,16 +77,6 @@ If you have a picture in your GitHub account you can right-click your profile im
 <b>Contributed to</b>: Reinforcement learning, Pattern classification, Data reduction
 </pre>
 
-<pre>
-<img src="https://avatars1.githubusercontent.com/u/25592787?s=460&u=d1da0b7613b2bdd58d286dd9b22a773949448ba7&v=4" style="width:100px;height:100px;" /> 
-<b>Name</b>: Amin Boroomand
-<b>Bio</b>: Ph.D. student at the University of California, Merced. His research focus is on machine learning, data analysis, and mathematical modeling, all under the umbrella of entrepreneurship.    
-<b>Website</b>: https://www.linkedin.com/in/amin-boroomand/
-<b>Email</b>: aboroomand@ucmerced.edu
-<b>Contributed to</b>: Reinforcement learning, Pattern classification, Data reduction
-</pre>
-
-
 Add your profile card here! ☝️
 
 {% include links.html %}
