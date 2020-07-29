@@ -1,79 +1,24 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-    <channel>
-        <title>nrt-library</title>
-        <description>All the very best data science and human behavior info</description>
-        <link>http://localhost:4000/</link>
-        <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 29 Jul 2020 10:16:14 -0500</pubDate>
-        <lastBuildDate>Wed, 29 Jul 2020 10:16:14 -0500</lastBuildDate>
-        <generator>Jekyll v3.8.7</generator>
-        
-        <item>
-            <title>Why Python is so Awesome? </title>
-            <description>&lt;p&gt;There are many reasons why Python is awesome.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.7">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-07-29T13:00:11-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">nrt-library</title><subtitle>NRT Library for Data Science and Human Behavior</subtitle><entry><title type="html">Introduction to Linear Algebra for Applied Machine Learning with Python</title><link href="http://localhost:4000/intro-linear-algebra.html" rel="alternate" type="text/html" title="Introduction to Linear Algebra for Applied Machine Learning with Python" /><published>2020-07-29T00:00:00-05:00</published><updated>2020-07-29T00:00:00-05:00</updated><id>http://localhost:4000/intro-linear-algebra</id><content type="html" xml:base="http://localhost:4000/intro-linear-algebra.html">&lt;blockquote&gt;
+  &lt;p&gt;By &lt;a href=&quot;https://pablocaceres.org/&quot;&gt;Pablo Cáceres&lt;/a&gt;, PhD student at UW-Madison&lt;/p&gt;
+&lt;/blockquote&gt;
 
-&lt;h2 id=&quot;reason-01&quot;&gt;Reason 01&lt;/h2&gt;
+&lt;p&gt;I recently completed an article and tutorial about &lt;a href=&quot;https://pabloinsente.github.io/intro-linear-algebra&quot;&gt;essential linear algebra concepts and methods for applied machine learning with Python&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;Is funny&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/pabloinsente/math-app-ml/master/notebooks/01-linear-algebra/images/w-planes-intersection.svg&quot; /&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;reason-02&quot;&gt;Reason 02&lt;/h2&gt;
+&lt;p&gt;My article is meant as a reference rather than a comprehensive course, as it does not contain any exercises. If you ever get confused by matrix multiplication, don’t remember what was the L2 norm, or the conditions for linear independence, this can serve as a quick reference. It also a good introduction for people that don’t need a deep understanding of linear algebra, but still want to learn about the fundamentals to read about machine learning or to use pre-packaged machine learning solutions. Further, it is a good source for people that learned linear algebra a while ago and need a refresher.&lt;/p&gt;
 
-&lt;p&gt;Like really funny&lt;/p&gt;
+&lt;p&gt;I took extra care on providing a compelling narrative in an accesible language, and to create intuitive illustrating about complex concepts. My writing style aims to mirror how I would talk to a dear friend to help him/her/they to understand new ideas.&lt;/p&gt;
 
-&lt;h2 id=&quot;reason-03&quot;&gt;Reason 03&lt;/h2&gt;
+&lt;p&gt;Be aware that it is a long read, as it has around 25,000 words. As a reference, Kafka’s “The Metamorphosis” has 16,473 words, and Hemingway’s “The Old Man and The Sea” has 35,220 words.&lt;/p&gt;
 
-&lt;p&gt;It is free&lt;/p&gt;
+&lt;p&gt;The article has been shared &lt;a href=&quot;https://twitter.com/CodeBug88/status/1265408434016583680&quot;&gt;hundreds of times on social media&lt;/a&gt;.&lt;/p&gt;
 
-&lt;h2 id=&quot;reason-04&quot;&gt;Reason 04&lt;/h2&gt;
+&lt;p&gt;There are several ways to access the article:&lt;/p&gt;
 
-&lt;p&gt;Like REALLY free&lt;/p&gt;
-
-</description>
-            <pubDate>Fri, 15 May 2020 00:00:00 -0500</pubDate>
-            <link>http://localhost:4000/why-python-is-so-awesome.html</link>
-            <guid isPermaLink="true">http://localhost:4000/why-python-is-so-awesome.html</guid>
-            
-            <category>news</category>
-            
-            <category>python</category>
-            
-            <category>awesome</category>
-            
-            
-        </item>
-        
-        <item>
-            <title>The latest and greatest Neural Network Stuff</title>
-            <description>&lt;p&gt;DeepMind has published a new Neural Net Capable to of learning to learn how to learn to play Animal Crossing but ends up destroying the game ecology.&lt;/p&gt;
-
-&lt;p&gt;So many news.&lt;/p&gt;
-
-</description>
-            <pubDate>Fri, 01 May 2020 00:00:00 -0500</pubDate>
-            <link>http://localhost:4000/latest-neural-net-stuff.html</link>
-            <guid isPermaLink="true">http://localhost:4000/latest-neural-net-stuff.html</guid>
-            
-            <category>news</category>
-            
-            
-        </item>
-        
-        <item>
-            <title>Welcome to the first initial inaugural post !</title>
-            <description>&lt;p&gt;A long time ago in a colege town far, far away….a group of rebels decided to put an end to the lack of access to quality resources in data science.&lt;/p&gt;
-
-&lt;p&gt;And here we are. Doing awesome things.&lt;/p&gt;
-
-</description>
-            <pubDate>Wed, 01 Apr 2020 00:00:00 -0500</pubDate>
-            <link>http://localhost:4000/first-post-ever.html</link>
-            <guid isPermaLink="true">http://localhost:4000/first-post-ever.html</guid>
-            
-            <category>news</category>
-            
-            
-        </item>
-        
-    </channel>
-</rss>
+&lt;ul&gt;
+  &lt;li&gt;My blog (black background) -&amp;gt; &lt;a href=&quot;https://pabloinsente.github.io/intro-linear-algebra&quot;&gt;Link&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;This PDF (white background) -&amp;gt; &lt;a href=&quot;https://github.com/pabloinsente/math-app-ml/blob/master/pdf/Introduction.to.Linear.Algebra.for.Applied.Machine.Learning.with.Python.smaller.pdf&quot;&gt;Link&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;Interactive mode via Binder -&amp;gt; &lt;a href=&quot;https://mybinder.org/v2/gh/pabloinsente/math-app-ml/master/?urlpath=lab&quot;&gt;Link&lt;/a&gt;. Once Binder builds the online environment, you can find the notebook at &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;notebooks/01-linear-algebra/01-linear-algebra.ipynb&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;The GitHub repository -&amp;gt; &lt;a href=&quot;https://github.com/pabloinsente/math-app-ml&quot;&gt;Link&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="news" /><summary type="html">By Pablo Cáceres, PhD student at UW-Madison</summary></entry></feed>

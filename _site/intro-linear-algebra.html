@@ -4,9 +4,9 @@
     <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Python is awesome. You know it">
-<meta name="keywords" content="newspythonawesome,  ">
-<title>Why Python is so Awesome?  | NRT Online Library for Data Science and Human Behavior</title>
+<meta name="description" content="">
+<meta name="keywords" content="news,  ">
+<title>Introduction to Linear Algebra for Applied Machine Learning with Python | NRT Online Library for Data Science and Human Behavior</title>
 <link rel="stylesheet" href="css/syntax.css">
 
 <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -94,6 +94,7 @@
     
 
 </head>
+<link rel="alternate" type="application/atom+xml" title="NRT Library Blog" href="/feed.xml">
 <body>
 <!-- Navigation -->
 <nav class="navbar navbar-inverse navbar-static-top">
@@ -196,7 +197,7 @@
 
 
 
-  <a class="email" title="Submit feedback" href="#" onclick="javascript:window.location='mailto:nrtlibrary@gmail.com?subject=NRT Online Library Data Science and Human Behavior feedback&body=I have some feedback about the Why Python is so Awesome?  page: ' + window.location.href;"><i class="fa fa-envelope-o"></i> Feedback</a>
+  <a class="email" title="Submit feedback" href="#" onclick="javascript:window.location='mailto:nrtlibrary@gmail.com?subject=NRT Online Library Data Science and Human Behavior feedback&body=I have some feedback about the Introduction to Linear Algebra for Applied Machine Learning with Python page: ' + window.location.href;"><i class="fa fa-envelope-o"></i> Feedback</a>
 
 </li>
 
@@ -214,7 +215,7 @@
                                 searchInput: document.getElementById('search-input'),
                                 resultsContainer: document.getElementById('results-container'),
                                 dataSource: 'search.json',
-                                searchResultTemplate: '<li><a href="{url}" title="Why Python is so Awesome? ">{title}</a></li>',
+                                searchResultTemplate: '<li><a href="{url}" title="Introduction to Linear Algebra for Applied Machine Learning with Python">{title}</a></li>',
                     noResultsText: 'No results found.',
                             limit: 10,
                             fuzzy: true,
@@ -245,19 +246,26 @@
   
   
   <li>
-      <a title="Topics" href="#">Topics</a>
+      <a title="Sections" href="#">Sections</a>
       <ul>
           
           
           
-          <li><a title="News" href="news.html">News</a></li>
+          <li><a title="News index" href="news.html">News index</a></li>
           
           
           
           
           
           
-          <li><a title="NRT Library Intro" href="index.html">NRT Library Intro</a></li>
+          <li><a title="NRT Library Homepage" href="index.html">NRT Library Homepage</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a title="Table of Topics" href="mydoc_topics.html">Table of Topics</a></li>
           
           
           
@@ -277,30 +285,6 @@
 <!-- this highlights the active parent class in the navgoco sidebar. this is critical so that the parent expands when you're viewing a page. This must appear below the sidebar code above. Otherwise, if placed inside customscripts.js, the script runs before the sidebar code runs and the class never gets inserted.-->
 <script>$("li.active").parents('li').toggleClass("active");</script>
 
-                <!-- Table of contents Column -->
-                <span style="display:inline-block; width: 12px;"></span>
-                
-<!-- this handles the automatic toc. use ## for subheads to auto-generate the on-page minitoc. if you use html tags, you must supply an ID for the heading element in order for it to appear in the minitoc. -->
-<script>
-$( document ).ready(function() {
-  // Handler for .ready() called.
-
-$('#toc').toc({ minimumHeaders: 0, listType: 'ul', showSpeed: 0, headers: 'h2,h3,h4' });
-
-/* this offset helps account for the space taken up by the floating toolbar. */
-$('#toc').on('click', 'a', function() {
-  var target = $(this.getAttribute('href'))
-    , scroll_target = target.offset().top
-
-  $(window).scrollTop(scroll_target - 10);
-  return false
-})
-  
-});
-</script>
-
-<div id="toc"></div>
-
             </div>
             
         
@@ -310,16 +294,12 @@ $('#toc').on('click', 'a', function() {
             <article class="post" itemscope itemtype="https://schema.org/BlogPosting">
 
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">Why Python is so Awesome? </h1>
-        <p class="post-meta"><time datetime="2020-05-15T00:00:00-05:00" itemprop="datePublished">May 15, 2020</time> /
+        <h1 class="post-title" itemprop="name headline">Introduction to Linear Algebra for Applied Machine Learning with Python</h1>
+        <p class="post-meta"><time datetime="2020-07-29T00:00:00-05:00" itemprop="datePublished">Jul 29, 2020</time> /
             
             
             
-            <a href="tag_news.html">news</a>, 
-            
-            
-            
-            
+            <a href="tag_news.html">news</a>
             
             
             
@@ -332,26 +312,31 @@ $('#toc').on('click', 'a', function() {
     <div class="post-content" itemprop="articleBody">
 
         
-        <div class="summary">Python is awesome. You know it</div>
-        
 
-        <p>There are many reasons why Python is awesome.</p>
+        <blockquote>
+  <p>By <a href="https://pablocaceres.org/">Pablo Cáceres</a>, PhD student at UW-Madison</p>
+</blockquote>
 
-<h2 id="reason-01">Reason 01</h2>
+<p>I recently completed an article and tutorial about <a href="https://pabloinsente.github.io/intro-linear-algebra">essential linear algebra concepts and methods for applied machine learning with Python</a>.</p>
 
-<p>Is funny</p>
+<p><img src="https://raw.githubusercontent.com/pabloinsente/math-app-ml/master/notebooks/01-linear-algebra/images/w-planes-intersection.svg" /></p>
 
-<h2 id="reason-02">Reason 02</h2>
+<p>My article is meant as a reference rather than a comprehensive course, as it does not contain any exercises. If you ever get confused by matrix multiplication, don’t remember what was the L2 norm, or the conditions for linear independence, this can serve as a quick reference. It also a good introduction for people that don’t need a deep understanding of linear algebra, but still want to learn about the fundamentals to read about machine learning or to use pre-packaged machine learning solutions. Further, it is a good source for people that learned linear algebra a while ago and need a refresher.</p>
 
-<p>Like really funny</p>
+<p>I took extra care on providing a compelling narrative in an accesible language, and to create intuitive illustrating about complex concepts. My writing style aims to mirror how I would talk to a dear friend to help him/her/they to understand new ideas.</p>
 
-<h2 id="reason-03">Reason 03</h2>
+<p>Be aware that it is a long read, as it has around 25,000 words. As a reference, Kafka’s “The Metamorphosis” has 16,473 words, and Hemingway’s “The Old Man and The Sea” has 35,220 words.</p>
 
-<p>It is free</p>
+<p>The article has been shared <a href="https://twitter.com/CodeBug88/status/1265408434016583680">hundreds of times on social media</a>.</p>
 
-<h2 id="reason-04">Reason 04</h2>
+<p>There are several ways to access the article:</p>
 
-<p>Like REALLY free</p>
+<ul>
+  <li>My blog (black background) -&gt; <a href="https://pabloinsente.github.io/intro-linear-algebra">Link</a>.</li>
+  <li>This PDF (white background) -&gt; <a href="https://github.com/pabloinsente/math-app-ml/blob/master/pdf/Introduction.to.Linear.Algebra.for.Applied.Machine.Learning.with.Python.smaller.pdf">Link</a>.</li>
+  <li>Interactive mode via Binder -&gt; <a href="https://mybinder.org/v2/gh/pabloinsente/math-app-ml/master/?urlpath=lab">Link</a>. Once Binder builds the online environment, you can find the notebook at <code class="language-plaintext highlighter-rouge">notebooks/01-linear-algebra/01-linear-algebra.ipynb</code></li>
+  <li>The GitHub repository -&gt; <a href="https://github.com/pabloinsente/math-app-ml">Link</a>.</li>
+</ul>
 
 
     </div>

@@ -168,8 +168,6 @@
 
 
 
-
-
 {
 "title": "Generative Adversarial Networks",
 "tags": "",
@@ -1165,33 +1163,24 @@
 
 
 
-
-
 {
-"title": "Why Python is so Awesome? ",
-"tags": "newspythonawesome",
+"title": "",
+"tags": "",
 "keywords": "",
-"url": "why-python-is-so-awesome.html",
-"summary": "Python is awesome. You know it"
-}
-,
-
-
-{
-"title": "The latest and greatest Neural Network Stuff",
-"tags": "news",
-"keywords": "",
-"url": "latest-neural-net-stuff.html",
+"url": "feed.xml",
 "summary": ""
 }
 ,
 
 
+
+
+
 {
-"title": "Welcome to the first initial inaugural post !",
+"title": "Introduction to Linear Algebra for Applied Machine Learning with Python",
 "tags": "news",
 "keywords": "",
-"url": "first-post-ever.html",
+"url": "intro-linear-algebra.html",
 "summary": ""
 }
 

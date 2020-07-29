@@ -3,19 +3,7 @@
   
   
   <url>
-    <loc>http://localhost:4000/why-python-is-so-awesome.html</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>http://localhost:4000/latest-neural-net-stuff.html</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>http://localhost:4000/first-post-ever.html</loc>
+    <loc>http://localhost:4000/intro-linear-algebra.html</loc>
   </url>
   
   
@@ -112,8 +100,6 @@
   <url>
     <loc>http://localhost:4000/elastic_nets.html</loc>
   </url>
-  
-  
   
   
   
@@ -673,6 +659,12 @@
   
   <url>
     <loc>http://localhost:4000/assets/css/style.css</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/feed.xml</loc>
   </url>
   
   

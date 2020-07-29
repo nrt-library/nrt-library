@@ -94,6 +94,7 @@
     
 
 </head>
+<link rel="alternate" type="application/atom+xml" title="NRT Library Blog" href="/feed.xml">
 <body>
 <!-- Navigation -->
 <nav class="navbar navbar-inverse navbar-static-top">
@@ -245,19 +246,26 @@
   
   
   <li>
-      <a title="Topics" href="#">Topics</a>
+      <a title="Sections" href="#">Sections</a>
       <ul>
           
           
           
-          <li class="active"><a title="News" href="news.html">News</a></li>
+          <li class="active"><a title="News index" href="news.html">News index</a></li>
           
           
           
           
           
           
-          <li><a title="NRT Library Intro" href="index.html">NRT Library Intro</a></li>
+          <li><a title="NRT Library Homepage" href="index.html">NRT Library Homepage</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a title="Table of Topics" href="mydoc_topics.html">Table of Topics</a></li>
           
           
           
@@ -277,127 +285,26 @@
 <!-- this highlights the active parent class in the navgoco sidebar. this is critical so that the parent expands when you're viewing a page. This must appear below the sidebar code above. Otherwise, if placed inside customscripts.js, the script runs before the sidebar code runs and the class never gets inserted.-->
 <script>$("li.active").parents('li').toggleClass("active");</script>
 
-                <!-- Table of contents Column -->
-                <span style="display:inline-block; width: 12px;"></span>
-                
-<!-- this handles the automatic toc. use ## for subheads to auto-generate the on-page minitoc. if you use html tags, you must supply an ID for the heading element in order for it to appear in the minitoc. -->
-<script>
-$( document ).ready(function() {
-  // Handler for .ready() called.
-
-$('#toc').toc({ minimumHeaders: 0, listType: 'ul', showSpeed: 0, headers: 'h2,h3,h4' });
-
-/* this offset helps account for the space taken up by the floating toolbar. */
-$('#toc').on('click', 'a', function() {
-  var target = $(this.getAttribute('href'))
-    , scroll_target = target.offset().top
-
-  $(window).scrollTop(scroll_target - 10);
-  return false
-})
-  
-});
-</script>
-
-<div id="toc"></div>
-
             </div>
             
         
 
         <!-- Content Column -->
         <div class="col-md-9" id="tg-sb-content">
-            <div class="post-header">
-   <h1 class="post-title-main">News</h1>
-</div>
-
-
-
-<div class="post-content">
-
-   
-
-    
-
-
-    
-
-    <a target="_blank" rel="noopener" href="https://github.com/nrt-library/nrt-library/blob/master/pages/news/news.html" class="btn btn-default githubEditButton" role="button"><i class="fa fa-github fa-lg"></i> Edit me</a>
-
-    
-
-   <div class="home">
+            <div class="home">
 
     <div class="post-list">
         
 
 
-    <h2><a class="post-link" href="why-python-is-so-awesome.html">Why Python is so Awesome? </a></h2>
-        <span class="post-meta">May 15, 2020 /
-            
-
-                <a href="tag_news.html">news</a>, 
-
-                
-
-                <a href="tag_python.html">python</a>, 
-
-                
-
-                <a href="tag_awesome.html">awesome</a>
-
-                </span>
-        <p> There are many reasons why Python is awesome.
-
-Reason 01
-
-Is funny
-
-Reason 02
-
-Like really funny
-
-Reason 03
-
-It is free
-
-Reason 04
-
-Like REALLY free
-
- </p>
-
-        
-
-
-    <h2><a class="post-link" href="latest-neural-net-stuff.html">The latest and greatest Neural Network Stuff</a></h2>
-        <span class="post-meta">May 1, 2020 /
+    <h2><a class="post-link" href="intro-linear-algebra.html">Introduction to Linear Algebra for Applied Machine Learning with Python</a></h2>
+        <span class="post-meta">Jul 29, 2020 /
             
 
                 <a href="tag_news.html">news</a>
 
                 </span>
-        <p> DeepMind has published a new Neural Net Capable to of learning to learn how to learn to play Animal Crossing but ends up destroying the game ecology.
-
-So many news.
-
- </p>
-
-        
-
-
-    <h2><a class="post-link" href="first-post-ever.html">Welcome to the first initial inaugural post !</a></h2>
-        <span class="post-meta">Apr 1, 2020 /
-            
-
-                <a href="tag_news.html">news</a>
-
-                </span>
-        <p> A long time ago in a colege town far, far away….a group of rebels decided to put an end to the lack of access to quality resources in data science.
-
-And here we are. Doing awesome things.
-
- </p>
+        <p>  By Pablo Cáceres, PhD student at UW-Madison  I recently completed an article and tutorial about essential linear algebra concepts and methods for applied machine learning with Python.  My article is meant as a reference rather than a comprehensive course, as it does not... </p>
 
         
 
@@ -408,29 +315,6 @@ And here we are. Doing awesome things.
 
     </div>
 </div>
-
-
-    <div class="tags">
-        
-    </div>
-
-
-
-
-</div>
-
-<hr class="shaded"/>
-
-<footer>
-            <div class="row">
-                <div class="col-lg-12 footer">
-               &copy;2020 NRT Online Library. All rights reserved. <br />
- Site last generated: Jul 29, 2020 <br />
-<p><img src="images/magic-wand.svg" alt="Company logo"/></p>
-                </div>
-            </div>
-</footer>
-
 
         </div>
     <!-- /.row -->

@@ -5,13 +5,16 @@ entries:
   levels: one
   folders:
 
-  - title: Topics
+  - title: Sections
     output: web
     folderitems:
-    - title: News
+    - title: News index
       url: /news.html
       output: web
-    - title: NRT Library Intro
+    - title: NRT Library Homepage
       url: /index.html
+      output: web
+    - title: Table of Topics
+      url: /mydoc_topics.html
       output: web
  
