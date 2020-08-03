@@ -1,5 +1,5 @@
 ---
-title:  "2020-08-04-Naming-Contest"
+title:  "Naming Contest"
 categories: news # leave it as it is
 permalink: Naming-Contest.html # replace with something indicative of your title
 tags: [news] # leave it as it is
