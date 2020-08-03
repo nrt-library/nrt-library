@@ -119,3 +119,33 @@ After the merge, you will see a confirmation message and the option to revert th
 The changes will be reflected in the DS&HB library site in a couple of minutes. If you still see the old version, try opening the site in an `incognito` tab or by cleaning the cash and navigation history in your browser.
 
 ![step-15](images/guides15.png)
+
+## Add a new blog post
+
+To add a new post in the NRT blog, go to the NRT Library GitHub repository ([here](https://github.com/nrt-library/nrt-library)) and navigate into the `_post` directory. 
+
+![blog-1](images/blog-1.svg)
+
+Click on **Create a new file**
+
+![blog-2](images/blog-2.svg)
+
+Give **a title** to your article following the `yyyy-mm-dd-my-title.md` format. Then copy and paste the template below as a header for the article replacing the "title:" and "permalink:" fields: 
+
+```
+---
+title:  "My article name"
+categories: news # leave it as it is
+permalink: url-for-my-article.html # replace with something indicative of your title
+tags: [news] # leave it as it is
+---
+```
+
+![blog-3](images/blog-3.svg)
+
+Then you can **add the content** for your article below the `---`
+
+Finally, **commit the article** adding a note about your content. It is recommended to check how does your article look with the **Preview changes** feature. 
+
+![blog-4](images/blog-4.svg)
+
