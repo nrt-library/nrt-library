@@ -1,0 +1,20 @@
+---
+title:  "2020-08-03-Welcome"
+categories: news # leave it as it is
+permalink: https://nrt-library.github.io/nrt-library/welcome.html # replace with something indicative of your title
+tags: [news] # leave it as it is
+---
+
+Welcome! 
+
+We are so excited to launch this new website that is intended to help scientists studying human behavior to understand and apply new methods, concepts, and techniques from machine-learning, AI, and other computational fields. Many online data-science resources target workers in industry, programmers, and other communities with extensive technical expertise. This library curates resources useful to those who study cognition, perception, action, language, neuroscience, social interactions, and other aspects of human behavior.
+
+We invite you to explore, learn and contribute to this site. 
+
+Please look at [SVM](https://nrt-library.github.io/nrt-library/support_vector_machines.html) or [Jupyter Notebooks](https://nrt-library.github.io/nrt-library/jupyter.html) for examples of content for data science resources that we are looking for. As you can see on the [Table of Topics](https://nrt-library.github.io/nrt-library/mydoc_topics.html), we added an 🆘 icon for topics that need your help! The guide for how to edit content is here: [Contribution Guidelines](https://nrt-library.github.io/nrt-library/mydoc_guides.html).
+ 
+Suggestions
+If you have suggestions for topics or quick feedback please use the indicators for those on the site (In the top navigation menu there is a feedback option as well as this [Suggest a Topic Form](https://nrt-library.github.io/nrt-library/mydoc_suggest.html). 
+ 
+Join the Contributors List
+Make sure to include your Profile as a Contributor as we build our community of contributors we would also like to ensure you all are recognized. Please fill out your contribution here: [About the Authors](https://nrt-library.github.io/nrt-library/mydoc_about.html)
