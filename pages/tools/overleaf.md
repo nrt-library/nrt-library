@@ -22,11 +22,11 @@ LaTeX has many benefits including typesetting complicated facets of research suc
 ## Recommended Path for Learning
 
 
-For a high-level overview of LaTeX, Overleaf, and the resources below, see this video:
+* For a high-level overview of LaTeX, Overleaf, and the resources below, see this video:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/T2XpIEmVRKs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Overleaf's <a href="https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes#What_is_LaTeX.3F" target="_blank">official documentation </a> provides a helpful 30 minute guide to creating your first LaTeX document:
+* Overleaf's <a href="https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes#What_is_LaTeX.3F" target="_blank">official documentation </a> provides a helpful 30 minute guide to creating your first LaTeX document:
 
 ## Further Learning
 
