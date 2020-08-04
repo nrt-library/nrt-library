@@ -23,7 +23,7 @@ RL, broadly speaking, has had three threads that have come together over time to
 
 The preface and first chapter of <a href= "https://web.stanford.edu/class/psych209/Readings/SuttonBartoIPRLBook2ndEd.pdf" target = "_blank"> Richard Sutton's book on Reinforcement Learning </a> provides a nice recap of these ideas as well as a good overview of modern RL methods.
 
-Mirroring its diverse history, research in reinfocement learning continues to shed light on aspects of cognitive neuroscience, deep learning, and how field one can inform the other. For example, questions about how a single system can accomodate <a href = "https://www.cell.com/trends/cognitive-sciences/fulltext/S1364-6613(19)30061-0" target = "_blank">fast and slow learning </a>continues to be an active area of research bringing to bear what we know about human learning and state-of-the-art RL algorithms.
+Mirroring its diverse history, research in reinfocement learning continues to shed light on aspects of cognitive neuroscience, deep learning, and how one field can inform the other. For example, questions about how a single system can accomodate <a href = "https://www.cell.com/trends/cognitive-sciences/fulltext/S1364-6613(19)30061-0" target = "_blank">fast and slow learning </a>continues to be an active area of research bringing to bear what we know about human learning and state-of-the-art RL algorithms.
 
 
 
