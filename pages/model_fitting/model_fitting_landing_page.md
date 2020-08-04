@@ -10,18 +10,29 @@ permalink: model_fitting_landing_page.html
 folder: model_fitting
 ---
 
+
 {% include note.html content="Please utilize the template below as a reference for your contribution. Adapt the template when deemed necessary" %}
 
-## What is Model Fitting?
+## What is TOPIC-NAME?
 
-The process by which we find a simple way to describe complex data. The model describes the data through parameters that can take on different values.
+Brief description.
 
-## Video courses
+
+## Recommended Path for Learning
+
+* Item 1 (video/code tutorial/document)
+* Item 2 (video/code tutorial/document)
+* Item 3 (video/code tutorial/document)
+
+## Further Learning
+
+## Video
 
 * Video 1
 * Video 2
 
 ## Applied papers 
+
 * Paper 1
 * Paper 2
 
