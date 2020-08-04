@@ -9,7 +9,7 @@ permalink: mydoc_about.html
 folder: mydoc
 ---
 
-The NRT Library is a community-maintained project. In this section, you will find the profiles of the people who have collectively build the website.
+The NRT Library is a community-maintained project. In this section, you will find the profiles of the people who have contributed towards building this website.
 
 ## Add your profile
 
