@@ -67,4 +67,8 @@ Fortunately, today we have access to Jupyter Notebooks for free, which is develo
 * [Why Jupyter is data scientists' computational notebook of choice](https://www.nature.com/articles/d41586-018-07196-1)
 * [ The Jupyter/IPython architecture: a unified view of computational research, from interactive exploration to communication and publication](https://ui.adsabs.harvard.edu/abs/2014AGUFM.H44D..07R/abstract)
 
+## Contributors
+
+- [Pablo Caceres](mydoc_about.html#pablocaceres) 
+
 {% include links.html %}
