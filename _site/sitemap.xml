@@ -3,6 +3,24 @@
   
   
   <url>
+    <loc>http://localhost:4000/learnig2draw.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/Naming-Contest.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/welcome.html</loc>
+  </url>
+  
+  
+  
+  <url>
     <loc>http://localhost:4000/intro-linear-algebra.html</loc>
   </url>
   

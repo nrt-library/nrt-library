@@ -374,7 +374,16 @@ $('#toc').on('click', 'a', function() {
 
    <h2 id="framing">Framing</h2>
 
-<p>Support Vector Machines (SVMs) deal with a fundamentally simple problem – how does one divide up data points using some form of meaningful decision boundary in a supervised learning setting?</p>
+<p>Support Vector Machines (SVMs) deal with a fundamentally simple problem – how does one divide up data points using some form of meaningful decision boundary in a supervised learning setting? They fall under a broader class of methods known as <em>Kernel Methods</em>.</p>
+
+<h3 id="what-are-kernel-methods">What are Kernel methods?</h3>
+
+<p>Kernel methods are a class of algorithms used for data classification and pattern analysis in general. They became popular in the 1990s specifically to the <strong>support vector machine</strong>, a special instance of kernel-based algorithms that performed at par with neural networks at the time.
+<!--They continue to be powerful machine learning algorithms that are capable of finding decision boundaries in data that initially appear to have no clear decision boundary.--></p>
+
+<h3 id="when-are-they-useful">When are they useful?</h3>
+
+<p>Kernel methods are especially useful for classification problems with nonlinear decision boundaries in the native data space. The specialty of kernel-based methdods lie in their use of <strong>kernel functions</strong>, special functions that map the raw data points into a higher dimensional vector space through the inner products of the data points in the transformed space. That is, data points belonging to classes that are <strong>linearly inseparable</strong> in the native feature space are mapped to a higher dimension space where they may be linearly separable. A further advantage of this approach is that it is computationally efficient: the explicit coordinates of all data points in the higher dimensional space do not need to be computed. Instead the kernel function directly specifies the inner products (or pairwise distances) of the points in the transformed space.</p>
 
 <p>This approach gets its name from support vectors, a subset of the labeled data points whose dot products help in determining the decision boundary. The decision boundary is arranged such that the distance between these support vectors, or the <em>margin width</em> is maximized.</p>
 
@@ -400,8 +409,6 @@ It is easiest to use SVMs as binary classifiers, though it is possible to genera
 
 <h2 id="recommended-path-for-learning">Recommended Path for Learning</h2>
 
-<h3 id="videos">Videos</h3>
-
 <!--* <a href="https://www.youtube.com/watch?v=_PwhiWxHK8o" target="_blank">Patrick Winston’s lecture on SVMs is one of the easiest to follow and assumes a very minimal background in linear algebra and multivariable calculus.</a>-->
 
 <ul>
@@ -410,18 +417,22 @@ It is easiest to use SVMs as binary classifiers, though it is possible to genera
 <iframe width="560" height="315" src="https://www.youtube.com/embed/_PwhiWxHK8o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 
 <ul>
-  <li>One might like Andrew Ng’s lecture on the same from 2018, which is a bit more recent, but SVMs haven’t changed much over the past decade (begins at 46:22).</li>
-</ul>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/lDwow4aOrtg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
-
-<h3 id="code-implementations">Code Implementations</h3>
-
-<ul>
   <li>To get a stronger grasp on the mathematics behind SVMs and do some ‘hands-on’ work with them we recommend this site:
 <a href="https://www.svm-tutorial.com/" target="_blank">Welcome to SVM tutorial - SVM Tutorial</a>.</li>
 </ul>
 
 <p>There are sections that detail different mathematical tools that SVMs employ and there’s a nice R tutorial on doing text-classification using SVMs.</p>
+
+<h2 id="further-learning">Further Learning</h2>
+
+<h3 id="videos">Videos</h3>
+
+<ul>
+  <li>One might like Andrew Ng’s lecture on the same from 2018, which is a bit more recent, but SVMs haven’t changed much over the past decade (begins at 46:22).</li>
+</ul>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lDwow4aOrtg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+<h3 id="code-implementations">Code Implementations</h3>
 
 <ul>
   <li>A python based implementation of SVM using scikit-learn:
@@ -468,7 +479,7 @@ It is easiest to use SVMs as binary classifiers, though it is possible to genera
             <div class="row">
                 <div class="col-lg-12 footer">
                &copy;2020 NRT Online Library. All rights reserved. <br />
-<span>Page last updated:</span> June 1, 2020<br/> Site last generated: Jul 29, 2020 <br />
+<span>Page last updated:</span> June 1, 2020<br/> Site last generated: Aug 6, 2020 <br />
 <p><img src="images/magic-wand.svg" alt="Company logo"/></p>
                 </div>
             </div>
