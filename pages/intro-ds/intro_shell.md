@@ -4,7 +4,7 @@ tags:
   - getting_started
 keywords: "stats" # new keywords requiere to create a new tag file
 last_updated: "August 6, 2020"
-summary: "Yhe UNIX Shell is a interface and programming languague that provides an interactive instance to start programs, manage files, and processes running in the computer. "
+summary: "The UNIX Shell is a interface and programming languague that provides an interactive instance to start programs, manage files, and processes running in the computer. "
 published: true
 sidebar: intro_ds_sidebar #name of yml sidebar file withouth extension
 permalink: intro_shell.html
@@ -26,7 +26,7 @@ The so-called **shell**, also happens to be a UNIX utility program. It has a dua
 
 ## Video courses
 
-- **Bash Script with Practical Examples | Full Course**
+- **Bash Script with Practical Examples - Full Course**
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/TPRSJbtfK4M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
