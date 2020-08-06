@@ -9,7 +9,7 @@ summary: A community built and maintained hub for Data Science & Human Behavior 
 
 {% include note.html content="The NRT Library for Data Science and Human Behavior is a work in progress. Here is a placeholder graphic:" %}
 
-{% include cogsci_papernet_dynamic.html %}
+{% include portal_graph.html %}
 
 ## About
 
