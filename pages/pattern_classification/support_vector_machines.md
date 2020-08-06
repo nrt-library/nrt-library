@@ -4,42 +4,37 @@ tags:
   - pattern_recognition
 keywords: "topic" # new keywords requiere to create a new tag file
 last_updated: "June 1, 2020"
-summary: "Support vector machines are a specific instance of kernel-methods used for data classification."
+summary: "Support vector machines are models for binary classification."
 published: true
 sidebar: pattern_classification_sidebar #name of yml sidebar file withouth extension
 permalink: support_vector_machines.html
 folder: pattern_classification
 ---
 
+## Overview
 
-## Framing
-
-Support Vector Machines (SVMs) deal with a fundamentally simple problem – how does one divide up data points using some form of meaningful decision boundary in a supervised learning setting? They fall under a broader class of methods known as *Kernel Methods*.
-
-### What are Kernel methods?
-
-Kernel methods are a class of algorithms used for data classification and pattern analysis in general. They became popular in the 1990s specifically to the **support vector machine**, a special instance of kernel-based algorithms that performed at par with neural networks at the time.
-<!--They continue to be powerful machine learning algorithms that are capable of finding decision boundaries in data that initially appear to have no clear decision boundary.-->
-
-### When are they useful?
-
-Kernel methods are especially useful for classification problems with nonlinear decision boundaries in the native data space. The specialty of kernel-based methdods lie in their use of **kernel functions**, special functions that map the raw data points into a higher dimensional vector space through the inner products of the data points in the transformed space. That is, data points belonging to classes that are **linearly inseparable** in the native feature space are mapped to a higher dimension space where they may be linearly separable. A further advantage of this approach is that it is computationally efficient: the explicit coordinates of all data points in the higher dimensional space do not need to be computed. Instead the kernel function directly specifies the inner products (or pairwise distances) of the points in the transformed space.
-
-This approach gets its name from support vectors, a subset of the labeled data points whose dot products help in determining the decision boundary. The decision boundary is arranged such that the distance between these support vectors, or the *margin width* is maximized.  
+Support Vector Machines (SVMs) are models for binary classification. Suppose you have a dataset of $i$ items, each characterized by values along $j$ feature dimensions, and each belonging to one of two mutually exclusive categories, A or B. Each item $i$ can be considered a point in a continuous feature space of dimension $j$. SVMs seek a plane in the feature space that does a good job separating all of the A items from all of the B items. The method differs from other approaches to binary classification (such as logistic regression or naive Bayes) in how it defines the best such plane. Specifically, SVM finds the plane that has the _largest margin_: the "gap" from the classification plane to the _closest_ items in each category is maximized. Only the points nearest the decision plane "matter" for the model fit--the distance between the plane and all other data points is ignored.
 
 <img src= "pages/pattern_classification/svm.png" style="max-width: 400px;"/>
 
-In contrast to approaches like *simple* neural networks or least-squares classifiers SVMs have 3 distinct features that are important to consider together:
+## The kernel trick
 
-1. 	They do not get stuck in local minima. If the data are linearly separable, the algorithm will always find the same ‘best’ decision boundary
+While standard SVMs learn linear classification planes, they can be made to learn nonlinear boundaries through use of the "kernel trick." The key idea is to enrich the feature data by applying one or more transformations to the raw values on each dimension, then using these transformed values as additional feature dimensions. For instance, if the original data contain feature $a$, $b$ and $c$, one can generate three new features by squaring each value to get ($a^2$m $b^2$m $c^2$). Each item is now situated in a 6-dimensional space rather than a 3-dimensional space, and two categories that were not linearly separable in the original space may be linearly separable in the higher-dimensional space. Thus one can apply a standard SVM in the higher-dimensional space to find the best plane. Moreover, a decision plane that is linear in the higher-dimension space will appear non-linear when back-transformed to the original space. Since the higher-dimension data are just functions of the original data, this amounts to learning a nonlinear boundary in the original space.
 
-2. 	If the data aren’t linearly separable, the SVM approach supports a transformation of the data into some higher dimensional space where the data are linearly separable. The approach is supported because mathematically, computing the decision boundary comes down to simply computing the dot products between pairs of vectors. The materials below go into more depth about this point.
+Squaring is just one kind of transformation or _kernel_--many other are possible, and different kernels can be used in combination. For instance, imagine adding the square of each native feature, the cube of each feature, and the sine of each feature--now the original 3D data reside in a 12D space, and any linear plane in 12D will appear highly nonlinear in the original 3D space. From this example it is clear SVMs and kernel methods can learn highly complex classifications for labeled data, so to guard against over-fitting, it is important to use correct cross-validation techniques.
 
-3. Additionally, there often exist *kernel functions* that help us know the dot product of vectors in the high dimensional space as a function of the pair in the original space. This makes it even easier to compute the dot product and consequently the decision boundary!
-This is what’s known as the ‘kernel-trick’ in SVMs.
+### When are they useful?
 
-SVMs are a great tool to use when you don't have large datasets, which neural networks usually require, and some non-trivial decision boundary between data points.
-It is easiest to use SVMs as binary classifiers, though it is possible to generalize to multinomial cases with some modifications.
+SVMs deployed with the kernel trick are especially useful for classification problems with nonlinear decision boundaries in the native data space. They are a great tool to use when you don't have large datasets, which neural networks usually require, and some non-trivial decision boundary between data points. It is easiest to use SVMs as binary classifiers, though it is possible to generalize to multinomial cases with some modificationsIf you have tried linear classifiers and it looks like there is nothing there, why not try a kernel-based SVM? Again, just make sure you are doing proper cross-validation.
+
+Some common examples of SVMs in research on human behavior include:
+
+1. Document/text classification
+2. Decoding neural states in functional brain imaging
+3. Emotion recognition/classification from visual images
+4. Automatic diagnosis of disorders from cognitive/behavioral provides
+
+...and many more.
 
 ## Recommended Path for Learning
 
@@ -71,6 +66,9 @@ Here’s another jupyter notebook based python implementation of SVMs using scik
 <a href="https://www.learnopencv.com/svm-using-scikit-learn-in-python/" target="_blank">SVM using Scikit-Learn in Python.</a>
 
 ### Blogs & Articles
+
+This blog post is a nice overview that starts with easy intuitions and walks through the hairy-looking mathematical underpinnings with nice geometric interpretations:
+* <a href="https://www.jeremyjordan.me/support-vector-machines/#:~:text=Image%20credit">Support Vector Machines.
 
 Here are 2 papers that employ SVMs in NLP and cognitive neuroscience settings:
 * <a href="https://www.aclweb.org/anthology/N04-1030/" target="_blank">Shallow Semantic Parsing using Support Vector Machines.</a>
