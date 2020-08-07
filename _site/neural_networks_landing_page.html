@@ -4,7 +4,7 @@
     <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="neural networks refer to a broad class of algorithms that used to represent learning in supervised as well as unsupervised contexts">
+<meta name="description" content="Neural networks refer to a broad class of algorithms that used to represent learning in supervised as well as unsupervised contexts">
 <meta name="keywords" content="getting_started,  topic">
 <title>Neural Networks | NRT Online Library for Data Science and Human Behavior</title>
 <link rel="stylesheet" href="css/syntax.css">
@@ -372,7 +372,7 @@ $('#toc').on('click', 'a', function() {
 <div class="post-content">
 
    
-    <div class="summary">neural networks refer to a broad class of algorithms that used to represent learning in supervised as well as unsupervised contexts</div>
+    <div class="summary">Neural networks refer to a broad class of algorithms that used to represent learning in supervised as well as unsupervised contexts</div>
    
 
     
@@ -407,47 +407,112 @@ $('#toc').on('click', 'a', function() {
 
     
 
-   <div class="alert alert-info" role="alert"><i class="fa fa-info-circle"></i> <b>Note:</b> Please utilize the template below as a reference for your contribution. Adapt the template when deemed necessary</div>
+   <h2 id="what-are-neural-networks">What are neural networks?</h2>
 
-<h2 id="what-is-topic-name">What is TOPIC-NAME?</h2>
+<p>At the most abstract level, neural networks (a.k.a. <em>Deep Learning</em>) are <strong>an approach to the study and simulation of intelligent systems</strong>.</p>
 
-<p>Brief description.</p>
+<p>In the context of <strong>machine learning</strong>, neural networks are a class of models that search for solutions to problems in an <em>iterative</em> and <em>distributed</em> fashion, and with as little human intervention as possible. The core principle is that solutions can be found by exposing complex arrangements of simple processing units to data related to the problem at hand. Such units are the so-called neurons, which are connected in sequences of layers. This type of system is flexible and powerful and can be used to tackle supervised, unsupervised, semi-supervised, and reinforcement learning tasks.</p>
+
+<p>For <strong>cognitive science</strong>, neural networks have a similar meaning that for machine learning. Here, neural networks refer to <strong>an approach to the study of cognition and behavior</strong> that propose that <strong>intelligence emerges from the collective action of billions of connected and interactive processing units</strong>, i.e., neurons and synapses. Such an approach is sometimes called <strong>connectionism</strong>. The principle guiding neural networks models of cognition is that knowledge and mental activity are better represented as d<strong>istributed patterns of neural activation</strong>. For instance, memory, language, and reasoning would be an emergent property from a complex dynamical system which is the human brain. The neural network approach contrast with symbolic and modular approaches to the study of the mind and behavior.</p>
+
+<h2 id="brief-history">Brief history</h2>
+
+<p>In 1943, Warren McCulloch and Walter Pitts published “<em>A logical calculus of the ideas immanent in nervous activity</em>”, introducing what is considered the first computational model of an artificial neuron. The next well-known neural network model was the “<em>Perceptron</em>”, introduced by Frank Rosenblatt in 1958. One of the main differences between the McCulloch-Pitts’ and Rosenblatt’s architectures was that Rosenblatt’s model incorporated a <strong>learning algorithm</strong>, that allowed the network to adjust its parameters to make better predictions over time. The learning part was of crucial importance for later developments in the field because it enabled the possibility of creating artificial systems capable of <strong>discovering solutions</strong> instead of forcing humans to figure out the solution beforehand, to just then building the solution into the system.</p>
+
+<p>The research on neural networks stall after that in 1969, <strong>Marvin Minsky</strong> and <strong>Seymour Papert</strong> famously demonstrated that Rosenblatt’s perceptron wasn’t able to learn simple patterns like the <em>exclusive-or (XOR) rule</em>, which had a devastating effect on the academic interest on artificial neural networks. Nonetheless, several researchers continued to pursue this line of thinking. In particular, a group of researchers led by <strong>David Rumelhart</strong> and <strong>James McClelland</strong>, the so-called “<em>Parallel Distributed Processing Research Group</em>” (PDP research group), would work together exploring the implications of neural network models for the understanding of human intelligence. Their work would be crystallized in a two volumes book titled “<strong>Parallel Distributed Processing: Explorations in the Microstructure of Cognition</strong>”. The PDP research group work would help to revitalize the interest in neural network models of cognition in the 80s. In particular, the introduction of today’s well-known “<strong>backpropagation</strong> algorithm” by <strong>Rumelhart</strong>, <strong>Hinton</strong>, and <strong>Williams</strong>, would be the key to overcome Minsky and Papert’s criticism.</p>
+
+<p>Fast forward to the present, neural networks have become one of the most active areas of research in the machine learning and cognitive science community under the rubric of <strong>Deep Learning</strong>. Recent achievements like the <a href="https://deepmind.com/research/case-studies/alphago-the-story-so-far">DeepMind’s AlphaGo</a> that beat the at the time best Go player in the world, the 9-dan Lee Sedol, and OpenAI’s 175 billion parameter language model <a href="https://www.technologyreview.com/2020/07/20/1005454/openai-machine-learning-language-generator-gpt-3-nlp/">GPT-3</a>, have made headlines around the globe and captured the attention of public and private section alike. In the image below you can find a timeline summarizing the evolution of neural networks from their inception until today:</p>
+
+<p><img src="/pages/neural_networks/images/roadmap.svg" alt="neural-net" /></p>
+
+<h2 id="basic-elements-of-a-neural-network">Basic elements of a neural network</h2>
+
+<p>The basic components of neural networks are <strong>units</strong> (neurons), <strong>connections</strong> (synapses), and <strong>layers</strong>. The image below illustrates one of the simplest neural networks: <strong>the multilayer perceptron</strong>. This example consists of two input units, three hidden units, and one output unit. All neurons are said to be <strong>fully-connected</strong> when every neuron is connected to every other neuron in a forward fashion.</p>
+
+<p><img src="/pages/neural_networks/images/forward-pass.svg" alt="neural-net" /></p>
+
+<p>Some authors would say this network has two layers while others three, depending on whether you count the input layers as a layer. In general, networks have three types of layers: <em>input</em>, <em>hidden</em>, and <em>output</em>. Input layers that take input data for training, hidden layers where the learning actually happens, and output layers to get the results from training.</p>
 
 <h2 id="recommended-path-for-learning">Recommended Path for Learning</h2>
 
 <ul>
-  <li>Item 1 (video/code tutorial/document)</li>
-  <li>Item 2 (video/code tutorial/document)</li>
-  <li>Item 3 (video/code tutorial/document)</li>
+  <li>
+    <p><a href="https://www.deeplearningbook.org/contents/intro.html">Chapter 1: “Introduction” in <em>Deep Learning</em> by Goodfellow, Bengio, and Courville</a></p>
+  </li>
+  <li>
+    <table>
+      <tbody>
+        <tr>
+          <td>**But what is a Neural Network?</td>
+          <td>Deep learning, chapter 1**</td>
+        </tr>
+      </tbody>
+    </table>
+  </li>
 </ul>
-
-<h2 id="further-learning">Further Learning</h2>
-
-<h2 id="video">Video</h2>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/aircAruvnKk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 
 <ul>
-  <li>Video 1</li>
-  <li>Video 2</li>
+  <li><a href="https://stanford.edu/~jlmcc/papers/PDP/Chapter1.pdf">Chapter 1: “The Appeal of Parallel Distributed Processing” in <em>Parallel distributed processing: Explorations in the microstructure of cognition</em>. Volume I. by McClelland, Rumelhart, and Hinton</a></li>
 </ul>
+
+<h2 id="video-courses">Video courses</h2>
+
+<ul>
+  <li><strong>Neural Networks for Machine Learning by Geoffrey Hinton</strong></li>
+</ul>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/OVwEeSsSCHE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+<ul>
+  <li>
+    <table>
+      <tbody>
+        <tr>
+          <td>**MIT Introduction to Deep Learning</td>
+          <td>6.S191**</td>
+        </tr>
+      </tbody>
+    </table>
+  </li>
+</ul>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/njKP3FqW3Sk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+<ul>
+  <li><strong>Neural Networks series by 3Blue1Brown</strong></li>
+</ul>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/aircAruvnKk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 
 <h2 id="applied-papers">Applied papers</h2>
 
 <ul>
-  <li>Paper 1</li>
-  <li>Paper 2</li>
+  <li><a href="https://onlinelibrary.wiley.com/doi/pdf/10.1207/s15516709cog1402_1">Elman, J. L. (1990). Finding structure in time. Cognitive science, 14(2), 179-211.</a></li>
+  <li><a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=726791&amp;casa_token=6wyLjmRwb9UAAAAA:asALm4lyfFI5oFQKOiT0WIVoAyASMHhwY3oVG8zdMJiEYqKLXENTpTIofgE-Ir5WZpyW3xUksGao&amp;tag=1">LeCun, Y., Bottou, L., Bengio, Y., &amp; Haffner, P. (1998). Gradient-based learning applied to document recognition. Proceedings of the IEEE, 86(11), 2278-2324.</a></li>
+  <li><a href="https://www.nature.com/articles/nature24270.">Silver, D., Schrittwieser, J., Simonyan, K., Antonoglou, I., Huang, A., Guez, A., … &amp; Chen, Y. (2017). Mastering the game of go without human knowledge. nature, 550(7676), 354-359.</a></li>
 </ul>
 
-<h2 id="online-tutorials">Online tutorials</h2>
+<h2 id="online-tutorials-and-books">Online tutorials and books</h2>
 
 <ul>
-  <li>Online tutorial 1</li>
-  <li>Online tutorial 2</li>
+  <li><a href="https://d2l.ai/">Dive into Deep Learning Book</a></li>
+  <li><a href="https://www.deeplearningbook.org/">Deep Learning Book</a></li>
+  <li><a href="https://com-cog-book.github.io/com-cog-book/intro.html">Introduction to Neural Networks Models of Cognition - Interactive Book</a></li>
 </ul>
 
 <h2 id="theory-papers">Theory papers</h2>
+
 <ul>
-  <li>Paper 1</li>
-  <li>Paper 2</li>
+  <li>
+    <p><a href="https://neuro.bstu.by/my/Tmp/2010-S-abeno/Papers-3/Is-AI-intelligent/McClelland/ThomasMcCIPCambEncy.pdf">Thomas, M. S., &amp; McClelland, J. L. (2008). Connectionist models of cognition. The Cambridge handbook of computational psychology, 23-58.</a></p>
+  </li>
+  <li>
+    <p><a href="https://www.nature.com/articles/nature14539">LeCun, Y., Bengio, Y., &amp; Hinton, G. (2015). Deep learning. nature, 521(7553), 436-444.</a></p>
+  </li>
+  <li>
+    <p><a href="https://www.sciencedirect.com/science/article/pii/S1364661310001245?casa_token=vK6Y7A7C1ToAAAAA:-AedyDeRnQ426tbn6PCNmdSayEXrou0Hk5I-pO26wpkbQGRgmqew7BJZDm8xGv2zvdMoHmmxhHQw">McClelland, J. L., Botvinick, M. M., Noelle, D. C., Plaut, D. C., Rogers, T. T., Seidenberg, M. S., &amp; Smith, L. B. (2010). Letting structure emerge: connectionist and dynamical systems approaches to cognition. Trends in cognitive sciences, 14(8), 348-356.</a></p>
+  </li>
 </ul>
 
 
@@ -475,7 +540,7 @@ $('#toc').on('click', 'a', function() {
             <div class="row">
                 <div class="col-lg-12 footer">
                &copy;2020 NRT Online Library. All rights reserved. <br />
-<span>Page last updated:</span> June 1, 2020<br/> Site last generated: Aug 6, 2020 <br />
+<span>Page last updated:</span> August 7, 2020<br/> Site last generated: Aug 7, 2020 <br />
 <p><img src="images/magic-wand.svg" alt="Company logo"/></p>
                 </div>
             </div>
