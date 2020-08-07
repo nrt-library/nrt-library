@@ -53,7 +53,7 @@ Some authors would say this network has two layers while others three, depending
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/OVwEeSsSCHE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-- **MIT Introduction to Deep Learning | 6.S191**
+- **MIT Introduction to Deep Learning - 6.S191**
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/njKP3FqW3Sk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

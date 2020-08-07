@@ -971,7 +971,7 @@
 "tags": "pattern_recognition",
 "keywords": "topic",
 "url": "support_vector_machines.html",
-"summary": "Support vector machines are a specific instance of kernel-methods used for data classification."
+"summary": "Support vector machines are models for binary classification."
 }
 ,
 
