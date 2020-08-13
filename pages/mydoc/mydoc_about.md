@@ -99,6 +99,15 @@ If you have a picture in your GitHub account you can right-click your profile im
 <b>Contributed to</b>: Recurrence Quantification Analysis (RQA), Detrended Fluctuation Analysis (DFA), agent-based modeling, Git/GitHub, state-space modeling, 'papaja' for reproducible manuscripts
 </pre>
 
+<pre>
+<a name="glennpalmer"></a><img src="https://avatars0.githubusercontent.com/u/54924104?s=460&v=4" style="width:100px;height:100px;" />
+<b>Name</b>: Glenn Palmer
+<b>Bio</b>: Computer Science Graduate Student at UW-Madison
+<b>Website</b>: <a href="https://scholar.google.com/citations?user=hnLiY2gAAAAJ&hl=en">Google Scholar</a>
+<b>Email</b>: gapalmer@wisc.edu
+<b>Contributed to</b>: Overleaf/LaTeX
+</pre>
+
 Add your profile card here! ☝️
 
 {% include links.html %}
