@@ -4,7 +4,7 @@
     <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="">
+<meta name="description" content="A type of neural networks designed to approach time-dependent and/or sequence-dependent problems">
 <meta name="keywords" content=" topic">
 <title>Recurrent Neural Networks | NRT Online Library for Data Science and Human Behavior</title>
 <link rel="stylesheet" href="css/syntax.css">
@@ -372,6 +372,8 @@ $('#toc').on('click', 'a', function() {
 <div class="post-content">
 
    
+    <div class="summary">A type of neural networks designed to approach time-dependent and/or sequence-dependent problems</div>
+   
 
     
     
@@ -405,18 +407,22 @@ $('#toc').on('click', 'a', function() {
 
     
 
-   <div class="alert alert-info" role="alert"><i class="fa fa-info-circle"></i> <b>Note:</b> Please utilize the template below as a reference for your contribution. Adapt the template when deemed necessary</div>
+   <h2 id="what-are-recurrent-neural-networks-rnn">What are Recurrent Neural Networks (RNN)?</h2>
 
-<h2 id="what-is-topic-name">What is TOPIC-NAME?</h2>
+<p>Recurrent Neural Networks (RNNs) are a type of neural networks designed to approach <strong>time-dependent</strong> and/or <strong>sequence-dependent</strong> problems. RNN are “recurrent” in the sense that they can <strong>revisit or reuse past states as inputs to predict the next or future states</strong>. To put it plainly, they have <strong>memory</strong>. Indeed, memory is what allows us to incorporate our past thoughts and behaviors into our future thoughts and behaviors.</p>
 
-<p>Brief description.</p>
+<p>The first successful example of a RNN with backpropagation was introduced by <a href="https://en.wikipedia.org/wiki/Jeffrey_Elman">Jeffrey Elman</a>, the so-called Elman Network (Elman, 1990). Since the Elman network, outstanding progress has been made with RNN in both basic research and practical applications. RNNs today are used for tasks like machine translation, robotics, speech recognition, speech production, time series prediction, sequential decision making, modeling of brain activity, and many more.</p>
 
 <h2 id="recommended-path-for-learning">Recommended Path for Learning</h2>
 
 <ul>
-  <li>Item 1 (video/code tutorial/document)</li>
-  <li>Item 2 (video/code tutorial/document)</li>
-  <li>Item 3 (video/code tutorial/document)</li>
+  <li><a href="https://colah.github.io/posts/2015-08-Understanding-LSTMs/">Understanding LSTM Networks</a></li>
+  <li><strong>Modeling sequences: A brief overview - Lecture by Geoffrey Hinton (47 min)</strong></li>
+</ul>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/9T2X6WRUwFU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+<ul>
+  <li><a href="https://com-cog-book.github.io/com-cog-book/features/recurrent-net.html">The Recurrent Neural Network in introduction to Neural Networks Models of Cognition - Interactive Book by Pablo Caceres</a></li>
 </ul>
 
 <h2 id="further-learning">Further Learning</h2>
@@ -424,28 +430,38 @@ $('#toc').on('click', 'a', function() {
 <h2 id="video">Video</h2>
 
 <ul>
-  <li>Video 1</li>
-  <li>Video 2</li>
+  <li><strong>Recurrent Neural Networks - MIT 6.S191</strong></li>
+</ul>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/SEnXr6v2ifU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+<ul>
+  <li><a href="http://web.stanford.edu/class/cs224n/index.html#schedule">CS224n: Natural Language Processing with Deep Learning - Stanford / Winter 2020</a></li>
+  <li><a href="http://deeplearning.cs.cmu.edu/F20/index.html">Bhiksha Raj’s Deep Learning Lectures 13, 14, and 15 at Carnegie Mellon University</a></li>
 </ul>
 
 <h2 id="applied-papers">Applied papers</h2>
 
 <ul>
-  <li>Paper 1</li>
-  <li>Paper 2</li>
+  <li><a href="http://www.cnbc.cmu.edu/~plaut/papers/pdf/BotvinickPlaut04PR.seq-action.pdf">Botvinick, M., &amp; Plaut, D. C. (2004). Doing without schema hierarchies: A recurrent connectionist approach to normal and impaired routine sequential action. Psychological Review, 111(2), 395</a>.</li>
+  <li><a href="https://www.frontiersin.org/articles/10.3389/fncom.2017.00007/full">Güçlü, U., &amp; van Gerven, M. A. (2017). Modeling the dynamics of human brain activity with recurrent neural networks. Frontiers in Computational Neuroscience, 11, 7</a>.</li>
+  <li><a href="http://www.cs.memphis.edu/~tmccauly/munakataetal97.pdf">Munakata, Y., McClelland, J. L., Johnson, M. H., &amp; Siegler, R. S. (1997). Rethinking infant knowledge: Toward an adaptive process account of successes and failures in object permanence tasks. Psychological Review, 104(4), 686</a>.</li>
 </ul>
 
 <h2 id="online-tutorials">Online tutorials</h2>
 
 <ul>
-  <li>Online tutorial 1</li>
-  <li>Online tutorial 2</li>
+  <li><a href="https://pytorch.org/tutorials/intermediate/char_rnn_classification_tutorial.html">NLP From Scratch: Classifying Names with a Character-Level RNN (Pytorch)</a></li>
+  <li><a href="https://www.tensorflow.org/guide/keras/rnn">Recurrent Neural Networks (RNN) with Keras</a></li>
+  <li><a href="https://www.youtube.com/watch?v=OuYtk9Ymut4">ML with Recurrent Neural Networks (NLP Zero to Hero - Part 4)</a></li>
 </ul>
 
-<h2 id="theory-papers">Theory papers</h2>
+<h2 id="theory-papers-and-book-chapters">Theory papers and book chapters</h2>
+
 <ul>
-  <li>Paper 1</li>
-  <li>Paper 2</li>
+  <li><a href="https://crl.ucsd.edu/~elman/Papers/fsit.pdf">Elman, J. L. (1990). Finding Structure in Time. Cognitive Science, 14(2), 179–211</a>.</li>
+  <li><a href="https://ieeexplore.ieee.org/document/279181">Bengio, Y., Simard, P., &amp; Frasconi, P. (1994). Learning long-term dependencies with gradient descent is difficult. IEEE Transactions on Neural Networks, 5(2), 157–166</a>.</li>
+  <li><a href="https://www.deeplearningbook.org/contents/rnn.html">Sequence Modeling: Recurrent and Recursive Nets in Deep Learning by Goodfellow, Bengio, and Courville</a>.</li>
+  <li><a href="https://d2l.ai/chapter_recurrent-neural-networks/index.html">Recurrent Neural Networks in Dive into Deep Learning by Zhang, Lipton, and Smola</a>.</li>
 </ul>
 
 
@@ -465,7 +481,7 @@ $('#toc').on('click', 'a', function() {
             <div class="row">
                 <div class="col-lg-12 footer">
                &copy;2020 NRT Online Library. All rights reserved. <br />
-<span>Page last updated:</span> June 1, 2020<br/> Site last generated: Aug 7, 2020 <br />
+<span>Page last updated:</span> August 11, 2020<br/> Site last generated: Aug 13, 2020 <br />
 <p><img src="images/magic-wand.svg" alt="Company logo"/></p>
                 </div>
             </div>
