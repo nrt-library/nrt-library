@@ -81,7 +81,7 @@ Topics marked with 🆘 icon require contributors to add content.
   <td style="width:33%;"><a href="papaja.html">🥭 Papaja 🆘</a></td>
 </tr>
 <tr>
-  <td style="width:33%;"><a href="r_markdown.html">📓 R Markdown 🆘</a></td>
+  <td style="width:33%;"><a href="r_markdown.html">📓 R Markdown </a></td>
   <td style="width:33%;"><a href="tools_landing_page.html">🛠️ Reproducibility Tools 🆘</a></td>
   <td style="width:33%;"><a href="shell.html">🐚🛠️ Shell tools 🆘</a></td>
 </tr>
@@ -130,7 +130,7 @@ Topics marked with 🆘 icon require contributors to add content.
   <td style="width:33%;"><a href="backprop.html">🌊 Backpropagation Algorithm</a></td>
 </tr>
 <tr>
-  <td style="width:33%;"><a href="cnn.html">👁️ Convolutional Neural Networks</a></td>
+  <td style="width:33%;"><a href="cnn.html">👁️ Convolutional Neural Networks</a></td>🆘
   <td style="width:33%;"><a href="gan.html">🎭 Generative Adversarial Networks 🆘</a></td>
   <td style="width:33%;"><a href="lstm.html">🔁 Long Short Term Memory Networks</a></td>
 </tr>
