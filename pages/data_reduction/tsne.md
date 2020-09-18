@@ -1,5 +1,5 @@
 ---
-title: t-Stochastic Neigbour Embeddings
+title: t-Distributed Stochastic Neighbour Embeddings
 tags:
   - pattern_recognition
 keywords: "topic" # new keywords requiere to create a new tag file
@@ -15,7 +15,7 @@ folder: data_reduction
 
 ## What is TOPIC-NAME?
 
-Brief description.
+t-Distributed Stochastic Neighbor Embedding (commonly known as t-SNE) is a dimension reduction technique that preserves relative distances between points in high-dimensional data.
 
 
 ## Recommended Path for Learning
