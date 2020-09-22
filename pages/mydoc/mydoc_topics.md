@@ -7,7 +7,7 @@ folder: mydoc
 
 Below you can find the topics in which we have organized the content. You can access by either the **Topics** dropdown menu at the top, or by clicking in topics icons. 
 
-Topics marked with 🆘 icon require contributors to add content.
+Topics marked with 🆘 icon require contributors to add content. Topics with 🚧 icon are under construction and need contributors to edit the content. 
 
 
 ## [**INTRODUCTION TO DATA SCIENCE**](intro_ds_landing_page.html)
@@ -21,7 +21,7 @@ Topics marked with 🆘 icon require contributors to add content.
 </tr>
 <tr>
   <td style="width:33%;"><a href="intro_shell.html">🐚 Introduction to the UNIX shell (Bash)</a></td>
-  <td style="width:33%;"><a href="sql.html">🐘 SQL 🆘</a></td>
+  <td style="width:33%;"><a href="sql.html">🐘 SQL </a></td>
   <td style="width:33%;"><a href="mydoc_suggest.html">✋ Suggest a topic</a></td>
 </tr>
 </table> 
@@ -34,7 +34,7 @@ Topics marked with 🆘 icon require contributors to add content.
 <tr>
   <td style="width:33%;"><a href="nlp_landing_page.html">🦜 Introduction to NLP 🆘</a></td>
   <td style="width:33%;"><a href="machine_trans.html">📠 Machine Translation 🆘</a></td>  
-  <td style="width:33%;"><a href="semantic_vectors.html">✉️ Semantic Vectors 🆘</a></td>
+  <td style="width:33%;"><a href="semantic_vectors.html">✉️ Semantic Vectors 🚧</a></td>
 </tr>
 <tr>
   <td style="width:33%;"><a href="sentiment_analysis.html">💌 Sentiment Analysis 🆘</a></td>
@@ -43,7 +43,7 @@ Topics marked with 🆘 icon require contributors to add content.
 </tr>
 <tr>
   <td style="width:33%;"><a href="topic_model.html">🟠 Topic Models 🆘</a></td>
-  <td style="width:33%;"><a href="word2vec.html">🔡 Word2Vec 🆘 </a></td>
+  <td style="width:33%;"><a href="word2vec.html">🔡 Word2Vec 🚧 </a></td>
   <td style="width:33%;"><a href="mydoc_suggest.html">✋ Suggest a topic</a></td>
 </tr>
 </table> 
@@ -54,12 +54,12 @@ Topics marked with 🆘 icon require contributors to add content.
 
 <table style="table-layout: fixed; width: 90%;" >
 <tr>
-  <td style="width:33%;"><a href="pattern_classification_landing_page.html">🏁 Introduction to Kernel Methods 🆘</a></td>
+  <td style="width:33%;"><a href="pattern_classification_landing_page.html">🏁 Introduction to Kernel Methods 🚧</a></td>
   <td style="width:33%;"><a href="logit_multi_reg.html">📏 Logistic and Multinomial Regression 🆘</a></td>
   <td style="width:33%;"><a href="naive_bayes.html">👶 Naive Bayes 🆘</a></td>
 </tr>
 <tr>
-  <td style="width:33%;"><a href="random_forest.html">🌲🌲 Random Forest 🆘</a></td>
+  <td style="width:33%;"><a href="random_forest.html">🌲🌲 Random Forest 🚧</a></td>
   <td style="width:33%;"><a href="support_vector_machines.html">🌫️ Support Vector Machines </a></td>
   <td style="width:33%;"><a href="mydoc_suggest.html">✋ Suggest a topic</a></td>
 </tr>
@@ -127,12 +127,12 @@ Topics marked with 🆘 icon require contributors to add content.
 <tr>
   <td style="width:33%;"><a href="neural_networks_landing_page.html">🕸️ Introduction to Neural Networks</a></td>
   <td style="width:33%;"><a href="activation_functions.html">🤪 Activation functions 🆘</a></td>
-  <td style="width:33%;"><a href="backprop.html">🌊 Backpropagation Algorithm</a></td>
+  <td style="width:33%;"><a href="backprop.html">🌊 Backpropagation Algorithm 🆘</a></td>
 </tr>
 <tr>
-  <td style="width:33%;"><a href="cnn.html">👁️ Convolutional Neural Networks</a></td>🆘
+  <td style="width:33%;"><a href="cnn.html">👁️ Convolutional Neural Networks 🆘</a></td>🆘
   <td style="width:33%;"><a href="gan.html">🎭 Generative Adversarial Networks 🆘</a></td>
-  <td style="width:33%;"><a href="lstm.html">🔁 Long Short Term Memory Networks</a></td>
+  <td style="width:33%;"><a href="lstm.html">🔁 Long Short Term Memory Networks 🆘</a></td>
 </tr>
 <tr>
   <td style="width:33%;"><a href="prebuilt_net.html">🏗️ Working with Prebuilt Networks 🆘</a></td>
@@ -170,7 +170,7 @@ Topics marked with 🆘 icon require contributors to add content.
 <table style="table-layout: fixed; width: 90%;" >
 <tr>
   <td style="width:33%;"><a href="model_fitting_landing_page.html">🔧 Introduction to Model Fitting 🆘</a></td>
-  <td style="width:33%;"><a href="cross_valid.html">⚔️ Cross Validation 🆘</a></td>
+  <td style="width:33%;"><a href="cross_valid.html">⚔️ Cross Validation 🚧</a></td>
   <td style="width:33%;"><a href="elastic_nets.html">🥅 Elastic Nets 🆘</a></td>
 </tr>
 <tr>
@@ -196,7 +196,7 @@ Topics marked with 🆘 icon require contributors to add content.
 
 <table style="table-layout: fixed; width: 90%;" >
 <tr>
-  <td style="width:33%;"><a href="rl_landing_page.html">🐶 Introduction to Reinforcement Learning 🆘</a></td>
+  <td style="width:33%;"><a href="rl_landing_page.html">🐶 Introduction to Reinforcement Learning </a></td>
   <td style="width:33%;"><a href="actor_critic.html">👩🏿‍🎤 Actor Critic Models 🆘</a></td>
   <td style="width:33%;"><a href="c_ma_bandit.html">🎰 Contextual Multi-Armed Bandits 🆘</a></td>
 </tr>
