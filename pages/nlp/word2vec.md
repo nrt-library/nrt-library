@@ -23,10 +23,10 @@ Word2vec is not among the most sophisticated or state-of-the-art language models
 
 ## List of ideas/topics associated with this topic
 * Word Embeddings
-* Natural Language Models
-* Distributional Semantic Models
-* Simple Neural Networks
-* Semantics
+* [Natural Language Processing](nlp_landing_page.html)
+* [Neural Networks] (neural_networks_landing_page.html)
+* [Semantic Vectors](semantic_vectors.html)
+
 
 ## Understanding Word2vec
 
