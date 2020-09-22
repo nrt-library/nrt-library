@@ -13,7 +13,7 @@ folder: nlp
 
 {% include note.html content="Please utilize the template below as a reference for your contribution. Adapt the template when deemed necessary" %}
 
-## word2vec
+## Word2vec
 
 Word2vec is a set of related models for creating vector representations of words. It uses a shallow, feed-forward nerural network to attempt to predict the relationship between a word and the words that most often appear with it, based on a set a corpus of text, provided as input. You can either ask word2Vec to learn how to predict a target word, based on a given context (Continuous Bag of Words) or predict which words are most likely to be the context for a given word (Skip-gram).  For each word, word2vec will output a vector containing the weights of the hidden layer that were learned for that word. Each word (as represented by its vector), can be thought of as occupying a given position, along with all other words, in an n-dimensional space, where n=the number of hidden units or features in the hidden layer.
  
@@ -28,27 +28,16 @@ Word2vec is not among the most sophisticated or state-of-the-art language models
 * Simple Neural Networks
 * Semantics
 
-## Recommended Path for Learning
+## Understanding Word2vec
 
-* Item 1 (video/code tutorial/document)
-* Item 2 (video/code tutorial/document)
-* Item 3 (video/code tutorial/document)
-
-## Further Learning
-
-## Video
+### Video
 
 * [This video](https://www.youtube.com/watch?v=QyrUentbkvw), by Joran Boyd-Graber (U of Maryland Computer Science), gives an explanation of word2vec, how it works, and some of the situations in which it might be useful
 Understanding Word2Vec
 
 * Video 2
 
-## Applied papers 
-
-* Paper 1
-* Paper 2
-
-## Online tutorials
+### Online tutorials
 
 * [Basic (in R)](https://github.com/bmschmidt/wordVectors) 
 A simple, hands on, introduction to word2vec in R. It provides access to a training corpus (cookbooks!) and demonstrates some ways to interrogate the semantic space that results.
@@ -60,7 +49,7 @@ This tutorial is a bit more hands on, with some of the steps that were automated
 This tutorial might be useful if you'd like to see how word2vec works - a much more in depth way get acquainted, using numpy and google sheets
 
 
-## Theory papers 
+### Theory papers 
 * Initial word2vec paper - [Mikolov et al., 2013](https://arxiv.org/abs/1301.3781)
 * [This chapter on word vectors and embeddings](https://web.stanford.edu/~jurafsky/slp3/6.pdf) offers a good foundation on word2vec and some of the principles on which it is based. It's from Dan Jurafsky and James Martin's book (draft) Speech and Language Processing.
 
