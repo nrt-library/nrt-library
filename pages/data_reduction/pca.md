@@ -25,6 +25,8 @@ Principal component analysis (PCA) is a technique for reducing the dimensionalit
  
 https://youtu.be/FgakZw6K1QQ
 
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/FgakZw6K1QQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ### Web Article
  
 * <a href="https://towardsdatascience.com/a-one-stop-shop-for-principal-component-analysis-5582fb7e0a9c"  target="_blank">This article explains</a>, in plain language, what PCA is and how it works. The author also provides useful, but simple, guidelines for when PCA is an appropriate choice for the data analyst. A comprehensive set of PCA resources, curated by the author, is included at the end of the article.
