@@ -37,21 +37,17 @@ This was a very simplistic example, but can be scaled to many tables, all with d
 
 * This video provides a good introduction to SQL 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/IXycPq7MnwE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-* This video is provides an SQL overview in 10 minutes <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/bEtnYWuo2Bw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+* This video is provides an SQL overview in 10 minutes 
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/bEtnYWuo2Bw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Online tutorials
 
-* This unique introductory SQL tutorial provides easy-to-understand SQL instructions, and allows you to practice what you learn using the on-line SQL interpreter. You receive results after submitting your SQL commands. You will be able to create your own unique tables as well as perform selects, inserts, updates, deletes, and drops on your tables. The basics of each SQL command will be covered in this introductory tutorial. Unless otherwise stated, the interpreter will support everything covered in this course.
-
-If you're already familar with the basics of SQL, you can still use this as a refresher, and practice some SQL statements.
-<a href="http://www.sqlcourse.com/"  target="_blank">SQL Course</a>
+* <a href="http://www.sqlcourse.com/"  target="_blank">SQL Course</a> is a unique introductory SQL tutorial provides easy-to-understand SQL instructions, and allows you to practice what you learn using the on-line SQL interpreter. You receive results after submitting your SQL commands. You will be able to create your own unique tables as well as perform selects, inserts, updates, deletes, and drops on your tables. The basics of each SQL command will be covered in this introductory tutorial. Unless otherwise stated, the interpreter will support everything covered in this course. If you're already familar with the basics of SQL, you can still use this as a refresher, and practice some SQL statements.
 
 
+* <a href="https://github.com/linbojin/sql-tutorial"  target="_blank">SQL Tutorial</a> by <a href="https://github.com/Linbojin" target="_blank"/a> covers SQL commands, schema, functions, exercises and and hands-on tutorial.
 
 
-* This Github tutorial by <a href="https://github.com/Linbojin" target="_blank"/a> covers SQL commands, schema, functions, exercises and and hands-on tutorial. <a href="https://github.com/linbojin/sql-tutorial"  target="_blank">SQL Tutorial</a>
-
-
-* This is a list of resources for SQL including tutorials from videos, book format, and practice resources. <a href="https://gist.github.com/momer/19a159ffc336a047b2fa"  target="_blank">SQL Resources</a>
+* <a href="https://gist.github.com/momer/19a159ffc336a047b2fa"  target="_blank">SQL Resources</a> is a list of resources for SQL including tutorials from videos, book format, and practice resources.
 
 {% include links.html %}
