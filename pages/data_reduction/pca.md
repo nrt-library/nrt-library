@@ -23,8 +23,6 @@ Principal component analysis (PCA) is a technique for reducing the dimensionalit
 
 * <a href="https://www.youtube.com/watch?v=FgakZw6K1QQ">This video</a> introduction explains the essential purpose of and basic methods for conducting principal component analysis with easy to follow examples.
  
-https://youtu.be/FgakZw6K1QQ
-
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/FgakZw6K1QQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Web Article
