@@ -32,8 +32,8 @@ This was a very simplistic example, but can be scaled to many tables, all with d
 
 ### Getting started with SQL:
 
-* https://www.youtube.com/watch?v=IXycPq7MnwE
-* https://www.youtube.com/watch?v=bEtnYWuo2Bw&t=333s
+* <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/IXycPq7MnwE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+* <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/bEtnYWuo2Bw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Online tutorials
 
