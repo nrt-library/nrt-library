@@ -272,7 +272,7 @@ Topics with 🚧 icon are under construction and need contributors to edit the c
 
 <table style="table-layout: fixed; width: 90%;" >
 <tr>
-  <td style="width:33%;"><a href="sql.html">🌐 Structured Query Language 🆘</a></td>
+  <td style="width:33%;"><a href="sql.html">🌐 Structured Query Language </a></td>
   <td style="width:33%;"><a href="mydoc_suggest.html">✋ Suggest a topic</a></td>
   <td style="width:33%;"><a href="mydoc_suggest.html">✋ Suggest a topic</a></td>
 </tr>
