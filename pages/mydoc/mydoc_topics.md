@@ -7,7 +7,8 @@ folder: mydoc
 
 Below you can find the topics in which we have organized the content. You can access by either the **Topics** dropdown menu at the top, or by clicking in topics icons. 
 
-Topics marked with 🆘 icon require contributors to add content. Topics with 🚧 icon are under construction and need contributors to edit the content. 
+Topics marked with 🆘 icon require contributors to add content. 
+Topics with 🚧 icon are under construction and need contributors to edit the content. 
 
 
 ## [**INTRODUCTION TO DATA SCIENCE**](intro_ds_landing_page.html)
@@ -105,7 +106,7 @@ Topics marked with 🆘 icon require contributors to add content. Topics with �
 <tr>
   <td style="width:33%;"><a href="knn.html">🏘️ K-nearest Neighbours 🆘</a></td>
   <td style="width:33%;"><a href="lle.html">🟣 Locally Linear Embeddings 🆘</a></td>
-  <td style="width:33%;"><a href="pca.html">💈 Principal Component Analysis 🆘</a></td>
+  <td style="width:33%;"><a href="pca.html">💈 Principal Component Analysis </a></td>
 </tr>
 <tr>
   <td style="width:33%;"><a href="knn.html">👻 Spectral Clustering 🆘</a></td>
