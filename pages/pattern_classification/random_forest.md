@@ -29,7 +29,7 @@ Brief description.
 
 ## Video
 
-* Here's a pretty accessible introduction to random forests. 
+* Here's a pretty accessible introduction to random forests. https://youtu.be/J4Wdy0Wc_xQ
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/J4Wdy0Wc_xQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
