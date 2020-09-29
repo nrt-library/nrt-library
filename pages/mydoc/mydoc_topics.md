@@ -105,7 +105,7 @@ Topics with 🚧 icon are under construction and need contributors to edit the c
 </tr>
 <tr>
   <td style="width:33%;"><a href="knn.html">🏘️ K-nearest Neighbours 🆘</a></td>
-  <td style="width:33%;"><a href="lle.html">🟣 Locally Linear Embeddings 🚧</a></td>
+  <td style="width:33%;"><a href="lle.html">🟣 Locally Linear Embeddings</a></td>
   <td style="width:33%;"><a href="pca.html">💈 Principal Component Analysis </a></td>
 </tr>
 <tr>
