@@ -42,7 +42,8 @@ Brief description.
 * Online tutorial 2
 
 ## Theory papers 
-* Paper 1
+* [A survey of Monte Carlo Tree Search Methods](http://repository.essex.ac.uk/4117/1/MCTS-Survey.pdf). This paper has been cited over 1700 times, explains the algorithms very well and also has informative and easy to follow figures.
+
 * Paper 2
 
 {% include links.html %}
