@@ -23,9 +23,9 @@ In behavioral sciences, nonlinear data reduction methods are useful because, emp
 
 ## Useful videos
 
-* [Video 1](https://www.youtube.com/watch?v=scMntW3s-Wk/) explains what the Locally linear embedding method is, elaborating on how LLE preserves the total geometry of the data while reducing the dimension.
+* [Video 1](https://www.youtube.com/watch?v=scMntW3s-Wk/){target="_blank"} explains what the Locally linear embedding method is, elaborating on how LLE preserves the total geometry of the data while reducing the dimension.
 
-* [Video 2](https://www.youtube.com/watch?v=afkSR1Jweu8/) provides a short description of locally-linear embedding,
+* [Video 2](https://www.youtube.com/watch?v=afkSR1Jweu8/){target="_blank"} provides a short description of locally-linear embedding,
 goes through some Python code to explain each parameter of the scikit_learn code for LLE. 
 
 ## Applied papers
