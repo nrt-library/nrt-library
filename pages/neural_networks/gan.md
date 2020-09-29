@@ -29,7 +29,12 @@ Brief description.
 
 ## Video
 
-* Video 1
+* Xander Steenbrugge of Arxiv Insights’ explains GANs and provides 1) a quick introduction, 2) a technical deepdive on GAN optimization objective, 3) followed by state-of-the-art GAN techniques and 4) wraps up with playing with the latent space of StyleGAN using IPython Notebook.
+
+Face editing with GANs
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/dCKbRCUyop8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+Link to notebooks: [GAN notebook](https://drive.google.com/drive/folders/1LBWcmnUPoHDeaYlRiHokGyjywIdyhAQb)
+
 * Video 2
 
 ## Applied papers 
