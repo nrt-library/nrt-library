@@ -105,7 +105,7 @@ Topics with 🚧 icon are under construction and need contributors to edit the c
 </tr>
 <tr>
   <td style="width:33%;"><a href="knn.html">🏘️ K-nearest Neighbours 🆘</a></td>
-  <td style="width:33%;"><a href="lle.html">🟣 Locally Linear Embeddings 🆘</a></td>
+  <td style="width:33%;"><a href="lle.html">🟣 Locally Linear Embeddings 🚧</a></td>
   <td style="width:33%;"><a href="pca.html">💈 Principal Component Analysis </a></td>
 </tr>
 <tr>
@@ -132,7 +132,7 @@ Topics with 🚧 icon are under construction and need contributors to edit the c
 </tr>
 <tr>
   <td style="width:33%;"><a href="cnn.html">👁️ Convolutional Neural Networks 🆘</a></td>🆘
-  <td style="width:33%;"><a href="gan.html">🎭 Generative Adversarial Networks 🆘</a></td>
+  <td style="width:33%;"><a href="gan.html">🎭 Generative Adversarial Networks 🚧</a></td>
   <td style="width:33%;"><a href="lstm.html">🔁 Long Short Term Memory Networks 🆘</a></td>
 </tr>
 <tr>
@@ -214,7 +214,7 @@ Topics with 🚧 icon are under construction and need contributors to edit the c
 <tr>
   <td style="width:33%;"><a href="policy_search.html">🎛️ Policy Search 🆘</a></td>
   <td style="width:33%;"><a href="temp_diff.html">🕰️ Temporal Difference Learning 🆘</a></td>
-  <td style="width:33%;"><a href="tree_based_mc.html">🌳 Tree Based Monte Carlo Search 🆘</a></td>
+  <td style="width:33%;"><a href="tree_based_mc.html">🌳 Tree Based Monte Carlo Search 🚧</a></td>
 </tr>
 <tr>
   <td style="width:33%;"><a href="mydoc_suggest.html">✋ Suggest a topic</a></td>
