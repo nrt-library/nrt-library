@@ -28,12 +28,12 @@ It is also recommended, but not necessary, to have some knowledge of basic model
 
 
 ## Ideas, concepts, or tools that are associated with this topic
-R/RStudio (especially the caret package, tidymodels, and parsnip packages)
-Python
-Cross validation/CV (particularly bootstrapped CV, k-fold CV, and nested CV)
-Basic knowledge of standard machine learning (ML) models (mostly lasso and elastic net regression, tree based methods, neural nets)
-Bias/variance trade offs in model fitting and evaluation
-Generalizability of predictive models (why its important, how to prioritize it, and how to assess it)
+- R/RStudio (especially the caret package, tidymodels, and parsnip packages)
+- Python
+- Cross validation/CV (particularly bootstrapped CV, k-fold CV, and nested CV)
+- Basic knowledge of standard machine learning (ML) models (mostly lasso and elastic net regression, tree based methods, neural nets)
+- Bias/variance trade offs in model fitting and evaluation
+- Generalizability of predictive models (why its important, how to prioritize it, and how to assess it)
 
 
 ## Recommended path for learning:
