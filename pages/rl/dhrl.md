@@ -20,11 +20,15 @@ Brief description.
 
 ## Recommended Path for Learning
 
-* [Deep Hierarchical Reinforcement Learning Made Fast and Easy with Dr. Ray Fox](<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/x_QjJry0hTc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>) This 20 minutes video is a great introduction to this concept.  
+* This 20 minutes video is a great introduction to this concept.  
+Deep Hierarchical Reinforcement Learning Made Fast and Easy with Dr. Ray Fox
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/x_QjJry0hTc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
 
 * [The Promise of Hierarchical Reinforcement Learning](https://thegradient.pub/the-promise-of-hierarchical-reinforcement-learning/) This is great blog post that explains hierarchical reinforcement learning using real-world examples to help explain and clarify the hierarchical problem-solving approach.  
 
-* [Hierarchical Reinforcement Learning - Diona Precup](<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/e8b0yC6COJ8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>_) This video explains Hierarchical Reinforcement Learning in a very straightforward way using an every daily example. This talk presents the concept of  Hierarchical Reinforcement Learning without the technical aspect.
+* This video explains Hierarchical Reinforcement Learning in a very straightforward way using an every daily example. This talk presents the concept of  Hierarchical Reinforcement Learning without the technical aspect.
+Hierarchical Reinforcement Learning - Diona Precup
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/e8b0yC6COJ8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 ## Further Learning
