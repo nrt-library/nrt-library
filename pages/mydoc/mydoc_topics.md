@@ -171,7 +171,7 @@ Topics with 🚧 icon are under construction and need contributors to edit the c
 <table style="table-layout: fixed; width: 90%;" >
 <tr>
   <td style="width:33%;"><a href="model_fitting_landing_page.html">🔧 Introduction to Model Fitting 🆘</a></td>
-  <td style="width:33%;"><a href="cross_valid.html">⚔️ Cross Validation 🚧</a></td>
+  <td style="width:33%;"><a href="cross_valid.html">⚔️ Cross Validation </a></td>
   <td style="width:33%;"><a href="elastic_nets.html">🥅 Elastic Nets 🆘</a></td>
 </tr>
 <tr>
