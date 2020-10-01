@@ -109,7 +109,7 @@ Topics with 🚧 icon are under construction and need contributors to edit the c
   <td style="width:33%;"><a href="pca.html">💈 Principal Component Analysis </a></td>
 </tr>
 <tr>
-  <td style="width:33%;"><a href="spectralcluster.html">👻 Spectral Clustering 🚧</a></td>
+  <td style="width:33%;"><a href="spectralcluster.html">👻 Spectral Clustering </a></td>
   <td style="width:33%;"><a href="svd.html">🗼 Singular Value Decomposition 🆘</a></td>
   <td style="width:33%;"><a href="tsne.html">🎎 t-Stochastic Neigbour Embeddings 🆘</a></td>
 </tr>
