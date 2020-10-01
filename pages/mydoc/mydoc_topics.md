@@ -202,7 +202,7 @@ Topics with 🚧 icon are under construction and need contributors to edit the c
   <td style="width:33%;"><a href="c_ma_bandit.html">🎰 Contextual Multi-Armed Bandits 🆘</a></td>
 </tr>
 <tr>
-  <td style="width:33%;"><a href="dhrl.html">🕸️🐶 Deep Hierarchical Reinforcement Learning 🆘</a></td>
+  <td style="width:33%;"><a href="dhrl.html">🕸️🐶 Deep Hierarchical Reinforcement Learning 🚧</a></td>
   <td style="width:33%;"><a href="dyna_q.html">🕹️ Dyna Q Algorithm 🆘</a></td>
   <td style="width:33%;"><a href="ma_bandit.html">🎰 Multi-armed Bandits 🆘</a></td>
 </tr>
