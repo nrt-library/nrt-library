@@ -22,9 +22,9 @@ To get the most out of these materials, it is recommended that you have a base l
 It is also recommended, but not necessary, to have some knowledge of basic model fitting and evaluation techniques (materials included here use mostly regression, decision trees, and [neural nets](neural_networks_landing_page) in their examples). Many code tutorials contain data cleaning and feature engineering leading up to the code describing how to use CV for parameter selection, which may be confusing if the reader has not had some exposure to machine learning model building pipelines before.
 
 ## You should use cross validation for parameter selection if…
--You are fitting a statistical model with hyperparameters that need tuning
--You are considering multiple combinations of model configurations (e.g.  features or statistical algorithms) 
--You want to build predictive models that will generalize to predict well in new data
+- You are fitting a statistical model with hyperparameters that need tuning
+- You are considering multiple combinations of model configurations (e.g.  features or statistical algorithms) 
+- You want to build predictive models that will generalize to predict well in new data
 
 
 ## Ideas, concepts, or tools that are associated with this topic
