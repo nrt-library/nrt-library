@@ -34,7 +34,7 @@ Topics with 🚧 icon are under construction and need contributors to edit the c
 <table style="table-layout: fixed; width: 90%;" >
 <tr>
   <td style="width:33%;"><a href="nlp_landing_page.html">🦜 Introduction to NLP 🆘</a></td>
-  <td style="width:33%;"><a href="machine_trans.html">📠 Machine Translation 🆘</a></td>  
+  <td style="width:33%;"><a href="machine_trans.html">📠 Machine Translation 🚧</a></td>  
   <td style="width:33%;"><a href="semantic_vectors.html">✉️ Semantic Vectors 🚧</a></td>
 </tr>
 <tr>
@@ -109,7 +109,7 @@ Topics with 🚧 icon are under construction and need contributors to edit the c
   <td style="width:33%;"><a href="pca.html">💈 Principal Component Analysis </a></td>
 </tr>
 <tr>
-  <td style="width:33%;"><a href="knn.html">👻 Spectral Clustering 🆘</a></td>
+  <td style="width:33%;"><a href="spectralcluster.html">👻 Spectral Clustering 🚧</a></td>
   <td style="width:33%;"><a href="svd.html">🗼 Singular Value Decomposition 🆘</a></td>
   <td style="width:33%;"><a href="tsne.html">🎎 t-Stochastic Neigbour Embeddings 🆘</a></td>
 </tr>
@@ -234,7 +234,7 @@ Topics with 🚧 icon are under construction and need contributors to edit the c
   <td style="width:33%;"><a href="detrended_fluctuation.html">💹 Detrended Fluctuation Analysis 🆘</a></td>
 </tr>
 <tr>
-  <td style="width:33%;"><a href="kalman_filters.html">🌀 Kalman Filter 🆘</a></td>
+  <td style="width:33%;"><a href="kalman_filters.html">🌀 Kalman Filter 🚧</a></td>
   <td style="width:33%;"><a href="rqa.html">↩️ Recurrence Quantification Analysis 🆘</a></td>
   <td style="width:33%;"><a href="mydoc_suggest.html">✋ Suggest a topic</a></td>
 </tr>
