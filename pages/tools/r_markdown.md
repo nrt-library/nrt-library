@@ -40,14 +40,19 @@ Start with the 1-minute overview video to get an idea of what R Markdown can be 
 ### Online tutorials:
 These online book/blog tutorials provide comprehensive guides on how to use R Markdown. Their clear chapter breakdowns also make it easy to find an answer to a specific question, or brush up on one skill at a time. The best part? These were all made using R Markdown, so they provide great examples of one thing you can do with this tool! 
 
-* This <a href="https://rmarkdown.rstudio.com/lesson-1.html">online book contains </a> lessons on R Markdown basics, specific output formats, in-line and chunk code, tables, interactive websites, presentations, using multiple coding languages, and more. It’s perfect for someone looking for a comprehensive (yet still quite succinct) tutorial on using R markdown
+* [R Markdown from RStudio]("https://rmarkdown.rstudio.com/lesson-1.html") is an online book that contains lessons on R Markdown basics, specific output formats, in-line and chunk code, tables, interactive websites, presentations, using multiple coding languages, and more. It’s perfect for someone looking for a comprehensive (yet still quite succinct) tutorial on using R markdown
 
-* This is a <a href="https://bookdown.org/yihui/rmarkdown/"> longer, more detailed online book</a> about everything R markdown is very thorough. The authors suggest using it as a "reference" rather than "textbook" because of the amount of information contained. The <a href="https://bookdown.org/yihui/rmarkdown/how-to-read-this-book.html">How to Read this Book section</a> in the preface demonstrates how users with different questions or needs might navigate the book.
+* [R Markdown: The Definitive Guide]("https://bookdown.org/yihui/rmarkdown/") is a longer, more detailed online book about everything R markdown is very thorough. The authors suggest using it as a "reference" rather than "textbook" because of the amount of information contained. The <a href="https://bookdown.org/yihui/rmarkdown/how-to-read-this-book.html">How to Read this Book section</a> in the preface demonstrates how users with different questions or needs might navigate the book.
 
 * The <a href="https://r4ds.had.co.nz/communicate-intro.html">Communication section</a> from the R for Data Science online book includes several chapters on R markdown (the tidyverse’s preferred method for statistical and scientific communication).
+
+### Papers
+
+* This paper in the Statistics area of arXiv.org discusses how R Markdown can improve data science communication workflow. [R Markdown: Integrating A Reproducible Analysis Tool into Introductory Statistics](https://arxiv.org/abs/1402.1894) 
 
 
 ### Additional resources
 * This <a href="https://rstudio.com/wp-content/uploads/2016/03/rmarkdown-cheatsheet-2.0.pdf?_ga=2.21559803.1919363354.1587046420-578084544.1536275162">cheat sheet</a> is a one-stop-shop for a very quick introduction to R Markdown. It’s also great for quick answers to questions about common tasks.
+
 * This <a href="https://gist.github.com/jeromyanglim/2716336">online code</a> from GitHub Gist provides an example/walkthrough of using R Markdown. 
 
