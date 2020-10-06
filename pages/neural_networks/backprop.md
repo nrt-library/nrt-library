@@ -19,29 +19,30 @@ Brief description.
 
 ## Recommended Path for Learning
 
-* Item 1 (video/code tutorial/document)
-* Item 2 (video/code tutorial/document)
-* Item 3 (video/code tutorial/document)
+* This less than 15 minute video introduces backpropagation conceptually, without the accompanying mathematical algorithms. 
+What is backpropagation really doing?
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Ilg3gGewQ5U" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+* For those interested in understanding the mathematics behind the algorithm, this site provides a brief introduction to backpropagation and then gives an in-depth explanation of how the algorithm works. [How the backpropagation algorithm works](http://neuralnetworksanddeeplearning.com/chap2.html)
 
 ## Further Learning
 
 ## Video
 
-* Video 1
-* Video 2
+* This video dives into the calculus underlying the backpropagation algorithm. It is less conceptual and more math-heavy.
+Backpropagation calculus
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/tIeHLnjs5U8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Applied papers 
+## Applied paper
 
-* Paper 1
-* Paper 2
+* This blog post briefly introduces the backpropagation concept but mostly focuses on the mathematics of the backpropagation algorithm. It provides visual depictions of all equations embedded within neural networks, which is super helpful. [Calculus on Computational Graphs: Backpropagation](https://colah.github.io/posts/2015-08-Backprop/)
 
-## Online tutorials
+## Online tutorial
 
-* Online tutorial 1
-* Online tutorial 2
+* This is a tutorial for implementing the backpropagation algorithm for a neural network from scratch with Python. It reviews how to forward-propagate an input to calculate an output, how to back-propagate error and train a network, and how to apply the backpropagation algorithm to a real-world predictive modeling problem. [How to Code a Neural Network with Backpropagation In Python (from scratch)](https://machinelearningmastery.com/implement-backpropagation-algorithm-scratch-python/)
 
-## Theory papers 
-* Paper 1
-* Paper 2
+## Theory paper
+
+* This chapter presents a survey of the elementary theory of the basic backpropagation neural network architecture, covering the areas of architectural design, performance measurement, function approximation capability, and learning. It also discusses how backpropagation may be implemented in the mammalian brain. [Theory of the Backpropagation Neural Network](https://www.sciencedirect.com/science/article/pii/B9780127412528500108)
 
 {% include links.html %}
