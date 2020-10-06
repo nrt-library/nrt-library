@@ -70,8 +70,14 @@ Some authors would say this network has two layers while others three, depending
 ## Online tutorials and books
 
 - [Dive into Deep Learning Book](https://d2l.ai/)
-- [Deep Learning Book](https://www.deeplearningbook.org/)
+
 - [Introduction to Neural Networks Models of Cognition - Interactive Book](https://com-cog-book.github.io/com-cog-book/intro.html)
+
+- This website specifically applies neural networks to recognizing handwritten digits, and explains core concepts of neural networks along the way. It also includes Python code for learning to recognize handwritten digits. [Using Neural Networks to Recognize Handwritten Digits](http://neuralnetworksanddeeplearning.com/chap1.html)
+
+- This website provides a brief introduction to all the important concepts of artificial neural networks (ANN), and explains how to use deep learning frameworks like TensorFlow and PyTorch to build deep learning architecture. It includes all the basics. [The Complete Guide to Artificial Neural Networks: Concepts and Models](The Complete Guide to Artificial Neural Networks: Concepts and Models)
+
+- This repository includes supporting iPython notebooks for the YouTube Series Neural Networks Demystified. It contains formulas, code, and the text of the movies in the iPython notebooks, in addition to raw code in python scripts. [Neural-Networks-Demystified](https://github.com/stephencwelch/Neural-Networks-Demystified)
 
 ## Theory papers 
 
@@ -80,6 +86,8 @@ Some authors would say this network has two layers while others three, depending
 - [LeCun, Y., Bengio, Y., & Hinton, G. (2015). Deep learning. nature, 521(7553), 436-444.](https://www.nature.com/articles/nature14539)
 
 - [McClelland, J. L., Botvinick, M. M., Noelle, D. C., Plaut, D. C., Rogers, T. T., Seidenberg, M. S., & Smith, L. B. (2010). Letting structure emerge: connectionist and dynamical systems approaches to cognition. Trends in cognitive sciences, 14(8), 348-356.](https://www.sciencedirect.com/science/article/pii/S1364661310001245?casa_token=vK6Y7A7C1ToAAAAA:-AedyDeRnQ426tbn6PCNmdSayEXrou0Hk5I-pO26wpkbQGRgmqew7BJZDm8xGv2zvdMoHmmxhHQw)
+
+- This paper reviews deep supervised learning (also recapitulating the history of backpropagation), unsupervised learning, reinforcement learning & evolutionary computation, and indirect search for short programs encoding deep and large networks. [Deep learning in neural networks: An overview](https://www.sciencedirect.com/science/article/abs/pii/S0893608014002135)
 
 ## Contributors
 
