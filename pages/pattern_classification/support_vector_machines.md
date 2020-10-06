@@ -59,21 +59,26 @@ There are sections that detail different mathematical tools that SVMs employ and
 
 ### Code Implementations
  
-* A python based implementation of SVM using scikit-learn:
-<a href="https://stackabuse.com/implementing-svm-and-kernel-svm-with-pythons-scikit-learn/" target="_blank"> Implementing SVM and Kernel SVM with Python's Scikit-Learn.</a>
+* This is a blogpost that walks us through how we might implement SVMs using python's scikit-learn machine learning package. 
+<a href="https://stackabuse.com/implementing-svm-and-kernel-svm-with-pythons-scikit-learn/" target="_blank"> Guide to implementing SVM and Kernel SVM with Python's Scikit-Learn.</a>
  
-Here’s another jupyter notebook based python implementation of SVMs using scikit-learn:
+* Here’s another jupyter notebook based python implementation of SVMs using scikit-learn:
 <a href="https://www.learnopencv.com/svm-using-scikit-learn-in-python/" target="_blank">SVM using Scikit-Learn in Python.</a>
 
-### Blogs & Articles
+* This is a jupyter notebook that describes kernel methods that are useful in SVMs and RVMs (relational vector machines). This is a companion to chapter 7 of Bishop's textbook, [Pattern Recognition and Machine Learning](http://users.isr.ist.utl.pt/~wurmd/Livros/school/Bishop%20-%20Pattern%20Recognition%20And%20Machine%20Learning%20-%20Springer%20%202006.pdf). I recommend reading the chapter while looking at this codebase. [Jupyter notebook showcasing Kernel methods](https://nbviewer.jupyter.org/github/ctgk/PRML/blob/master/notebooks/ch06_Kernel_Methods.ipynb)
+
+### Blogs 
 
 This blog post is a nice overview that starts with easy intuitions and walks through the hairy-looking mathematical underpinnings with nice geometric interpretations:
 * <a href="https://www.jeremyjordan.me/support-vector-machines/#:~:text=Image%20credit">Support Vector Machines.
+  
+### Papers
 
 Here are 2 papers that employ SVMs in NLP and cognitive neuroscience settings:
-* <a href="https://www.aclweb.org/anthology/N04-1030/" target="_blank">Shallow Semantic Parsing using Support Vector Machines.</a>
- 
-* <a href="https://www.ncbi.nlm.nih.gov/pubmed/20112242" target="_blank">Effective functional mapping of fMRI data with support-vector machines.</a>
+- <a href="https://www.aclweb.org/anthology/N04-1030/" target="_blank">Shallow Semantic Parsing using Support Vector Machines.</a>
+- <a href="https://www.ncbi.nlm.nih.gov/pubmed/20112242" target="_blank">Effective functional mapping of fMRI data with support-vector machines.</a>
+
+* This is a paper that describes how to do functional mapping of fMRI data using support vector machines. Good example of how this method can be used to find temporal or spatial structure in neural data. [Effective Functional Mapping of fMRI Data with Support-Vector Machines](https://onlinelibrary.wiley.com/doi/pdf/10.1002/hbm.20955)
 
 
 {% include links.html %}
