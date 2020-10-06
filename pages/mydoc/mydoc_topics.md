@@ -234,7 +234,7 @@ Below you can find the topics in which we have organized the content. You can ac
   <td style="width:33%;"><a href="detrended_fluctuation.html">💹 Detrended Fluctuation Analysis 🆘</a></td>
 </tr>
 <tr>
-  <td style="width:33%;"><a href="kalman_filters.html">🌀 Kalman Filter 🚧</a></td>
+  <td style="width:33%;"><a href="kalman_filters.html">🌀 Kalman Filter </a></td>
   <td style="width:33%;"><a href="rqa.html">↩️ Recurrence Quantification Analysis 🆘</a></td>
   <td style="width:33%;"><a href="mydoc_suggest.html">✋ Suggest a topic</a></td>
 </tr>
