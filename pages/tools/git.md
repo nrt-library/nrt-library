@@ -17,9 +17,32 @@ folder: tools
 
 Brief description.
 
-
 ## Recommended Path for Learning
 
+* Item 1 (video/code tutorial/document)
+* Item 2 (video/code tutorial/document)
+* Item 3 (video/code tutorial/document)
+
+## Further Learning
+
+## Video
+
+* Video 1
+* Video 2
+
+## Applied papers 
+
+* Paper 1
+* Paper 2
+
+## Online tutorials
+
+* Online tutorial 1
+* Online tutorial 2
+
+## Theory papers 
+* Paper 1
+* Paper 2
 
 
 
