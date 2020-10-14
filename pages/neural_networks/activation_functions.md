@@ -20,29 +20,19 @@ Brief description.
 
 ## Recommended Path for Learning
 
-* Item 1 (video/code tutorial/document)
-* Item 2 (video/code tutorial/document)
-* Item 3 (video/code tutorial/document)
+* [What is Activation Function?](https://towardsdatascience.com/activation-functions-neural-networks-1cbd9f8d91d6) This Towards Data Science is a great post explaining activation function in neural networks. 
+
+* This 8 minute video introduces the various activation functions along with their advantages, disadvantages, and when to apply such functions
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-7scQpJT7uo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Further Learning
 
-## Video
-
-* Video 1
-* Video 2
-
 ## Applied papers 
 
-* Paper 1
-* Paper 2
+* This paper aims to analyze the performance of generalized MLP architectures which has back-propagation algorithm using various different activation functions for the neurons of hidden and output layers. For experimental comparisons, Bi-polar sigmoid, Uni-polar sigmoid, Tanh, Conic Section, and Radial Bases Function (RBF) were used. [Performance Analysis of Various Activation Functions in Generalized MLP Architectures of Neural Networks](http://www.cscjournals.org/manuscript/Journals/IJAE/Volume1/Issue4/IJAE-26.pdf)
 
-## Online tutorials
+* [ANALYSIS OF DIFFERENT ACTIVATION FUNCTIONS USING BACK PROPAGATION NEURAL NETWORKS](http://www.jatit.org/volumes/Vol47No3/61Vol47No3.pdf) This paper aims to analyze and compare different activation functions using backpropagation in a neural network. The purpose is to figure out the optimal activation function for a problem.
 
-* Online tutorial 1
-* Online tutorial 2
 
-## Theory papers 
-* Paper 1
-* Paper 2
 
 {% include links.html %}
