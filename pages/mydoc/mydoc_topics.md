@@ -208,7 +208,7 @@ Below you can find the topics in which we have organized the content. You can ac
   <td style="width:33%;"><a href="ma_bandit.html">🎰 Multi-armed Bandits 🆘</a></td>
 </tr>
 <tr>
-  <td style="width:33%;"><a href="mc_search.html">🎲 Monte Carlo Search 🆘</a></td>
+  <td style="width:33%;"><a href="mc_search.html">🎲 Monte Carlo Search 🚧</a></td>
   <td style="width:33%;"><a href="model_based_rl.html">🗺️ Model Based RL 🆘</a></td>
   <td style="width:33%;"><a href="model_free_rl.html">🥕 Model Free RL 🆘</a></td>
 </tr>
