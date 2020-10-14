@@ -73,13 +73,13 @@ Below you can find the topics in which we have organized the content. You can ac
 <table style="table-layout: fixed; width: 90%;" >
 <tr>
   <td style="width:33%;"><a href="tools_landing_page.html">🧰 Introduction to Tools for Data Science 🆘</a></td>
-  <td style="width:33%;"><a href="git.html">🐱 Git 🚧</a></td>
-  <td style="width:33%;"><a href="github.html">🐙 GitHub 🆘</a></td>
+  <td style="width:33%;"><a href="git.html">🐱 Git 🆘 </a></td>
+  <td style="width:33%;"><a href="github.html">🐙 GitHub 🚧</a></td>
 </tr>
 <tr>
   <td style="width:33%;"><a href="jupyter.html">🪐 Jupyter Notebooks</a></td>
   <td style="width:33%;"><a href="overleaf.html">🍃 Overleaf</a></td>
-  <td style="width:33%;"><a href="papaja.html">🥭 Papaja 🆘</a></td>
+  <td style="width:33%;"><a href="papaja.html">🥭 Papaja 🚧</a></td>
 </tr>
 <tr>
   <td style="width:33%;"><a href="r_markdown.html">📓 R Markdown </a></td>
@@ -127,7 +127,7 @@ Below you can find the topics in which we have organized the content. You can ac
 <table style="table-layout: fixed; width: 90%;" >
 <tr>
   <td style="width:33%;"><a href="neural_networks_landing_page.html">🕸️ Introduction to Neural Networks</a></td>
-  <td style="width:33%;"><a href="activation_functions.html">🤪 Activation functions 🆘</a></td>
+  <td style="width:33%;"><a href="activation_functions.html">🤪 Activation functions 🚧</a></td>
   <td style="width:33%;"><a href="backprop.html">🌊 Backpropagation Algorithm 🚧 </a></td>
 </tr>
 <tr>
