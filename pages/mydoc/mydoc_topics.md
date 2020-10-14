@@ -7,7 +7,8 @@ folder: mydoc
 
 Below you can find the topics in which we have organized the content. You can access by either the **Topics** dropdown menu at the top, or by clicking in topics icons. 
 
--Topics marked with 🆘 icon require contributors to add content. 
+-Topics marked with 🆘 icon require contributors to add content.
+
 -Topics with 🚧 icon are under construction and need contributors to edit the content. 
 
 
@@ -235,7 +236,7 @@ Below you can find the topics in which we have organized the content. You can ac
 </tr>
 <tr>
   <td style="width:33%;"><a href="kalman_filters.html">🌀 Kalman Filter </a></td>
-  <td style="width:33%;"><a href="rqa.html">↩️ Recurrence Quantification Analysis 🆘</a></td>
+  <td style="width:33%;"><a href="rqa.html">↩️ Recurrence Quantification Analysis 🚧</a></td>
   <td style="width:33%;"><a href="mydoc_suggest.html">✋ Suggest a topic</a></td>
 </tr>
 </table> 
