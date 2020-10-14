@@ -258,7 +258,7 @@ Below you can find the topics in which we have organized the content. You can ac
 <tr>
   <td style="width:33%;"><a href="layout_alg.html">🖇️ Graph Layout Algorithms 🆘</a></td>  
   <td style="width:33%;"><a href="comm_struct.html">🧑🏻‍🤝‍🧑🏻 Community Structure in Graphs and Networks 🆘</a></td>  
-  <td style="width:33%;"><a href="state_space_model.html">🌌 State Space Modeling 🆘</a></td>  
+  <td style="width:33%;"><a href="state_space_model.html">🌌 State Space Modeling 🚧</a></td>  
 </tr>
 <tr>
   <td style="width:33%;"><a href="graph_partitioning.html">⭕ Graph Partitioning 🆘</a></td>
