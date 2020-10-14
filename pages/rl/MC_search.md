@@ -20,8 +20,12 @@ Brief description.
 
 ## Recommended Path for Learning
 
-* Item 1 (video/code tutorial/document)
-* Item 2 (video/code tutorial/document)
+* This is a 30 minute YouTube video that introduces what the MCMC algorithm is.
+Markov Chain Monte Carlo and the Metropolis Algorithm
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/h1NOS_wxgGg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+* This is a blog post explaining the basics of bayesian inference and MCMC [An Introduction to Bayesian Inference and Markov Chain Monte Carlo](https://towardsdatascience.com/an-introduction-to-bayesian-inference-e6186cfc87bc)
+
 * Item 3 (video/code tutorial/document)
 
 ## Further Learning
