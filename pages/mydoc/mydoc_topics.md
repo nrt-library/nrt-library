@@ -73,7 +73,7 @@ Below you can find the topics in which we have organized the content. You can ac
 <table style="table-layout: fixed; width: 90%;" >
 <tr>
   <td style="width:33%;"><a href="tools_landing_page.html">🧰 Introduction to Tools for Data Science 🆘</a></td>
-  <td style="width:33%;"><a href="git.html">🐱 Git 🆘</a></td>
+  <td style="width:33%;"><a href="git.html">🐱 Git 🚧</a></td>
   <td style="width:33%;"><a href="github.html">🐙 GitHub 🆘</a></td>
 </tr>
 <tr>
