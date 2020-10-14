@@ -143,7 +143,7 @@ Below you can find the topics in which we have organized the content. You can ac
 </tr>
 <tr>
   <td style="width:33%;"><a href="vae.html">🛺 Variational Autoencoders 🆘</a></td>
-  <td style="width:33%;"><a href="mydoc_suggest.html">✋ Suggest a topic</a></td>
+  <td style="width:33%;"><a href="imageclass">🐶 Image Classification 🚧</a></td>
   <td style="width:33%;"><a href="mydoc_suggest.html">✋ Suggest a topic</a></td>
 </tr>
 </table> 
