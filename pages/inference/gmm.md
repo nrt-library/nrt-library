@@ -21,7 +21,9 @@ Brief description.
 
 ## Recommended Path for Learning
 
-* Item 1 (video/code tutorial/document)
+* This is an excerpt from the Python Data Science Handbook by Jake VanderPlas; Jupyter notebooks are available on GitHub.
+[In Depth: Gaussian Mixture Models](https://jakevdp.github.io/PythonDataScienceHandbook/05.12-gaussian-mixtures.html)
+
 * Item 2 (video/code tutorial/document)
 * Item 3 (video/code tutorial/document)
 
