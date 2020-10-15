@@ -20,7 +20,14 @@ Brief description.
 
 ## Recommended Path for Learning
 
-* Item 1 (video/code tutorial/document)
+* Video overview of the concepts behind ridge regression (L2 penalization). Part of a 3-video series on regularization.
+Regularization Part 1: Ridge Regression
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Q81RR3yKn30" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+* Video overview of how to implement elastic net, lasso, and ridge regression in R. Assumes knowledge of the concepts behind these three types of regression as taught in the 3-part Regularization series by the same author.
+Elastic net regression in R
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/ctmNq7FgbvI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 * Item 2 (video/code tutorial/document)
 * Item 3 (video/code tutorial/document)
 
