@@ -20,7 +20,10 @@ Brief description.
 
 ## Recommended Path for Learning
 
-* Item 1 (video/code tutorial/document)
+* Video overview of the concepts behind elastic net regression. Part 3 of a series on regularization.
+Regularization Part 3: Elastic Net Regression
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/1dKRdX9bfIo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 * Item 2 (video/code tutorial/document)
 * Item 3 (video/code tutorial/document)
 
