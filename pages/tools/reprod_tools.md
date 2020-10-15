@@ -21,7 +21,9 @@ Brief description.
 
 ## Recommended Path for Learning
 
-* Item 1 (video/code tutorial/document)
+* Simmons et al. (2011) demonstrate via simulations how bad false positives and other problems can be when we don't conduct transparent science. They include several recommendations for how to be more transparent, including reporting guidelines & a press for data sharing. 
+[False-Positive Psychology: Undisclosed Flexibility in Data Collection and Analysis Allows Presenting Anything as Significant](https://journals.sagepub.com/doi/pdf/10.1177/0956797611417632)
+
 * Item 2 (video/code tutorial/document)
 * Item 3 (video/code tutorial/document)
 
