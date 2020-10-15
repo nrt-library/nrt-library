@@ -21,7 +21,8 @@ Brief description.
 
 ## Recommended Path for Learning
 
-* Item 1 (video/code tutorial/document)
+* This MATLAB documentation contains quite an extensive explanation about the concept. Especially, steps involved in supervised learning are delineated. A lot of links to other resources are present in this page as well. [Supervised learning Workflow and Algorithms](https://www.mathworks.com/help/stats/supervised-learning-machine-learning-workflow-and-algorithms.html)
+
 * Item 2 (video/code tutorial/document)
 * Item 3 (video/code tutorial/document)
 
