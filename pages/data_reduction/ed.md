@@ -20,8 +20,12 @@ Brief description.
 
 ## Recommended Path for Learning
 
-* Item 1 (video/code tutorial/document)
-* Item 2 (video/code tutorial/document)
+* This page introduces what eigendecomposition is. This reads like a short summary of a linear algebra textbook.
+[Eigenvalues, eigenvectors and eigendecomposition](http://www.onmyphd.com/?p=eigen.decomposition)
+
+* This page continues from the previous page using a Python demonstration that helps readers better understand this concept.
+[Matrix Eigendecomposition, its Importance, and the Applications](https://www.machinelearningmindset.com/matrix-eigendecomposition/)
+
 * Item 3 (video/code tutorial/document)
 
 ## Further Learning
