@@ -20,7 +20,8 @@ Brief description.
 
 ## Recommended Path for Learning
 
-* Item 1 (video/code tutorial/document)
+* This is a tutorial/overview on unsupervised learning. It covers many models of unsupervised learning, and this also covers some of the other topics - EM algorithm / PCA / Hidden Markov model. [Unsupervised learning](http://mlg.eng.cam.ac.uk/zoubin/papers/ul.pdf)
+
 * Item 2 (video/code tutorial/document)
 * Item 3 (video/code tutorial/document)
 
