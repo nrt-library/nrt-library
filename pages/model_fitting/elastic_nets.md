@@ -1,9 +1,9 @@
 ---
-title: Elastic Networks
+title: Elastic Net Regression
 tags:
 keywords: "topic" # new keywords requiere to create a new tag file
-last_updated: "June 1, 2020"
-summary: "Cross Validation is a method of assessing model performance by partioning data into multiple training and testing sets"
+last_updated: "October 16, 2020"
+summary: "Elastic net regression is a method of regularization for fitting linear and logistic models using a combination of ridge and lasso methods to penalize the models."
 published: true
 sidebar: model_fitting_sidebar #name of yml sidebar file withouth extension
 permalink: elastic_nets.html
@@ -13,9 +13,9 @@ folder: model_fitting
 
 {% include note.html content="Please utilize the template below as a reference for your contribution. Adapt the template when deemed necessary" %}
 
-## What is TOPIC-NAME?
+## What is elastic net regression?
 
-Brief description.
+Elastic net regression is a method of regularization for fitting linear and logistic models using a combination of ridge and lasso methods to penalize the models. Regularization complements machine learning models that may have large numbers of predictors or correlated predictors which result in more variance in the model. By penalizing the model, elastic net introduces some bias which makes the model more reliable. Ridge regression penalizes the sum of squared coefficients  (L2) and lasso regression penalizes the sum of absolute values of the coefficients (L1). Elastic net combines these two types of penalties to find a good variance-bias tradeoff for the model. The optimal size of the penalty for a model can be determined via tuning parameters with cross-validation.
 
 
 ## Recommended Path for Learning
@@ -44,7 +44,9 @@ Elastic net regression in R
 
 ## Online tutorials
 
-* Online tutorial 1
+* Fitting an elastic net model in R tutorial
+<a href="https://asmquantmacro.com/2016/04/26/fitting-elastic-net-model-in-r/" target="_blank"> Fitting elastic net.</a>
+
 * Online tutorial 2
 
 ## Theory papers 
