@@ -16,7 +16,7 @@ folder: pattern_classification
 
 ## What is TOPIC-NAME?
 
-Brief description.
+A random forest is an "ensemble" method made up of a collection of decision-tree models. In general, random forest models make reasonable predictions across a wide range of settings, while also being pretty simple to set up and get running. The key to their success is their use of "bagging," in which each of the decision trees in the model is fit to a subset of the training data chosen with replacement (i.e., some data point may be included multiple times in a particular decision tree's training set, while another point not at all). Then, the random forest simply predicts the average (for regression) or majority class (for classification) of all the individual decision-tree predictions.
 
 
 ## Recommended Path for Learning
