@@ -13,13 +13,16 @@ folder: intro-ds
 
 {% include note.html content="Please utilize the template below as a reference for your contribution. Adapt the template when deemed necessary" %}
 
-## What is TOPIC-NAME?
+## What is Data Science?
 
-Brief description.
+Data Science is a cross-disciplinary set of skills used to investigate and gain understanding of patterns in data. It can involve programming, statistics, modeling, visualizations, and so much more. 
+
 
 ## Video courses
+For learners brand new to data science, first watch this short video on the general ideas of data science
+<iframe width="560" height="315" src="https://www.youtube.com/embed/z1kPKBdYks4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-* Video 1
+
 * Video 2
 
 ## Applied papers 
