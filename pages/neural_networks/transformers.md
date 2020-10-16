@@ -21,7 +21,9 @@ Brief description.
 
 ## Recommended Path for Learning
 
-* Item 1 (video/code tutorial/document)
+* This talk by Leo Dirac is a great starting point for those familiar with other neural language models. He gives a brief recap on the history of bag-of-words, RNNs, and LSTMs before diving into what makes the Transformer architecture so special. 
+<iframe width="1389" height="597" src="https://www.youtube.com/embed/S27pHKBEp30" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 * Item 2 (video/code tutorial/document)
 * Item 3 (video/code tutorial/document)
 
