@@ -22,7 +22,7 @@ Brief description.
 ## Recommended Path for Learning
 
 * This talk by Leo Dirac is a great starting point for those familiar with other neural language models. He gives a brief recap on the history of bag-of-words, RNNs, and LSTMs before diving into what makes the Transformer architecture so special. 
-<iframe width="1100" height="550" src="https://www.youtube.com/embed/S27pHKBEp30" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/S27pHKBEp30" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 * This blogpost provides a high level overview of the Transformer architecture highlighting the importance of features like positional encoding.  
 <a href="http://jalammar.github.io/illustrated-transformer/" target="_blank"> The illustrated Transformer.</a>
