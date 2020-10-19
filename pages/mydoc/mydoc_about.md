@@ -108,6 +108,16 @@ If you have a picture in your GitHub account you can right-click your profile im
 <b>Contributed to</b>: Overleaf/LaTeX
 </pre>
 
+
+<pre>
+<a name="ivettecolon"></a><img src="https://avatars1.githubusercontent.com/u/53277957?s=460&u=e8925d7bf5a7b63e04453fe6cdf13f810aaca2ab&v=4" style="width:100px;height:100px;" />
+<b>Name</b>: Y. Ivette Colón
+<b>Bio</b>: Cognitive Neuroscience PhD student at UW-Madison
+<b>Website</b>: <a href="https://scholar.google.com/citations?user=YHz9Z1kAAAAJ&hl=en&oi=ao">Google Scholar</a>
+<b>Email</b>: ycolon@wisc.edu
+<b>Contributed to</b>: t-Distributed Stochastic Neighbor Embedding
+</pre>
+
 Add your profile card here! ☝️
 
 {% include links.html %}
