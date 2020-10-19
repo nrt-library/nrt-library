@@ -15,6 +15,11 @@ folder: intro-ds
 ## What is Data Wrangling?
 
 
+## Recommended Path for Learning 
+* The "Wrangle" section of the R for Data Science book provides an excellent overview of how to use tidyverse commands for data wrangling. 
+<a href="https://r4ds.had.co.nz/wrangle-intro.html" target="_blank">R for Data Science - Wrangling </a>.  
+
+
 ## Video courses
 
 * Video 2
