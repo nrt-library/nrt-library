@@ -24,7 +24,7 @@ Below you can find the topics in which we have organized the content. You can ac
 <tr>
   <td style="width:33%;"><a href="intro_shell.html">🐚 Introduction to the UNIX shell (Bash)</a></td>
   <td style="width:33%;"><a href="sql.html">🐘 SQL </a></td>
-  <td style="width:33%;"><a href="wrangling.html">🤠 Data Wrangling🚧 <</a></td>
+  <td style="width:33%;"><a href="wrangling.html">🤠 Data Wrangling🚧 </a></td>
 </tr>
   <tr>
   <td style="width:33%;"><a href="sharing.html">🤝 Data Sharing 🆘</a></td>
