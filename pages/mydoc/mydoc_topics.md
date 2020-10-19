@@ -17,14 +17,14 @@ Below you can find the topics in which we have organized the content. You can ac
 
 <table style="table-layout: fixed; width: 90%;" >
 <tr>
-  <td style="width:33%;"><a href="intro_ds_landing_page.html">📊 Introduction to Data Science 🆘</a></td>
+  <td style="width:33%;"><a href="intro_ds_landing_page.html">📊 Introduction to Data Science 🚧 </a></td>
   <td style="width:33%;"><a href="intro_python.html">🐍 Introduction to Python 🆘</a></td>
   <td style="width:33%;"><a href="intro_r.html">Introduction to <b>R</b> 🆘</a></td>
 </tr>
 <tr>
   <td style="width:33%;"><a href="intro_shell.html">🐚 Introduction to the UNIX shell (Bash)</a></td>
   <td style="width:33%;"><a href="sql.html">🐘 SQL </a></td>
-  <td style="width:33%;"><a href="wrangling.html">🤠 Data Wrangling🚧 </a></td>
+  <td style="width:33%;"><a href="wrangling.html">🤠 Data Wrangling 🚧 </a></td>
 </tr>
   <tr>
   <td style="width:33%;"><a href="sharing.html">🤝 Data Sharing 🆘</a></td>
