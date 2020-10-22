@@ -41,7 +41,7 @@ Parameter adjustments can be tricky! Here's an interactive resources for [How to
 
 ## Online tutorials
 
-* Here is [a simple, yet comprehensive tutorial] (https://www.datacamp.com/community/tutorials/introduction-t-sne)
+* Here is [a simple, yet comprehensive tutorial](https://www.datacamp.com/community/tutorials/introduction-t-sne)
 
 * If you have less time, this [very basic R tutorial](https://www.r-bloggers.com/2019/05/quick-and-easy-t-sne-analysis-in-r/) can get you visualizations in under 5 minutes
 
