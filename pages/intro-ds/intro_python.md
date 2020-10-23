@@ -16,15 +16,14 @@ folder: intro-ds
 
 ## What is TOPIC-NAME?
 
-Python is a user-friendly programming language, and a good first language for programming novices. https://www.py4e.com/ is a good 
-launching site for beginning to program with Python -- it offers a free textbook as well as video lessons to walk you through setting up Python, programming basics, manipulating and visualizing data, and web-scraping. 
+Python is a user-friendly programming language, and a good first language for programming novices. <a href="https://www.py4e.com/materials" target="_blank">Python 4 Everybody</a> is a good launching site for beginning to program with Python. It offers a free textbook as well as video lessons to walk you through setting up Python, programming basics, manipulating and visualizing data, and web-scraping. 
 
-https://www.py4e.com/materials <- this provides video lectures, audio lectures, lecture slides & handouts, sample code, and a free textbook.
+<a href="https://www.py4e.com/materials" target="_blank">Python 4 Everybody - Materials </a> provides video lectures, audio lectures, lecture slides & handouts, sample code, and a free textbook.
 
 ## Video courses
 
-* https://www.py4e.com/lessons <- This link provides resources for learning Python grouped into modules (e.g., "Installing Python", "Network Programming", "Data Visualization")
-* Video 2
+* <a href="https://www.py4e.com/lessons" target="_blank">Python 4 Everybody - Lessons </a> provides resources for learning Python grouped into modules (e.g., "Installing Python", "Network Programming", "Data Visualization")
+
 
 ## Applied papers 
 * Paper 1
