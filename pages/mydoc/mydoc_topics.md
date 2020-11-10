@@ -56,20 +56,25 @@ Below you can find the topics in which we have organized the content. You can ac
 </table> 
 
 
-## [**PATTERN CLASSIFICATION**](pattern_classification_landing_page.html)
+## [**CLASSIFICATION AND REGRESSION**](pattern_classification_landing_page.html)
 
 
 <table style="table-layout: fixed; width: 90%;" >
 <tr>
   <td style="width:33%;"><a href="pattern_classification_landing_page.html">🏁 Introduction to Kernel Methods 🚧</a></td>
+  <td style="width:33%;"><a href="regression.html">📉 Introduction to Regression 🆘</a></td>
   <td style="width:33%;"><a href="logit_multi_reg.html">📏 Logistic and Multinomial Regression 🆘</a></td>
-  <td style="width:33%;"><a href="naive_bayes.html">👶 Naive Bayes 🆘</a></td>
 </tr>
 <tr>
+  <td style="width:33%;"><a href="naive_bayes.html">👶 Naive Bayes 🆘</a></td>
   <td style="width:33%;"><a href="random_forest.html">🌲🌲 Random Forest 🚧</a></td>
   <td style="width:33%;"><a href="support_vector_machines.html">🌫️ Support Vector Machines </a></td>
-  <td style="width:33%;"><a href="mydoc_suggest.html">✋ Suggest a topic</a></td>
 </tr>
+  <tr>
+     <td style="width:33%;"><a href="splines.html">📈 Splines 🆘</a></td>
+     <td style="width:33%;"><a href="mydoc_suggest.html">✋ Suggest a topic</a></td>
+     <td style="width:33%;"><a href="mydoc_suggest.html">✋ Suggest a topic</a></td>
+  </tr>
 </table> 
 
 
