@@ -1,5 +1,5 @@
 ---
-title: Pattern Classification
+title: Classification & Regression
 tags:
   - getting_started
 keywords: "topic" # new keywords requiere to create a new tag file
@@ -12,6 +12,10 @@ folder: pattern_classification
 ---
 
 ## Pattern Classification overview
+
+
+## Regression Overview: 
+See * [Intro to Regression](regression.html)
 
 
 
