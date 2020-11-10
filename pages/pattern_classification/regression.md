@@ -4,7 +4,7 @@ tags:
   - getting_started
 keywords: "topic" # new keywords requiere to create a new tag file
 last_updated: "June 1, 2020"
-summary: "Kernel methods refer to a class of algorithms for pattern recognition where data points in the native representation space are mapped to higher dimensions using a 'kernel function' without actually computing the coordinates in the higher dimensions."
+summary: "Fitting continuous value data with a function"
 published: true
 sidebar: pattern_classification_sidebar #name of yml sidebar file withouth extension
 permalink: regression.html
