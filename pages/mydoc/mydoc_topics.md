@@ -71,10 +71,37 @@ Below you can find the topics in which we have organized the content. You can ac
   <td style="width:33%;"><a href="support_vector_machines.html">🌫️ Support Vector Machines </a></td>
 </tr>
   <tr>
+   <td style="width:33%;"><a href="cross_valid.html">⚔️ Cross Validation </a></td>
+  <td style="width:33%;"><a href="lasso.html">🎗️ Lasso Regression 🚧</a></td>
+  <td style="width:33%;"><a href="ridge.html">🎲 Ridge Regression 🚧</a></td>
+  </tr>
+  <tr>
      <td style="width:33%;"><a href="splines.html">📈 Splines 🆘</a></td>
      <td style="width:33%;"><a href="mydoc_suggest.html">✋ Suggest a topic</a></td>
      <td style="width:33%;"><a href="mydoc_suggest.html">✋ Suggest a topic</a></td>
   </tr>
+</table> 
+
+## [**MODEL FITTING AND REGULARIZATION**](model_fitting_landing_page.html)  
+
+
+<table style="table-layout: fixed; width: 90%;" >
+<tr>
+  <td style="width:33%;"><a href="model_fitting_landing_page.html">🔧 Introduction to Model Fitting 🆘</a></td>
+  <td style="width:33%;"><a href="lmem.html">🦄 Linear Mixed Effects Models</a></td>
+  <td style="width:33%;"><a href="elastic_nets.html">🥅 Elastic Nets 🚧</a></td>
+</tr>
+<tr>
+  <td style="width:33%;"><a href="semisupervised_learning.html">🧑🏿‍🎓 Semi-supervised Learning 🆘</a></td>
+  <td style="width:33%;"><a href="supervised_learning.html">👩🏽‍🏫 Supervised Learning 🚧</a></td>
+  <td style="width:33%;"><a href="unsupervised_learning.html">👨🏿‍🎓 Unsupervised Learning 🚧</a></td>
+ 
+</tr>
+<tr>
+  <td style="width:33%;"><a href="abd.html">🕵️ Agent-based Modeling 🚧</a></td>
+  <td style="width:33%;"><a href="mydoc_suggest.html">✋ Suggest a topic</a></td>
+  <td style="width:33%;"><a href="mydoc_suggest.html">✋ Suggest a topic</a></td>
+</tr>
 </table> 
 
 
@@ -174,34 +201,6 @@ Below you can find the topics in which we have organized the content. You can ac
   <td style="width:33%;"><a href="mydoc_suggest.html">✋ Suggest a topic</a></td>
 </tr>
 </table> 
-
-
-## [**MODEL FITTING AND REGULARIZATION**](model_fitting_landing_page.html)  
-
-
-<table style="table-layout: fixed; width: 90%;" >
-<tr>
-  <td style="width:33%;"><a href="model_fitting_landing_page.html">🔧 Introduction to Model Fitting 🆘</a></td>
-  <td style="width:33%;"><a href="cross_valid.html">⚔️ Cross Validation </a></td>
-  <td style="width:33%;"><a href="elastic_nets.html">🥅 Elastic Nets 🚧</a></td>
-</tr>
-<tr>
-  <td style="width:33%;"><a href="lasso.html">🎗️ Lasso Regression 🚧</a></td>
-  <td style="width:33%;"><a href="ridge.html">🎲 Ridge Regression 🚧</a></td>
-  <td style="width:33%;"><a href="semisupervised_learning.html">🧑🏿‍🎓 Semi-supervised Learning 🆘</a></td>
-</tr>
-<tr>
-  <td style="width:33%;"><a href="supervised_learning.html">👩🏽‍🏫 Supervised Learning 🚧</a></td>
-  <td style="width:33%;"><a href="unsupervised_learning.html">👨🏿‍🎓 Unsupervised Learning 🚧</a></td>
-  <td style="width:33%;"><a href="lmem.html">🦄 Linear Mixed Effects Models</a></td>
-</tr>
-<tr>
-  <td style="width:33%;"><a href="abd.html">🕵️ Agent-based Modeling 🚧</a></td>
-  <td style="width:33%;"><a href="mydoc_suggest.html">✋ Suggest a topic</a></td>
-  <td style="width:33%;"><a href="mydoc_suggest.html">✋ Suggest a topic</a></td>
-</tr>
-</table> 
-
 
 ## [**REINFORCEMENT LEARNING**](rl_landing_page.html)  
 
