@@ -13,7 +13,7 @@ folder: data_reduction
 
 {% include note.html content="Please utilize the template below as a reference for your contribution. Adapt the template when deemed necessary" %}
 
-## What is TOPIC-NAME?
+## What is t-SNE?
 
 t-Distributed Stochastic Neighbor Embedding (commonly known as t-SNE) is a dimension reduction technique that preserves relative distances between points in high-dimensional data.
 
