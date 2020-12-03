@@ -32,25 +32,33 @@ Word2vec is not among the most sophisticated or state-of-the-art language models
 
 ### Video
 
-* [This video](https://www.youtube.com/watch?v=QyrUentbkvw), by Joran Boyd-Graber (U of Maryland Computer Science), gives an explanation of word2vec, how it works, and some of the situations in which it might be useful
-Understanding Word2Vec
+- This introduction by Jordan Boyd-Graber (U of Maryland Computer Science), gives an explanation of word2vec, how it works, and some of the situations in which it might be useful
+<iframe width="560" height="315" src="https://www.youtube.com/embed/QyrUentbkvw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-* Video 2
+
 
 ### Online tutorials
 
-* [Basic (in R)](https://github.com/bmschmidt/wordVectors) 
-A simple, hands on, introduction to word2vec in R. It provides access to a training corpus (cookbooks!) and demonstrates some ways to interrogate the semantic space that results.
+* <a href="https://github.com/bmschmidt/wordVectors" target="_blank"> Basic in R.</a> A simple, hands on, introduction to word2vec in R. It provides access to a training corpus (cookbooks!) and demonstrates some ways to interrogate the semantic space that results. 
 
-* [More in-depth (python)](https://www.kaggle.com/pierremegret/gensim-word2vec-tutorial)
+* <a href="https://www.kaggle.com/pierremegret/gensim-word2vec-tutorial" target="_blank"> A little more in depth (python).</a> 
 This tutorial is a bit more hands on, with some of the steps that were automated for you in the prior tutorial are now executed by you, via code snippets
 
-* [In-depth/crunchy](https://towardsdatascience.com/an-implementation-guide-to-word2vec-using-numpy-and-google-sheets-13445eebd281)
-This tutorial might be useful if you'd like to see how word2vec works - a much more in depth way get acquainted, using numpy and google sheets
+* <a href="https://derekchia.com/an-implementation-guide-to-word2vec-using-numpy-and-google-sheets/" target="_blank"> In depth/crunchy.</a> This tutorial uses numpy and google sheets to look more closely at how w2v works
 
 
 ### Theory papers 
-* Initial word2vec paper - [Mikolov et al., 2013](https://arxiv.org/abs/1301.3781)
-* [This chapter on word vectors and embeddings](https://web.stanford.edu/~jurafsky/slp3/6.pdf) offers a good foundation on word2vec and some of the principles on which it is based. It's from Dan Jurafsky and James Martin's book (draft) Speech and Language Processing.
+* <a href="https://arxiv.org/abs/1301.3781" target="_blank"> Efficient Estimation of Word Representations in Vector Space - Mikolov et al., 2013</a>
+
+*  <a href="https://arxiv.org/abs/1310.4546" target="_blank"> Distributed Representations of Words and Phrases and Their Compositionality - Mikolov et al., 2013</a> 
+
+* <a href="https://web.stanford.edu/~jurafsky/slp3/6.pdf" target="_blank"> This chapter on word vectors and embeddings offers a good foundation on word2vec and some of the principles on which it is based - from Dan Jurafsky and James Martin's book (draft) Speech and Language Processing. </a> 
+
+### Applied papers
+
+* <a href="https://psyarxiv.com/7qd3g" target="_blank"> Gender Stereotypes are Reflected in the Distributional Structure of 25 Languages - Lewis & Lupyan, 2020</a> 
+
+* <a href="http://journals.sagepub.com/doi/abs/10.1177/1745691619861372" target="_blank"> Vector Space Models of Semantic Representation from a Cognitive Perspective - Gunther et al., 2019</a>
+
 
 {% include links.html %}
