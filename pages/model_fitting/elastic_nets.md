@@ -25,7 +25,6 @@ Elastic net regression is a method of regularization for fitting linear and logi
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/EuBBz3bI-aA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 * The problem of overfitting    
-* Machine learning fundamentals of bias-variance tradeoff
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/u73PU6Qwl1I" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 **Types of regularization**   
